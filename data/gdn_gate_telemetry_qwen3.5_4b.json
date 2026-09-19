@@ -1,0 +1,392 @@
+{
+  "model_id": "Qwen/Qwen3.5-4B",
+  "checkpoint": "checkpoints/lora_arm3_k32_qwen3.5_4b/best_checkpoint",
+  "n_problems": 20,
+  "duration_s": 149.07,
+  "overall_regime_comparison": {
+    "beta": {
+      "prompt": {
+        "mean": 0.471,
+        "std": 0.0795
+      },
+      "latents": {
+        "mean": 0.3515,
+        "std": 0.1256
+      },
+      "answer": {
+        "mean": 0.488,
+        "std": 0.091
+      }
+    },
+    "alpha": {
+      "prompt": {
+        "mean": 0.8455,
+        "std": 0.0704
+      },
+      "latents": {
+        "mean": 0.8406,
+        "std": 0.0882
+      },
+      "answer": {
+        "mean": 0.8544,
+        "std": 0.0714
+      }
+    },
+    "k_norm": {
+      "prompt": {
+        "mean": 63.7815,
+        "std": 26.4213
+      },
+      "latents": {
+        "mean": 49.6175,
+        "std": 15.2644
+      },
+      "answer": {
+        "mean": 63.2298,
+        "std": 28.3145
+      }
+    },
+    "v_norm": {
+      "prompt": {
+        "mean": 69.9876,
+        "std": 25.6578
+      },
+      "latents": {
+        "mean": 64.2361,
+        "std": 25.0777
+      },
+      "answer": {
+        "mean": 70.4435,
+        "std": 27.2135
+      }
+    },
+    "q_norm": {
+      "prompt": {
+        "mean": 57.5357,
+        "std": 23.6903
+      },
+      "latents": {
+        "mean": 50.2374,
+        "std": 16.5454
+      },
+      "answer": {
+        "mean": 58.417,
+        "std": 26.8766
+      }
+    },
+    "state_cos": {
+      "prompt": {
+        "mean": null,
+        "std": null
+      },
+      "latents": {
+        "mean": 0.9978,
+        "std": 0.0012
+      },
+      "answer": {
+        "mean": 0.9614,
+        "std": 0.0221
+      }
+    },
+    "state_diff_norm": {
+      "prompt": {
+        "mean": null,
+        "std": null
+      },
+      "latents": {
+        "mean": 0.3009,
+        "std": 0.3378
+      },
+      "answer": {
+        "mean": 1.8378,
+        "std": 1.7692
+      }
+    },
+    "state_rel_diff": {
+      "prompt": {
+        "mean": null,
+        "std": null
+      },
+      "latents": {
+        "mean": 0.0386,
+        "std": 0.011
+      },
+      "answer": {
+        "mean": 0.2438,
+        "std": 0.0836
+      }
+    },
+    "innov_norm": {
+      "prompt": {
+        "mean": null,
+        "std": null
+      },
+      "latents": {
+        "mean": 0.7099,
+        "std": 0.4455
+      },
+      "answer": {
+        "mean": 3.5495,
+        "std": 3.0063
+      }
+    }
+  },
+  "layer_group_comparison": {
+    "Early GDN (Layers 0, 1, 2)": {
+      "beta_latent": 0.4698,
+      "alpha_latent": 0.6629,
+      "beta_answer": 0.5335,
+      "alpha_answer": 0.7262,
+      "cos_latent": 0.9965,
+      "cos_answer": 0.9423
+    },
+    "Middle GDN (Layers 12, 13, 14)": {
+      "beta_latent": 0.2184,
+      "alpha_latent": 0.9157,
+      "beta_answer": 0.3908,
+      "alpha_answer": 0.91,
+      "cos_latent": 0.9982,
+      "cos_answer": 0.9628
+    },
+    "Deep GDN (Layers 28, 29, 30)": {
+      "beta_latent": 0.4032,
+      "alpha_latent": 0.8173,
+      "beta_answer": 0.5708,
+      "alpha_answer": 0.8091,
+      "cos_latent": 0.9984,
+      "cos_answer": 0.9683
+    }
+  },
+  "trajectory_step_dynamics": {
+    "k_1": {
+      "beta": 0.4869,
+      "alpha": 0.8496,
+      "cos_prev": 0.9694,
+      "cos_init": 0.9694,
+      "rel_diff": 0.2375
+    },
+    "k_2": {
+      "beta": 0.4088,
+      "alpha": 0.8498,
+      "cos_prev": 0.9837,
+      "cos_init": 0.946,
+      "rel_diff": 0.171
+    },
+    "k_3": {
+      "beta": 0.3773,
+      "alpha": 0.8474,
+      "cos_prev": 0.9935,
+      "cos_init": 0.9277,
+      "rel_diff": 0.1074
+    },
+    "k_4": {
+      "beta": 0.3594,
+      "alpha": 0.8436,
+      "cos_prev": 0.9963,
+      "cos_init": 0.9141,
+      "rel_diff": 0.0812
+    },
+    "k_5": {
+      "beta": 0.3486,
+      "alpha": 0.8399,
+      "cos_prev": 0.9975,
+      "cos_init": 0.9045,
+      "rel_diff": 0.0663
+    },
+    "k_6": {
+      "beta": 0.3423,
+      "alpha": 0.8371,
+      "cos_prev": 0.9981,
+      "cos_init": 0.8968,
+      "rel_diff": 0.0579
+    },
+    "k_7": {
+      "beta": 0.3394,
+      "alpha": 0.8353,
+      "cos_prev": 0.9985,
+      "cos_init": 0.89,
+      "rel_diff": 0.0517
+    },
+    "k_8": {
+      "beta": 0.3387,
+      "alpha": 0.8347,
+      "cos_prev": 0.9988,
+      "cos_init": 0.8837,
+      "rel_diff": 0.0463
+    },
+    "k_9": {
+      "beta": 0.3392,
+      "alpha": 0.8344,
+      "cos_prev": 0.9991,
+      "cos_init": 0.8778,
+      "rel_diff": 0.0414
+    },
+    "k_10": {
+      "beta": 0.3405,
+      "alpha": 0.8345,
+      "cos_prev": 0.9993,
+      "cos_init": 0.8724,
+      "rel_diff": 0.037
+    },
+    "k_11": {
+      "beta": 0.3418,
+      "alpha": 0.8347,
+      "cos_prev": 0.9994,
+      "cos_init": 0.8673,
+      "rel_diff": 0.0329
+    },
+    "k_12": {
+      "beta": 0.343,
+      "alpha": 0.8353,
+      "cos_prev": 0.9995,
+      "cos_init": 0.8626,
+      "rel_diff": 0.0293
+    },
+    "k_13": {
+      "beta": 0.3437,
+      "alpha": 0.8361,
+      "cos_prev": 0.9996,
+      "cos_init": 0.8584,
+      "rel_diff": 0.0262
+    },
+    "k_14": {
+      "beta": 0.3443,
+      "alpha": 0.8369,
+      "cos_prev": 0.9997,
+      "cos_init": 0.8544,
+      "rel_diff": 0.0235
+    },
+    "k_15": {
+      "beta": 0.3446,
+      "alpha": 0.8378,
+      "cos_prev": 0.9998,
+      "cos_init": 0.8508,
+      "rel_diff": 0.0212
+    },
+    "k_16": {
+      "beta": 0.3445,
+      "alpha": 0.8386,
+      "cos_prev": 0.9998,
+      "cos_init": 0.8474,
+      "rel_diff": 0.0192
+    },
+    "k_17": {
+      "beta": 0.3443,
+      "alpha": 0.8394,
+      "cos_prev": 0.9998,
+      "cos_init": 0.8442,
+      "rel_diff": 0.0176
+    },
+    "k_18": {
+      "beta": 0.344,
+      "alpha": 0.84,
+      "cos_prev": 0.9999,
+      "cos_init": 0.8413,
+      "rel_diff": 0.0162
+    },
+    "k_19": {
+      "beta": 0.3438,
+      "alpha": 0.8404,
+      "cos_prev": 0.9999,
+      "cos_init": 0.8385,
+      "rel_diff": 0.015
+    },
+    "k_20": {
+      "beta": 0.3434,
+      "alpha": 0.841,
+      "cos_prev": 0.9999,
+      "cos_init": 0.8358,
+      "rel_diff": 0.0139
+    },
+    "k_21": {
+      "beta": 0.3431,
+      "alpha": 0.8414,
+      "cos_prev": 0.9999,
+      "cos_init": 0.8333,
+      "rel_diff": 0.013
+    },
+    "k_22": {
+      "beta": 0.3431,
+      "alpha": 0.8417,
+      "cos_prev": 0.9999,
+      "cos_init": 0.8309,
+      "rel_diff": 0.0123
+    },
+    "k_23": {
+      "beta": 0.3432,
+      "alpha": 0.842,
+      "cos_prev": 0.9999,
+      "cos_init": 0.8286,
+      "rel_diff": 0.0116
+    },
+    "k_24": {
+      "beta": 0.3435,
+      "alpha": 0.8423,
+      "cos_prev": 0.9999,
+      "cos_init": 0.8263,
+      "rel_diff": 0.0111
+    },
+    "k_25": {
+      "beta": 0.3439,
+      "alpha": 0.8425,
+      "cos_prev": 0.9999,
+      "cos_init": 0.8242,
+      "rel_diff": 0.0106
+    },
+    "k_26": {
+      "beta": 0.3441,
+      "alpha": 0.8427,
+      "cos_prev": 0.9999,
+      "cos_init": 0.8221,
+      "rel_diff": 0.0101
+    },
+    "k_27": {
+      "beta": 0.3441,
+      "alpha": 0.843,
+      "cos_prev": 1.0,
+      "cos_init": 0.8201,
+      "rel_diff": 0.0097
+    },
+    "k_28": {
+      "beta": 0.3444,
+      "alpha": 0.8432,
+      "cos_prev": 1.0,
+      "cos_init": 0.8181,
+      "rel_diff": 0.0094
+    },
+    "k_29": {
+      "beta": 0.3446,
+      "alpha": 0.8433,
+      "cos_prev": 1.0,
+      "cos_init": 0.8162,
+      "rel_diff": 0.0091
+    },
+    "k_30": {
+      "beta": 0.3449,
+      "alpha": 0.8435,
+      "cos_prev": 1.0,
+      "cos_init": 0.8143,
+      "rel_diff": 0.0088
+    },
+    "k_31": {
+      "beta": 0.3452,
+      "alpha": 0.8436,
+      "cos_prev": 1.0,
+      "cos_init": 0.8125,
+      "rel_diff": 0.0085
+    },
+    "k_32": {
+      "beta": 0.3455,
+      "alpha": 0.8437,
+      "cos_prev": 1.0,
+      "cos_init": 0.8108,
+      "rel_diff": 0.0083
+    }
+  },
+  "perturbation_sensitivity": {
+    "mean_hidden_amp": 6.73,
+    "mean_gdn_state_cos": 1.0,
+    "mean_gdn_state_diff_norm": 0.0069,
+    "state_drift_pct": 0.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "checkpoint": "checkpoints/lora_arm3_v1_1_qwen3_1.7b_k6_bottleneck",
+  "valid_trials": 94,
+  "p_chance": 13.829787234042554,
+  "p_steered": 13.829787234042554,
+  "delta_steer": 0.0,
+  "mean_amplification": 26.45877659574468,
+  "null_patch_identity_rate": 0.723404255319149,
+  "verdict": "FAIL"
+}

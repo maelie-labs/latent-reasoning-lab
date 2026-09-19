@@ -1,0 +1,35 @@
+{
+  "arm1_telegraphic_cot": {
+    "reported_pass1": 69.0,
+    "rescored_pass1": 69.0,
+    "discrepancy_count": 0,
+    "truncation_rate": 0.2,
+    "think_tokens_median": 104.0,
+    "think_tokens_mean": 125.507,
+    "ans_tokens_median": 342.5,
+    "ans_tokens_mean": 504.746,
+    "verdict": "CERTIFIED_ZERO_DISCREPANCY"
+  },
+  "control3_matched_pause": {
+    "reported_pass1": 82.6,
+    "rescored_pass1": 82.6,
+    "discrepancy_count": 0,
+    "truncation_rate": 7.8,
+    "think_tokens_median": 2227.0,
+    "think_tokens_mean": 3025.437,
+    "ans_tokens_median": 365.5,
+    "ans_tokens_mean": 397.242,
+    "verdict": "CERTIFIED_ZERO_DISCREPANCY"
+  },
+  "arm2_dual_channel_latents": {
+    "reported_pass1": 79.4,
+    "rescored_pass1": 79.4,
+    "discrepancy_count": 0,
+    "truncation_rate": 2.1,
+    "think_tokens_median": 819.5,
+    "think_tokens_mean": 1369.606,
+    "ans_tokens_median": 390.5,
+    "ans_tokens_mean": 474.291,
+    "verdict": "CERTIFIED_ZERO_DISCREPANCY"
+  }
+}

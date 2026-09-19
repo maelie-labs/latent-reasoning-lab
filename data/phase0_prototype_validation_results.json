@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-09-14 19:25:51",
+  "model_id": "Qwen/Qwen3-1.7B",
+  "checkpoint": "checkpoints/test_register_ladder_quick",
+  "check_a": {
+    "avg_prompt_mass": 54.051019577752974,
+    "avg_header_mass": 13.011307489304317,
+    "avg_latent_mass": 12.826947711762928,
+    "avg_trans_mass": 12.461048307872954,
+    "total_recurrent_mass": 25.838255201067245,
+    "verdict": "PASS (Latents >= 10%)"
+  },
+  "check_c": {
+    "full_ladder_acc": 1.6666666666666667,
+    "headers_only_acc": 18.333333333333332,
+    "latents_only_acc": 1.6666666666666667,
+    "headers_pause_acc": 18.333333333333332
+  },
+  "check_d": {
+    "bundle1_divergence_pct": 100.0,
+    "bundle2_divergence_pct": 100.0,
+    "bundle3_divergence_pct": 100.0
+  },
+  "check_b": {
+    "control_0_identity_pct": 17.1875,
+    "verdict": "FAIL (Control 0 < 95%)"
+  }
+}

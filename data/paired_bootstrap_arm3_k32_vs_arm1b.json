@@ -1,0 +1,104 @@
+{
+  "arm_a": {
+    "name": "Arm 3 (Latents K=32)",
+    "file": "data/streaming_arm3_k32_qwen_qwen3-1.7b.jsonl"
+  },
+  "arm_b": {
+    "name": "Arm 1b (Direct SFT)",
+    "file": "data/streaming_arm1b_qwen_qwen3-1.7b.jsonl"
+  },
+  "n_bootstrap": 10000,
+  "seed": 42,
+  "overall": {
+    "n_problems": 250,
+    "total_evaluations": 1000,
+    "n_bootstrap": 10000,
+    "acc_a": 69.5,
+    "ci_a": [
+      64.5,
+      74.3
+    ],
+    "acc_b": 71.20000457763672,
+    "ci_b": [
+      66.2,
+      76.1
+    ],
+    "delta": -1.7000045776367188,
+    "ci_delta": [
+      -4.599999999999994,
+      1.1000000000000085
+    ],
+    "p_value": 0.2514,
+    "truncation_a": 0.2,
+    "truncation_b": 0.0
+  },
+  "gsm8k": {
+    "n_problems": 150,
+    "total_evaluations": 600,
+    "n_bootstrap": 10000,
+    "acc_a": 69.0,
+    "ci_a": [
+      62.66666666666667,
+      75.16666666666667
+    ],
+    "acc_b": 71.0,
+    "ci_b": [
+      64.5,
+      77.33333333333333
+    ],
+    "delta": -2.0,
+    "ci_delta": [
+      -5.5,
+      1.5
+    ],
+    "p_value": 0.2784,
+    "truncation_a": 0.0,
+    "truncation_b": 0.0
+  },
+  "math500": {
+    "n_problems": 100,
+    "total_evaluations": 400,
+    "n_bootstrap": 10000,
+    "acc_a": 70.25,
+    "ci_a": [
+      62.25000000000001,
+      77.75
+    ],
+    "acc_b": 71.5,
+    "ci_b": [
+      63.5,
+      79.0
+    ],
+    "delta": -1.25,
+    "ci_delta": [
+      -6.0,
+      3.75
+    ],
+    "p_value": 0.6494,
+    "truncation_a": 0.5,
+    "truncation_b": 0.0
+  },
+  "math500_hard_l35": {
+    "n_problems": 60,
+    "total_evaluations": 240,
+    "n_bootstrap": 10000,
+    "acc_a": 61.66666793823242,
+    "ci_a": [
+      51.24999999999999,
+      71.66666666666667
+    ],
+    "acc_b": 60.41666793823242,
+    "ci_b": [
+      49.166666666666664,
+      71.25
+    ],
+    "delta": 1.25,
+    "ci_delta": [
+      -5.416666666666671,
+      8.333333333333336
+    ],
+    "p_value": 0.7802,
+    "truncation_a": 0.8333333333333334,
+    "truncation_b": 0.0
+  }
+}

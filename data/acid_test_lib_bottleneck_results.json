@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-09-15 15:11:08",
+  "model_id": "Qwen/Qwen3-1.7B",
+  "checkpoint": "checkpoints/lora_arm3_register_ladder_bottleneck_qwen3_1.7b/best_checkpoint",
+  "check_a": {
+    "avg_prompt_mass": 62.3353794642857,
+    "avg_header_mass": 14.365634009951636,
+    "avg_latent_mass": 3.2056467873709544,
+    "avg_trans_mass": 10.997881208147321,
+    "total_recurrent_mass": 17.57128079732259,
+    "verdict": "FAIL (< 5% - Text Subgoal Only)"
+  },
+  "check_c": {
+    "full_ladder_acc": 41.66666666666667,
+    "headers_only_acc": 41.66666666666667,
+    "latents_only_acc": 36.666666666666664,
+    "headers_pause_acc": 36.666666666666664,
+    "delta_latent_vs_pause": 5.000000000000007,
+    "verdict": "PASS (Latents beat Pause Tokens by >= +3.0%)"
+  },
+  "check_d": {
+    "bundle1_divergence_pct": 95.0,
+    "bundle2_divergence_pct": 90.0,
+    "bundle3_divergence_pct": 95.0
+  },
+  "check_b": {
+    "control_0_identity_pct": 100.0,
+    "n_valid_trials": 70,
+    "p_chance": 2.857142857142857,
+    "p_steered": 2.857142857142857,
+    "delta_steer": 0.0,
+    "verdict": "INERT (<= 0% - Latents do not steer)"
+  }
+}

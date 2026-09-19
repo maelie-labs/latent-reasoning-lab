@@ -1,0 +1,186 @@
+{
+  "model_id": "Qwen/Qwen3-1.7B",
+  "arm": "Arm 3-R (Register-Bundle Ladder)",
+  "comparator": "Arm 1b (Trained Direct No-CoT Control)",
+  "total_pairs": 1000,
+  "overall": {
+    "name": "Overall (N=1,000)",
+    "n": 1000,
+    "arm3_correct": 713,
+    "arm1b_correct": 712,
+    "arm3_acc": 71.3,
+    "arm1b_acc": 71.2,
+    "delta": 0.1,
+    "ci_95": [
+      -2.4,
+      2.6
+    ],
+    "p_value": 0.4849
+  },
+  "gsm8k": {
+    "name": "GSM8K (N=600)",
+    "n": 600,
+    "arm3_correct": 417,
+    "arm1b_correct": 426,
+    "arm3_acc": 69.5,
+    "arm1b_acc": 71.0,
+    "delta": -1.5,
+    "ci_95": [
+      -4.83,
+      1.83
+    ],
+    "p_value": 0.2026
+  },
+  "math500": {
+    "name": "MATH-500 (N=400)",
+    "n": 400,
+    "arm3_correct": 296,
+    "arm1b_correct": 286,
+    "arm3_acc": 74.0,
+    "arm1b_acc": 71.5,
+    "delta": 2.5,
+    "ci_95": [
+      -1.25,
+      6.5
+    ],
+    "p_value": 0.1183
+  },
+  "math_levels": {
+    "Level 1": {
+      "name": "MATH Level 1",
+      "n": 80,
+      "arm3_correct": 77,
+      "arm1b_correct": 76,
+      "arm3_acc": 96.25,
+      "arm1b_acc": 95.0,
+      "delta": 1.25,
+      "ci_95": [
+        -5.0,
+        7.5
+      ],
+      "p_value": 0.4285
+    },
+    "Level 2": {
+      "name": "MATH Level 2",
+      "n": 80,
+      "arm3_correct": 63,
+      "arm1b_correct": 65,
+      "arm3_acc": 78.75,
+      "arm1b_acc": 81.25,
+      "delta": -2.5,
+      "ci_95": [
+        -11.25,
+        6.25
+      ],
+      "p_value": 0.347
+    },
+    "Level 3": {
+      "name": "MATH Level 3",
+      "n": 80,
+      "arm3_correct": 63,
+      "arm1b_correct": 65,
+      "arm3_acc": 78.75,
+      "arm1b_acc": 81.25,
+      "delta": -2.5,
+      "ci_95": [
+        -10.0,
+        3.75
+      ],
+      "p_value": 0.3126
+    },
+    "Level 4": {
+      "name": "MATH Level 4",
+      "n": 80,
+      "arm3_correct": 55,
+      "arm1b_correct": 47,
+      "arm3_acc": 68.75,
+      "arm1b_acc": 58.75,
+      "delta": 10.0,
+      "ci_95": [
+        1.25,
+        18.75
+      ],
+      "p_value": 0.0171
+    },
+    "Level 5": {
+      "name": "MATH Level 5",
+      "n": 80,
+      "arm3_correct": 38,
+      "arm1b_correct": 33,
+      "arm3_acc": 47.5,
+      "arm1b_acc": 41.25,
+      "delta": 6.25,
+      "ci_95": [
+        -5.0,
+        17.5
+      ],
+      "p_value": 0.1644
+    }
+  },
+  "seeds": {
+    "42": {
+      "name": "Seed 42",
+      "n": 250,
+      "arm3_correct": 175,
+      "arm1b_correct": 175,
+      "arm3_acc": 70.0,
+      "arm1b_acc": 70.0,
+      "delta": 0.0,
+      "ci_95": [
+        -5.2,
+        5.2
+      ],
+      "p_value": 0.5286
+    },
+    "123": {
+      "name": "Seed 123",
+      "n": 250,
+      "arm3_correct": 178,
+      "arm1b_correct": 186,
+      "arm3_acc": 71.2,
+      "arm1b_acc": 74.4,
+      "delta": -3.2,
+      "ci_95": [
+        -8.4,
+        2.0
+      ],
+      "p_value": 0.1362
+    },
+    "456": {
+      "name": "Seed 456",
+      "n": 250,
+      "arm3_correct": 177,
+      "arm1b_correct": 174,
+      "arm3_acc": 70.8,
+      "arm1b_acc": 69.6,
+      "delta": 1.2,
+      "ci_95": [
+        -4.0,
+        6.4
+      ],
+      "p_value": 0.3524
+    },
+    "789": {
+      "name": "Seed 789",
+      "n": 250,
+      "arm3_correct": 183,
+      "arm1b_correct": 177,
+      "arm3_acc": 73.2,
+      "arm1b_acc": 70.8,
+      "delta": 2.4,
+      "ci_95": [
+        -2.4,
+        7.2
+      ],
+      "p_value": 0.1832
+    }
+  },
+  "arm3_telemetry": {
+    "truncation_count": 2,
+    "truncation_rate_pct": 0.2,
+    "tokens_median": 672,
+    "tokens_mean": 1047.9,
+    "tokens_p90": 1905.4,
+    "tokens_max": 8192
+  }
+}

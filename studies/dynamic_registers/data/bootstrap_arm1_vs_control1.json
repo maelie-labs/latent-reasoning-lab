@@ -1,0 +1,22 @@
+{
+  "comparator": "Control 1 (Headers Only)",
+  "total_pairs": 1000,
+  "overall": {
+    "observed_delta": -3.6999999999999997,
+    "ci_95": [
+      -6.3,
+      -1.0
+    ],
+    "p_value": 0.0068,
+    "n": 1000
+  },
+  "math_hard": {
+    "observed_delta": 0.4166666666666667,
+    "ci_95": [
+      -5.416666666666667,
+      6.25
+    ],
+    "p_value": 0.9348,
+    "n": 240
+  }
+}

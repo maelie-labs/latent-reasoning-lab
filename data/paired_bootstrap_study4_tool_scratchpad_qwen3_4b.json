@@ -1,0 +1,40 @@
+{
+  "candidate": "data/streaming_study4_tool_scratchpad_qwen3_4b.jsonl",
+  "control": "data/streaming_study3_headers_only_qwen3_4b.jsonl",
+  "overall": {
+    "observed_delta": -3.9,
+    "ci_95": [
+      -6.3,
+      -1.4
+    ],
+    "p_value": 0.003,
+    "n": 1000
+  },
+  "gsm8k": {
+    "observed_delta": -2.83,
+    "ci_95": [
+      -6.0,
+      0.33
+    ],
+    "p_value": 0.0946,
+    "n": 600
+  },
+  "math500": {
+    "observed_delta": -5.5,
+    "ci_95": [
+      -9.5,
+      -1.5
+    ],
+    "p_value": 0.0056,
+    "n": 400
+  },
+  "math_hard": {
+    "observed_delta": -9.17,
+    "ci_95": [
+      -15.0,
+      -3.75
+    ],
+    "p_value": 0.0014,
+    "n": 240
+  }
+}

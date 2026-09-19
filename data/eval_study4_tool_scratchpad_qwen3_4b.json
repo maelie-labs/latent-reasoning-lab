@@ -1,0 +1,12 @@
+{
+  "model_id": "Qwen/Qwen3-4B",
+  "mode": "tool_scratchpad",
+  "checkpoint": "checkpoints/lora_tool_scratchpad_qwen3_4b/best_checkpoint",
+  "overall_pass_at_1": 79.1,
+  "gsm8k_pass_at_1": 80.33,
+  "math500_pass_at_1": 77.25,
+  "truncation_rate_pct": 0.2,
+  "total_queries": 1000,
+  "correct_queries": 791,
+  "elapsed_seconds": 10685.17
+}

@@ -1,0 +1,230 @@
+{
+  "summary": {
+    "suite_size": 10,
+    "verbose_cot": {
+      "median_total_tokens": 512.0,
+      "p90_total_tokens": 512.0,
+      "mean_total_tokens": 512.0,
+      "median_narration_tokens": 0.0,
+      "narration_share_pct": 0.0,
+      "completion_rate_pct": 100.0
+    },
+    "tool_scratchpad": {
+      "median_total_tokens": 547.0,
+      "p90_total_tokens": 612.2,
+      "mean_total_tokens": 459.8,
+      "median_narration_tokens": 1.0,
+      "narration_share_pct": 0.17398869073510223,
+      "completion_rate_pct": 80.0
+    },
+    "comparison": {
+      "token_compression_ratio": 0.94,
+      "token_savings_pct": -6.8,
+      "median_tokens_saved_per_task": -35.0
+    }
+  },
+  "verbose": [
+    {
+      "problem_id": "agentic_plan_0",
+      "domain": "resource_allocation",
+      "turns": 1,
+      "total_tokens": 512,
+      "narration_tokens": 0,
+      "tool_tokens": 0,
+      "action_tokens": 512,
+      "completed": true
+    },
+    {
+      "problem_id": "agentic_plan_1",
+      "domain": "dependency_scheduling",
+      "turns": 1,
+      "total_tokens": 512,
+      "narration_tokens": 0,
+      "tool_tokens": 0,
+      "action_tokens": 512,
+      "completed": true
+    },
+    {
+      "problem_id": "agentic_plan_2",
+      "domain": "tool_orchestration",
+      "turns": 1,
+      "total_tokens": 512,
+      "narration_tokens": 0,
+      "tool_tokens": 0,
+      "action_tokens": 512,
+      "completed": true
+    },
+    {
+      "problem_id": "agentic_plan_3",
+      "domain": "state_verification",
+      "turns": 1,
+      "total_tokens": 512,
+      "narration_tokens": 0,
+      "tool_tokens": 0,
+      "action_tokens": 512,
+      "completed": true
+    },
+    {
+      "problem_id": "agentic_plan_4",
+      "domain": "resource_allocation",
+      "turns": 1,
+      "total_tokens": 512,
+      "narration_tokens": 0,
+      "tool_tokens": 0,
+      "action_tokens": 512,
+      "completed": true
+    },
+    {
+      "problem_id": "agentic_plan_5",
+      "domain": "dependency_scheduling",
+      "turns": 1,
+      "total_tokens": 512,
+      "narration_tokens": 0,
+      "tool_tokens": 0,
+      "action_tokens": 512,
+      "completed": true
+    },
+    {
+      "problem_id": "agentic_plan_6",
+      "domain": "tool_orchestration",
+      "turns": 1,
+      "total_tokens": 512,
+      "narration_tokens": 0,
+      "tool_tokens": 0,
+      "action_tokens": 512,
+      "completed": true
+    },
+    {
+      "problem_id": "agentic_plan_7",
+      "domain": "state_verification",
+      "turns": 1,
+      "total_tokens": 512,
+      "narration_tokens": 0,
+      "tool_tokens": 0,
+      "action_tokens": 512,
+      "completed": true
+    },
+    {
+      "problem_id": "agentic_plan_8",
+      "domain": "resource_allocation",
+      "turns": 1,
+      "total_tokens": 512,
+      "narration_tokens": 0,
+      "tool_tokens": 0,
+      "action_tokens": 512,
+      "completed": true
+    },
+    {
+      "problem_id": "agentic_plan_9",
+      "domain": "dependency_scheduling",
+      "turns": 1,
+      "total_tokens": 512,
+      "narration_tokens": 0,
+      "tool_tokens": 0,
+      "action_tokens": 512,
+      "completed": true
+    }
+  ],
+  "scratchpad": [
+    {
+      "problem_id": "agentic_plan_0",
+      "domain": "resource_allocation",
+      "turns": 4,
+      "total_tokens": 527,
+      "narration_tokens": 1,
+      "tool_tokens": 91,
+      "action_tokens": 526,
+      "completed": true
+    },
+    {
+      "problem_id": "agentic_plan_1",
+      "domain": "dependency_scheduling",
+      "turns": 4,
+      "total_tokens": 572,
+      "narration_tokens": 1,
+      "tool_tokens": 85,
+      "action_tokens": 571,
+      "completed": true
+    },
+    {
+      "problem_id": "agentic_plan_2",
+      "domain": "tool_orchestration",
+      "turns": 4,
+      "total_tokens": 143,
+      "narration_tokens": 0,
+      "tool_tokens": 127,
+      "action_tokens": 143,
+      "completed": false
+    },
+    {
+      "problem_id": "agentic_plan_3",
+      "domain": "state_verification",
+      "turns": 4,
+      "total_tokens": 614,
+      "narration_tokens": 1,
+      "tool_tokens": 90,
+      "action_tokens": 613,
+      "completed": true
+    },
+    {
+      "problem_id": "agentic_plan_4",
+      "domain": "resource_allocation",
+      "turns": 4,
+      "total_tokens": 462,
+      "narration_tokens": 1,
+      "tool_tokens": 81,
+      "action_tokens": 461,
+      "completed": true
+    },
+    {
+      "problem_id": "agentic_plan_5",
+      "domain": "dependency_scheduling",
+      "turns": 4,
+      "total_tokens": 412,
+      "narration_tokens": 1,
+      "tool_tokens": 94,
+      "action_tokens": 411,
+      "completed": true
+    },
+    {
+      "problem_id": "agentic_plan_6",
+      "domain": "tool_orchestration",
+      "turns": 4,
+      "total_tokens": 572,
+      "narration_tokens": 1,
+      "tool_tokens": 84,
+      "action_tokens": 571,
+      "completed": true
+    },
+    {
+      "problem_id": "agentic_plan_7",
+      "domain": "state_verification",
+      "turns": 4,
+      "total_tokens": 612,
+      "narration_tokens": 1,
+      "tool_tokens": 136,
+      "action_tokens": 611,
+      "completed": true
+    },
+    {
+      "problem_id": "agentic_plan_8",
+      "domain": "resource_allocation",
+      "turns": 4,
+      "total_tokens": 117,
+      "narration_tokens": 0,
+      "tool_tokens": 101,
+      "action_tokens": 117,
+      "completed": false
+    },
+    {
+      "problem_id": "agentic_plan_9",
+      "domain": "dependency_scheduling",
+      "turns": 4,
+      "total_tokens": 567,
+      "narration_tokens": 1,
+      "tool_tokens": 88,
+      "action_tokens": 566,
+      "completed": true
+    }
+  ]
+}

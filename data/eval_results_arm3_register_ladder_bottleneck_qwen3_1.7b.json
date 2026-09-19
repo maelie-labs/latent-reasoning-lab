@@ -1,0 +1,36 @@
+{
+  "tag": "arm3_register_ladder_bottleneck_qwen3_1.7b",
+  "model_id": "Qwen/Qwen3-1.7B",
+  "checkpoint": "checkpoints/lora_arm3_register_ladder_bottleneck_qwen3_1.7b/best_checkpoint",
+  "total_evaluations": 1000,
+  "overall_accuracy": 65.0,
+  "gsm8k_accuracy": 65.33333333333333,
+  "math500_accuracy": 64.5,
+  "math_hard_accuracy": 53.75,
+  "truncation_rate": 0.2,
+  "duration_seconds": 8423.6,
+  "paired_bootstrap_vs_arm1b": {
+    "observed_delta": -6.199999999999994,
+    "ci_95": [
+      -8.899999999999997,
+      -3.499999999999992
+    ],
+    "p_value": 0.0
+  },
+  "paired_bootstrap_vs_arm1b_r": {
+    "observed_delta": -8.199999999999996,
+    "ci_95": [
+      -10.899999999999999,
+      -5.499999999999994
+    ],
+    "p_value": 0.0
+  },
+  "paired_bootstrap_vs_arm3_r": {
+    "observed_delta": -6.2999999999999945,
+    "ci_95": [
+      -9.099999999999998,
+      -3.499999999999992
+    ],
+    "p_value": 0.0
+  }
+}

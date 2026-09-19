@@ -1,0 +1,22 @@
+{
+  "comparator": "Untrained Base Direct",
+  "total_pairs": 1000,
+  "overall": {
+    "observed_delta": -3.9,
+    "ci_95": [
+      -6.5,
+      -1.3
+    ],
+    "p_value": 0.0034,
+    "n": 1000
+  },
+  "math_hard": {
+    "observed_delta": -5.0,
+    "ci_95": [
+      -10.0,
+      0.0
+    ],
+    "p_value": 0.0698,
+    "n": 240
+  }
+}

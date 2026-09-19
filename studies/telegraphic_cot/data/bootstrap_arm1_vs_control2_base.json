@@ -1,0 +1,31 @@
+{
+  "comparison": "Arm 1 (Telegraphic CoT) vs Control 2 (Base Direct Floor)",
+  "total_pairs": 1000,
+  "overall": {
+    "observed_delta": -4.9,
+    "ci_95": [
+      -7.602499999999997,
+      -2.1
+    ],
+    "p_value": 0.0006,
+    "n": 1000
+  },
+  "math_hard_l3_5": {
+    "observed_delta": -5.0,
+    "ci_95": [
+      -10.416666666666668,
+      0.4166666666666667
+    ],
+    "p_value": 0.0944,
+    "n": 240
+  },
+  "gsm8k": {
+    "observed_delta": -5.333333333333334,
+    "ci_95": [
+      -9.170833333333329,
+      -1.5
+    ],
+    "p_value": 0.0066,
+    "n": 600
+  }
+}

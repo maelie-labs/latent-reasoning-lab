@@ -1,0 +1,17 @@
+{
+  "tag": "control1_headers_only",
+  "elapsed_seconds": 330.41515707969666,
+  "total_queries": 1000,
+  "overall_pass1": 73.7,
+  "gsm8k_pass1": 74.0,
+  "math500_pass1": 73.25,
+  "math_hard_pass1": 64.58333333333334,
+  "truncation_rate": 0.1,
+  "concurrency": 32,
+  "seeds": [
+    42,
+    123,
+    456,
+    789
+  ]
+}

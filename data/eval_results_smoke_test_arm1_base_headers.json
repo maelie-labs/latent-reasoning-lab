@@ -1,0 +1,28 @@
+{
+  "tag": "smoke_test_arm1_base_headers",
+  "mode": "base_headers_only",
+  "model_id": "Qwen/Qwen3-1.7B",
+  "total_evaluations": 4,
+  "overall_accuracy": 100.0,
+  "gsm8k_accuracy": 100.0,
+  "math500_accuracy": NaN,
+  "math_hard_accuracy": NaN,
+  "truncation_rate": 0.0,
+  "duration_seconds": 14.013386964797974,
+  "token_distribution": {
+    "min": 352,
+    "median": 352.0,
+    "p90": 352.0,
+    "max": 352
+  },
+  "paired_bootstrap": {
+    "vs_arm1b_register_headers": {
+      "observed_delta": 25.0,
+      "ci_95": [
+        0.0,
+        75.0
+      ],
+      "p_value": 0.6392
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "tag": "arm1_telegraphic_cot",
+  "elapsed_seconds": 422.01935291290283,
+  "total_queries": 1000,
+  "overall_pass1": 69.0,
+  "gsm8k_pass1": 65.66666666666666,
+  "math500_pass1": 74.0,
+  "math_hard_pass1": 65.0,
+  "truncation_rate": 0.2,
+  "concurrency": 32,
+  "seeds": [
+    42,
+    123,
+    456,
+    789
+  ],
+  "token_telemetry": {
+    "think_tokens_median": 104.0,
+    "think_tokens_p90": 161.10000000000002,
+    "think_tokens_mean": 125.507,
+    "ans_tokens_median": 342.5,
+    "ans_tokens_p90": 896.3000000000003,
+    "ans_tokens_mean": 504.746
+  }
+}

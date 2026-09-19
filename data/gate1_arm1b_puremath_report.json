@@ -1,0 +1,1689 @@
+{
+  "checkpoint": "checkpoints/lora_arm1b_v1_1_puremath_qwen3_1.7b_k0",
+  "total_evaluations": 240,
+  "pass_at_1": 66.66666666666666,
+  "correct_count": 160,
+  "verdict": "FAIL",
+  "details": [
+    {
+      "problem_id": "math500_309",
+      "level": 3,
+      "seed": 42,
+      "is_correct": false,
+      "ans_length": 1196
+    },
+    {
+      "problem_id": "math500_205",
+      "level": 3,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 1460
+    },
+    {
+      "problem_id": "math500_81",
+      "level": 3,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 252
+    },
+    {
+      "problem_id": "math500_37",
+      "level": 3,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 207
+    },
+    {
+      "problem_id": "math500_483",
+      "level": 3,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 524
+    },
+    {
+      "problem_id": "math500_269",
+      "level": 3,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 218
+    },
+    {
+      "problem_id": "math500_3",
+      "level": 3,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 147
+    },
+    {
+      "problem_id": "math500_342",
+      "level": 3,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 174
+    },
+    {
+      "problem_id": "math500_351",
+      "level": 3,
+      "seed": 42,
+      "is_correct": false,
+      "ans_length": 232
+    },
+    {
+      "problem_id": "math500_393",
+      "level": 3,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 145
+    },
+    {
+      "problem_id": "math500_386",
+      "level": 3,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 167
+    },
+    {
+      "problem_id": "math500_396",
+      "level": 3,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 367
+    },
+    {
+      "problem_id": "math500_39",
+      "level": 3,
+      "seed": 42,
+      "is_correct": false,
+      "ans_length": 100
+    },
+    {
+      "problem_id": "math500_203",
+      "level": 3,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 309
+    },
+    {
+      "problem_id": "math500_322",
+      "level": 3,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 140
+    },
+    {
+      "problem_id": "math500_319",
+      "level": 3,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 150
+    },
+    {
+      "problem_id": "math500_253",
+      "level": 3,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 108
+    },
+    {
+      "problem_id": "math500_261",
+      "level": 3,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 223
+    },
+    {
+      "problem_id": "math500_174",
+      "level": 3,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 262
+    },
+    {
+      "problem_id": "math500_143",
+      "level": 3,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 315
+    },
+    {
+      "problem_id": "math500_64",
+      "level": 4,
+      "seed": 42,
+      "is_correct": false,
+      "ans_length": 1015
+    },
+    {
+      "problem_id": "math500_346",
+      "level": 4,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 211
+    },
+    {
+      "problem_id": "math500_376",
+      "level": 4,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 334
+    },
+    {
+      "problem_id": "math500_292",
+      "level": 4,
+      "seed": 42,
+      "is_correct": false,
+      "ans_length": 909
+    },
+    {
+      "problem_id": "math500_216",
+      "level": 4,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 146
+    },
+    {
+      "problem_id": "math500_78",
+      "level": 4,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 601
+    },
+    {
+      "problem_id": "math500_248",
+      "level": 4,
+      "seed": 42,
+      "is_correct": false,
+      "ans_length": 644
+    },
+    {
+      "problem_id": "math500_379",
+      "level": 4,
+      "seed": 42,
+      "is_correct": false,
+      "ans_length": 290
+    },
+    {
+      "problem_id": "math500_380",
+      "level": 4,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 433
+    },
+    {
+      "problem_id": "math500_302",
+      "level": 4,
+      "seed": 42,
+      "is_correct": false,
+      "ans_length": 687
+    },
+    {
+      "problem_id": "math500_213",
+      "level": 4,
+      "seed": 42,
+      "is_correct": false,
+      "ans_length": 705
+    },
+    {
+      "problem_id": "math500_93",
+      "level": 4,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 294
+    },
+    {
+      "problem_id": "math500_131",
+      "level": 4,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 239
+    },
+    {
+      "problem_id": "math500_442",
+      "level": 4,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 129
+    },
+    {
+      "problem_id": "math500_137",
+      "level": 4,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 266
+    },
+    {
+      "problem_id": "math500_217",
+      "level": 4,
+      "seed": 42,
+      "is_correct": false,
+      "ans_length": 572
+    },
+    {
+      "problem_id": "math500_249",
+      "level": 4,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 531
+    },
+    {
+      "problem_id": "math500_461",
+      "level": 4,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 197
+    },
+    {
+      "problem_id": "math500_354",
+      "level": 4,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 259
+    },
+    {
+      "problem_id": "math500_85",
+      "level": 4,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 231
+    },
+    {
+      "problem_id": "math500_9",
+      "level": 5,
+      "seed": 42,
+      "is_correct": false,
+      "ans_length": 387
+    },
+    {
+      "problem_id": "math500_62",
+      "level": 5,
+      "seed": 42,
+      "is_correct": false,
+      "ans_length": 306
+    },
+    {
+      "problem_id": "math500_94",
+      "level": 5,
+      "seed": 42,
+      "is_correct": false,
+      "ans_length": 248
+    },
+    {
+      "problem_id": "math500_488",
+      "level": 5,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 120
+    },
+    {
+      "problem_id": "math500_400",
+      "level": 5,
+      "seed": 42,
+      "is_correct": false,
+      "ans_length": 1420
+    },
+    {
+      "problem_id": "math500_415",
+      "level": 5,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 350
+    },
+    {
+      "problem_id": "math500_142",
+      "level": 5,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 231
+    },
+    {
+      "problem_id": "math500_136",
+      "level": 5,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 484
+    },
+    {
+      "problem_id": "math500_152",
+      "level": 5,
+      "seed": 42,
+      "is_correct": false,
+      "ans_length": 981
+    },
+    {
+      "problem_id": "math500_313",
+      "level": 5,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 142
+    },
+    {
+      "problem_id": "math500_381",
+      "level": 5,
+      "seed": 42,
+      "is_correct": false,
+      "ans_length": 713
+    },
+    {
+      "problem_id": "math500_238",
+      "level": 5,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 380
+    },
+    {
+      "problem_id": "math500_145",
+      "level": 5,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 394
+    },
+    {
+      "problem_id": "math500_26",
+      "level": 5,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 482
+    },
+    {
+      "problem_id": "math500_394",
+      "level": 5,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 656
+    },
+    {
+      "problem_id": "math500_417",
+      "level": 5,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 134
+    },
+    {
+      "problem_id": "math500_24",
+      "level": 5,
+      "seed": 42,
+      "is_correct": true,
+      "ans_length": 424
+    },
+    {
+      "problem_id": "math500_382",
+      "level": 5,
+      "seed": 42,
+      "is_correct": false,
+      "ans_length": 352
+    },
+    {
+      "problem_id": "math500_432",
+      "level": 5,
+      "seed": 42,
+      "is_correct": false,
+      "ans_length": 1007
+    },
+    {
+      "problem_id": "math500_197",
+      "level": 5,
+      "seed": 42,
+      "is_correct": false,
+      "ans_length": 485
+    },
+    {
+      "problem_id": "math500_309",
+      "level": 3,
+      "seed": 123,
+      "is_correct": false,
+      "ans_length": 705
+    },
+    {
+      "problem_id": "math500_205",
+      "level": 3,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 488
+    },
+    {
+      "problem_id": "math500_81",
+      "level": 3,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 234
+    },
+    {
+      "problem_id": "math500_37",
+      "level": 3,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 263
+    },
+    {
+      "problem_id": "math500_483",
+      "level": 3,
+      "seed": 123,
+      "is_correct": false,
+      "ans_length": 699
+    },
+    {
+      "problem_id": "math500_269",
+      "level": 3,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 195
+    },
+    {
+      "problem_id": "math500_3",
+      "level": 3,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 152
+    },
+    {
+      "problem_id": "math500_342",
+      "level": 3,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 183
+    },
+    {
+      "problem_id": "math500_351",
+      "level": 3,
+      "seed": 123,
+      "is_correct": false,
+      "ans_length": 258
+    },
+    {
+      "problem_id": "math500_393",
+      "level": 3,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 166
+    },
+    {
+      "problem_id": "math500_386",
+      "level": 3,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 242
+    },
+    {
+      "problem_id": "math500_396",
+      "level": 3,
+      "seed": 123,
+      "is_correct": false,
+      "ans_length": 465
+    },
+    {
+      "problem_id": "math500_39",
+      "level": 3,
+      "seed": 123,
+      "is_correct": false,
+      "ans_length": 101
+    },
+    {
+      "problem_id": "math500_203",
+      "level": 3,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 306
+    },
+    {
+      "problem_id": "math500_322",
+      "level": 3,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 146
+    },
+    {
+      "problem_id": "math500_319",
+      "level": 3,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 152
+    },
+    {
+      "problem_id": "math500_253",
+      "level": 3,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 117
+    },
+    {
+      "problem_id": "math500_261",
+      "level": 3,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 168
+    },
+    {
+      "problem_id": "math500_174",
+      "level": 3,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 258
+    },
+    {
+      "problem_id": "math500_143",
+      "level": 3,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 316
+    },
+    {
+      "problem_id": "math500_64",
+      "level": 4,
+      "seed": 123,
+      "is_correct": false,
+      "ans_length": 814
+    },
+    {
+      "problem_id": "math500_346",
+      "level": 4,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 237
+    },
+    {
+      "problem_id": "math500_376",
+      "level": 4,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 391
+    },
+    {
+      "problem_id": "math500_292",
+      "level": 4,
+      "seed": 123,
+      "is_correct": false,
+      "ans_length": 1592
+    },
+    {
+      "problem_id": "math500_216",
+      "level": 4,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 148
+    },
+    {
+      "problem_id": "math500_78",
+      "level": 4,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 472
+    },
+    {
+      "problem_id": "math500_248",
+      "level": 4,
+      "seed": 123,
+      "is_correct": false,
+      "ans_length": 782
+    },
+    {
+      "problem_id": "math500_379",
+      "level": 4,
+      "seed": 123,
+      "is_correct": false,
+      "ans_length": 252
+    },
+    {
+      "problem_id": "math500_380",
+      "level": 4,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 440
+    },
+    {
+      "problem_id": "math500_302",
+      "level": 4,
+      "seed": 123,
+      "is_correct": false,
+      "ans_length": 359
+    },
+    {
+      "problem_id": "math500_213",
+      "level": 4,
+      "seed": 123,
+      "is_correct": false,
+      "ans_length": 626
+    },
+    {
+      "problem_id": "math500_93",
+      "level": 4,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 273
+    },
+    {
+      "problem_id": "math500_131",
+      "level": 4,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 267
+    },
+    {
+      "problem_id": "math500_442",
+      "level": 4,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 129
+    },
+    {
+      "problem_id": "math500_137",
+      "level": 4,
+      "seed": 123,
+      "is_correct": false,
+      "ans_length": 236
+    },
+    {
+      "problem_id": "math500_217",
+      "level": 4,
+      "seed": 123,
+      "is_correct": false,
+      "ans_length": 337
+    },
+    {
+      "problem_id": "math500_249",
+      "level": 4,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 720
+    },
+    {
+      "problem_id": "math500_461",
+      "level": 4,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 199
+    },
+    {
+      "problem_id": "math500_354",
+      "level": 4,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 297
+    },
+    {
+      "problem_id": "math500_85",
+      "level": 4,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 208
+    },
+    {
+      "problem_id": "math500_9",
+      "level": 5,
+      "seed": 123,
+      "is_correct": false,
+      "ans_length": 780
+    },
+    {
+      "problem_id": "math500_62",
+      "level": 5,
+      "seed": 123,
+      "is_correct": false,
+      "ans_length": 429
+    },
+    {
+      "problem_id": "math500_94",
+      "level": 5,
+      "seed": 123,
+      "is_correct": false,
+      "ans_length": 267
+    },
+    {
+      "problem_id": "math500_488",
+      "level": 5,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 116
+    },
+    {
+      "problem_id": "math500_400",
+      "level": 5,
+      "seed": 123,
+      "is_correct": false,
+      "ans_length": 1242
+    },
+    {
+      "problem_id": "math500_415",
+      "level": 5,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 367
+    },
+    {
+      "problem_id": "math500_142",
+      "level": 5,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 246
+    },
+    {
+      "problem_id": "math500_136",
+      "level": 5,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 396
+    },
+    {
+      "problem_id": "math500_152",
+      "level": 5,
+      "seed": 123,
+      "is_correct": false,
+      "ans_length": 940
+    },
+    {
+      "problem_id": "math500_313",
+      "level": 5,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 148
+    },
+    {
+      "problem_id": "math500_381",
+      "level": 5,
+      "seed": 123,
+      "is_correct": false,
+      "ans_length": 803
+    },
+    {
+      "problem_id": "math500_238",
+      "level": 5,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 382
+    },
+    {
+      "problem_id": "math500_145",
+      "level": 5,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 294
+    },
+    {
+      "problem_id": "math500_26",
+      "level": 5,
+      "seed": 123,
+      "is_correct": false,
+      "ans_length": 667
+    },
+    {
+      "problem_id": "math500_394",
+      "level": 5,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 514
+    },
+    {
+      "problem_id": "math500_417",
+      "level": 5,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 153
+    },
+    {
+      "problem_id": "math500_24",
+      "level": 5,
+      "seed": 123,
+      "is_correct": false,
+      "ans_length": 402
+    },
+    {
+      "problem_id": "math500_382",
+      "level": 5,
+      "seed": 123,
+      "is_correct": false,
+      "ans_length": 482
+    },
+    {
+      "problem_id": "math500_432",
+      "level": 5,
+      "seed": 123,
+      "is_correct": false,
+      "ans_length": 1379
+    },
+    {
+      "problem_id": "math500_197",
+      "level": 5,
+      "seed": 123,
+      "is_correct": true,
+      "ans_length": 435
+    },
+    {
+      "problem_id": "math500_309",
+      "level": 3,
+      "seed": 456,
+      "is_correct": false,
+      "ans_length": 563
+    },
+    {
+      "problem_id": "math500_205",
+      "level": 3,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 527
+    },
+    {
+      "problem_id": "math500_81",
+      "level": 3,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 256
+    },
+    {
+      "problem_id": "math500_37",
+      "level": 3,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 223
+    },
+    {
+      "problem_id": "math500_483",
+      "level": 3,
+      "seed": 456,
+      "is_correct": false,
+      "ans_length": 689
+    },
+    {
+      "problem_id": "math500_269",
+      "level": 3,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 209
+    },
+    {
+      "problem_id": "math500_3",
+      "level": 3,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 164
+    },
+    {
+      "problem_id": "math500_342",
+      "level": 3,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 189
+    },
+    {
+      "problem_id": "math500_351",
+      "level": 3,
+      "seed": 456,
+      "is_correct": false,
+      "ans_length": 311
+    },
+    {
+      "problem_id": "math500_393",
+      "level": 3,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 132
+    },
+    {
+      "problem_id": "math500_386",
+      "level": 3,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 155
+    },
+    {
+      "problem_id": "math500_396",
+      "level": 3,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 406
+    },
+    {
+      "problem_id": "math500_39",
+      "level": 3,
+      "seed": 456,
+      "is_correct": false,
+      "ans_length": 91
+    },
+    {
+      "problem_id": "math500_203",
+      "level": 3,
+      "seed": 456,
+      "is_correct": false,
+      "ans_length": 310
+    },
+    {
+      "problem_id": "math500_322",
+      "level": 3,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 150
+    },
+    {
+      "problem_id": "math500_319",
+      "level": 3,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 151
+    },
+    {
+      "problem_id": "math500_253",
+      "level": 3,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 115
+    },
+    {
+      "problem_id": "math500_261",
+      "level": 3,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 227
+    },
+    {
+      "problem_id": "math500_174",
+      "level": 3,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 248
+    },
+    {
+      "problem_id": "math500_143",
+      "level": 3,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 363
+    },
+    {
+      "problem_id": "math500_64",
+      "level": 4,
+      "seed": 456,
+      "is_correct": false,
+      "ans_length": 273
+    },
+    {
+      "problem_id": "math500_346",
+      "level": 4,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 223
+    },
+    {
+      "problem_id": "math500_376",
+      "level": 4,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 406
+    },
+    {
+      "problem_id": "math500_292",
+      "level": 4,
+      "seed": 456,
+      "is_correct": false,
+      "ans_length": 729
+    },
+    {
+      "problem_id": "math500_216",
+      "level": 4,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 171
+    },
+    {
+      "problem_id": "math500_78",
+      "level": 4,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 462
+    },
+    {
+      "problem_id": "math500_248",
+      "level": 4,
+      "seed": 456,
+      "is_correct": false,
+      "ans_length": 799
+    },
+    {
+      "problem_id": "math500_379",
+      "level": 4,
+      "seed": 456,
+      "is_correct": false,
+      "ans_length": 270
+    },
+    {
+      "problem_id": "math500_380",
+      "level": 4,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 405
+    },
+    {
+      "problem_id": "math500_302",
+      "level": 4,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 537
+    },
+    {
+      "problem_id": "math500_213",
+      "level": 4,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 487
+    },
+    {
+      "problem_id": "math500_93",
+      "level": 4,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 344
+    },
+    {
+      "problem_id": "math500_131",
+      "level": 4,
+      "seed": 456,
+      "is_correct": false,
+      "ans_length": 318
+    },
+    {
+      "problem_id": "math500_442",
+      "level": 4,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 129
+    },
+    {
+      "problem_id": "math500_137",
+      "level": 4,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 192
+    },
+    {
+      "problem_id": "math500_217",
+      "level": 4,
+      "seed": 456,
+      "is_correct": false,
+      "ans_length": 438
+    },
+    {
+      "problem_id": "math500_249",
+      "level": 4,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 713
+    },
+    {
+      "problem_id": "math500_461",
+      "level": 4,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 196
+    },
+    {
+      "problem_id": "math500_354",
+      "level": 4,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 254
+    },
+    {
+      "problem_id": "math500_85",
+      "level": 4,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 230
+    },
+    {
+      "problem_id": "math500_9",
+      "level": 5,
+      "seed": 456,
+      "is_correct": false,
+      "ans_length": 584
+    },
+    {
+      "problem_id": "math500_62",
+      "level": 5,
+      "seed": 456,
+      "is_correct": false,
+      "ans_length": 590
+    },
+    {
+      "problem_id": "math500_94",
+      "level": 5,
+      "seed": 456,
+      "is_correct": false,
+      "ans_length": 447
+    },
+    {
+      "problem_id": "math500_488",
+      "level": 5,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 119
+    },
+    {
+      "problem_id": "math500_400",
+      "level": 5,
+      "seed": 456,
+      "is_correct": false,
+      "ans_length": 1133
+    },
+    {
+      "problem_id": "math500_415",
+      "level": 5,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 400
+    },
+    {
+      "problem_id": "math500_142",
+      "level": 5,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 273
+    },
+    {
+      "problem_id": "math500_136",
+      "level": 5,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 546
+    },
+    {
+      "problem_id": "math500_152",
+      "level": 5,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 977
+    },
+    {
+      "problem_id": "math500_313",
+      "level": 5,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 142
+    },
+    {
+      "problem_id": "math500_381",
+      "level": 5,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 718
+    },
+    {
+      "problem_id": "math500_238",
+      "level": 5,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 433
+    },
+    {
+      "problem_id": "math500_145",
+      "level": 5,
+      "seed": 456,
+      "is_correct": false,
+      "ans_length": 735
+    },
+    {
+      "problem_id": "math500_26",
+      "level": 5,
+      "seed": 456,
+      "is_correct": false,
+      "ans_length": 576
+    },
+    {
+      "problem_id": "math500_394",
+      "level": 5,
+      "seed": 456,
+      "is_correct": false,
+      "ans_length": 625
+    },
+    {
+      "problem_id": "math500_417",
+      "level": 5,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 201
+    },
+    {
+      "problem_id": "math500_24",
+      "level": 5,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 440
+    },
+    {
+      "problem_id": "math500_382",
+      "level": 5,
+      "seed": 456,
+      "is_correct": false,
+      "ans_length": 404
+    },
+    {
+      "problem_id": "math500_432",
+      "level": 5,
+      "seed": 456,
+      "is_correct": false,
+      "ans_length": 846
+    },
+    {
+      "problem_id": "math500_197",
+      "level": 5,
+      "seed": 456,
+      "is_correct": true,
+      "ans_length": 670
+    },
+    {
+      "problem_id": "math500_309",
+      "level": 3,
+      "seed": 789,
+      "is_correct": false,
+      "ans_length": 363
+    },
+    {
+      "problem_id": "math500_205",
+      "level": 3,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 489
+    },
+    {
+      "problem_id": "math500_81",
+      "level": 3,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 220
+    },
+    {
+      "problem_id": "math500_37",
+      "level": 3,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 237
+    },
+    {
+      "problem_id": "math500_483",
+      "level": 3,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 591
+    },
+    {
+      "problem_id": "math500_269",
+      "level": 3,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 243
+    },
+    {
+      "problem_id": "math500_3",
+      "level": 3,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 172
+    },
+    {
+      "problem_id": "math500_342",
+      "level": 3,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 116
+    },
+    {
+      "problem_id": "math500_351",
+      "level": 3,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 477
+    },
+    {
+      "problem_id": "math500_393",
+      "level": 3,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 114
+    },
+    {
+      "problem_id": "math500_386",
+      "level": 3,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 179
+    },
+    {
+      "problem_id": "math500_396",
+      "level": 3,
+      "seed": 789,
+      "is_correct": false,
+      "ans_length": 259
+    },
+    {
+      "problem_id": "math500_39",
+      "level": 3,
+      "seed": 789,
+      "is_correct": false,
+      "ans_length": 89
+    },
+    {
+      "problem_id": "math500_203",
+      "level": 3,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 320
+    },
+    {
+      "problem_id": "math500_322",
+      "level": 3,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 146
+    },
+    {
+      "problem_id": "math500_319",
+      "level": 3,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 152
+    },
+    {
+      "problem_id": "math500_253",
+      "level": 3,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 117
+    },
+    {
+      "problem_id": "math500_261",
+      "level": 3,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 222
+    },
+    {
+      "problem_id": "math500_174",
+      "level": 3,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 253
+    },
+    {
+      "problem_id": "math500_143",
+      "level": 3,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 283
+    },
+    {
+      "problem_id": "math500_64",
+      "level": 4,
+      "seed": 789,
+      "is_correct": false,
+      "ans_length": 317
+    },
+    {
+      "problem_id": "math500_346",
+      "level": 4,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 236
+    },
+    {
+      "problem_id": "math500_376",
+      "level": 4,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 379
+    },
+    {
+      "problem_id": "math500_292",
+      "level": 4,
+      "seed": 789,
+      "is_correct": false,
+      "ans_length": 1136
+    },
+    {
+      "problem_id": "math500_216",
+      "level": 4,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 157
+    },
+    {
+      "problem_id": "math500_78",
+      "level": 4,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 385
+    },
+    {
+      "problem_id": "math500_248",
+      "level": 4,
+      "seed": 789,
+      "is_correct": false,
+      "ans_length": 670
+    },
+    {
+      "problem_id": "math500_379",
+      "level": 4,
+      "seed": 789,
+      "is_correct": false,
+      "ans_length": 353
+    },
+    {
+      "problem_id": "math500_380",
+      "level": 4,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 493
+    },
+    {
+      "problem_id": "math500_302",
+      "level": 4,
+      "seed": 789,
+      "is_correct": false,
+      "ans_length": 1591
+    },
+    {
+      "problem_id": "math500_213",
+      "level": 4,
+      "seed": 789,
+      "is_correct": false,
+      "ans_length": 436
+    },
+    {
+      "problem_id": "math500_93",
+      "level": 4,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 300
+    },
+    {
+      "problem_id": "math500_131",
+      "level": 4,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 246
+    },
+    {
+      "problem_id": "math500_442",
+      "level": 4,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 129
+    },
+    {
+      "problem_id": "math500_137",
+      "level": 4,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 242
+    },
+    {
+      "problem_id": "math500_217",
+      "level": 4,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 612
+    },
+    {
+      "problem_id": "math500_249",
+      "level": 4,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 502
+    },
+    {
+      "problem_id": "math500_461",
+      "level": 4,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 199
+    },
+    {
+      "problem_id": "math500_354",
+      "level": 4,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 290
+    },
+    {
+      "problem_id": "math500_85",
+      "level": 4,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 247
+    },
+    {
+      "problem_id": "math500_9",
+      "level": 5,
+      "seed": 789,
+      "is_correct": false,
+      "ans_length": 588
+    },
+    {
+      "problem_id": "math500_62",
+      "level": 5,
+      "seed": 789,
+      "is_correct": false,
+      "ans_length": 307
+    },
+    {
+      "problem_id": "math500_94",
+      "level": 5,
+      "seed": 789,
+      "is_correct": false,
+      "ans_length": 252
+    },
+    {
+      "problem_id": "math500_488",
+      "level": 5,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 114
+    },
+    {
+      "problem_id": "math500_400",
+      "level": 5,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 926
+    },
+    {
+      "problem_id": "math500_415",
+      "level": 5,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 435
+    },
+    {
+      "problem_id": "math500_142",
+      "level": 5,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 260
+    },
+    {
+      "problem_id": "math500_136",
+      "level": 5,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 510
+    },
+    {
+      "problem_id": "math500_152",
+      "level": 5,
+      "seed": 789,
+      "is_correct": false,
+      "ans_length": 1638
+    },
+    {
+      "problem_id": "math500_313",
+      "level": 5,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 148
+    },
+    {
+      "problem_id": "math500_381",
+      "level": 5,
+      "seed": 789,
+      "is_correct": false,
+      "ans_length": 1047
+    },
+    {
+      "problem_id": "math500_238",
+      "level": 5,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 383
+    },
+    {
+      "problem_id": "math500_145",
+      "level": 5,
+      "seed": 789,
+      "is_correct": false,
+      "ans_length": 934
+    },
+    {
+      "problem_id": "math500_26",
+      "level": 5,
+      "seed": 789,
+      "is_correct": false,
+      "ans_length": 723
+    },
+    {
+      "problem_id": "math500_394",
+      "level": 5,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 963
+    },
+    {
+      "problem_id": "math500_417",
+      "level": 5,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 155
+    },
+    {
+      "problem_id": "math500_24",
+      "level": 5,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 412
+    },
+    {
+      "problem_id": "math500_382",
+      "level": 5,
+      "seed": 789,
+      "is_correct": false,
+      "ans_length": 474
+    },
+    {
+      "problem_id": "math500_432",
+      "level": 5,
+      "seed": 789,
+      "is_correct": false,
+      "ans_length": 551
+    },
+    {
+      "problem_id": "math500_197",
+      "level": 5,
+      "seed": 789,
+      "is_correct": true,
+      "ans_length": 422
+    }
+  ]
+}

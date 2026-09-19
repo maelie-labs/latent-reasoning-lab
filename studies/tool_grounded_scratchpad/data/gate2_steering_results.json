@@ -1,0 +1,1014 @@
+{
+  "summary": {
+    "model_id": "Qwen/Qwen3-4B",
+    "checkpoint": "checkpoints/lora_tool_scratchpad_qwen3_4b/best_checkpoint",
+    "num_pairs": 100,
+    "authentic_accuracy_pct": 92.0,
+    "chance_baseline_pct": 0.0,
+    "corrupted_steering_pct": 0.0,
+    "delta_steer_pct": 0.0,
+    "verdict": "FAIL"
+  },
+  "evaluations": [
+    {
+      "pair_idx": 0,
+      "donor_id": "gsm8k_train_517",
+      "recip_id": "gsm8k_train_1385",
+      "donor_target": "12",
+      "recip_target": "72",
+      "unperturbed_output": "To determine how much Cole has to pay for the fence, we need to analyze the problem step by step.\n\n---\n\n### **Step 1: Understand the Backyard Dimensions**\n\nCole's backyard is described as:\n\n- **9 feet",
+      "corrupted_output": "To determine how much Cole has to pay for the fence, we need to analyze the problem step by step.\n\n---\n\n### **Step 1: Understand the Backyard Dimensions**\n\nCole's backyard is described as:\n\n- **9 feet",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 1,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_517",
+      "donor_target": "72",
+      "recip_target": "12",
+      "unperturbed_output": "To determine how many miles Roger rode his bike in total, we need to break the problem into two parts:\n\n---\n\n### **Step 1: Morning Ride**\n\nRoger rode his bike for:\n\n$$\n2 \\text{ miles}\n$$\n\n---\n\n### **S",
+      "corrupted_output": "To determine how many miles Roger rode his bike in total, we need to break the problem into two parts:\n\n---\n\n### **Step 1: Morning Ride**\n\nRoger rode his bike for:\n\n$$\n2 \\text{ miles}\n$$\n\n---\n\n### **S",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 2,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_50",
+      "donor_target": "72",
+      "recip_target": "5",
+      "unperturbed_output": "To determine how many chores Gerald needs to average per month to save up for his baseball supplies, we follow these steps:\n\n---\n\n### **Step 1: Calculate Total Cost of Baseball Supplies**\n\nGerald spen",
+      "corrupted_output": "To determine how many chores Gerald needs to average per month to save up for his baseball supplies, we follow these steps:\n\n---\n\n### **Step 1: Calculate Total Cost of Baseball Supplies**\n\nGerald spen",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 3,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_5964",
+      "donor_target": "72",
+      "recip_target": "110",
+      "unperturbed_output": "We are given the expression:\n\n$$\n3 \\cdot 5 \\cdot 7 + 15 \\div 3\n$$\n\n### Step 1: Perform multiplication first (from left to right)\n\n$$\n3 \\cdot 5 = 15\n$$\n$$\n15 \\cdot 7 = 105\n$$\n\nSo, the first part is:\n\n$",
+      "corrupted_output": "We are given the expression:\n\n$$\n3 \\cdot 5 \\cdot 7 + 15 \\div 3\n$$\n\n### Step 1: Perform multiplication first (from left to right)\n\n$$\n3 \\cdot 5 = 15\n$$\n$$\n15 \\cdot 7 = 105\n$$\n\nSo, the first part is:\n\n$",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 4,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_5992",
+      "donor_target": "72",
+      "recip_target": "2",
+      "unperturbed_output": "We are given the expression:\n\n$$\n(-64) \\div (-32)\n$$\n\n### Step 1: Understand the operation\nDividing two negative numbers results in a **positive** number.\n\n### Step 2: Simplify the division\n$$\n\\frac{-",
+      "corrupted_output": "We are given the expression:\n\n$$\n(-64) \\div (-32)\n$$\n\n### Step 1: Understand the operation\nDividing two negative numbers results in a **positive** number.\n\n$$\n(-64) \\div (-32) = \\frac{-64}{-32}\n$$\n\n##",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 5,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_670",
+      "donor_target": "72",
+      "recip_target": "56",
+      "unperturbed_output": "We are given the following information:\n\n- **Griffin is 61 inches tall.**\n- **Grayson is 2 inches taller than Griffin.**\n- **Gracie is 7 inches shorter than Grayson.**\n\n---\n\n### Step 1: Find Grayson's",
+      "corrupted_output": "We are given the following information:\n\n- **Griffin is 61 inches tall.**\n- **Grayson is 2 inches taller than Griffin.**\n- **Gracie is 7 inches shorter than Grayson.**\n\n---\n\n### Step 1: Find Grayson's",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 6,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_1382",
+      "donor_target": "72",
+      "recip_target": "84",
+      "unperturbed_output": "To determine how much you pay in total after the first year for the video streaming subscription, we follow these steps:\n\n---\n\n### **Step 1: Determine the monthly cost**\n\nThe subscription costs **$14 ",
+      "corrupted_output": "To determine how much you pay in total after the first year for the video streaming subscription, we follow these steps:\n\n---\n\n### **Step 1: Determine the monthly cost**\n\nThe subscription costs **$14 ",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 7,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_150",
+      "donor_target": "72",
+      "recip_target": "3",
+      "unperturbed_output": "We are given:\n\n- Angela delivers **8 times as many packages as meals**.\n- She delivers a total of **27 meals and packages combined**.\n\nLet\u2019s define:\n\n- Let $ M $ = number of meals\n- Then, the number o",
+      "corrupted_output": "We are given:\n\n- Angela delivers **8 times as many packages as meals**.\n- She delivers a total of **27 meals and packages combined**.\n\nLet\u2019s define:\n\n- $ M $ = number of meals\n- $ P $ = number of pack",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 8,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_439",
+      "donor_target": "72",
+      "recip_target": "21",
+      "unperturbed_output": "Let's break down the problem step by step.\n\n### Step 1: Calculate the cost of the t-shirts\n- Each t-shirt costs $8.\n- Timothy buys **2 t-shirts**.\n- Total cost for t-shirts = $ 2 \\times 8 = 16 $\n\n### ",
+      "corrupted_output": "Let's break down the problem step by step.\n\n### Step 1: Calculate the cost of the t-shirts\n- Each t-shirt costs **$8**\n- Timothy buys **2 t-shirts**\n- Total cost for t-shirts = $ 2 \\times 8 = 16 $\n\n##",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 9,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_400",
+      "donor_target": "72",
+      "recip_target": "34",
+      "unperturbed_output": "Let's break down the problem step by step.\n\n### Initial Weight:\n- **Water**: 20 pounds  \n- **Food**: 10 pounds  \n- **Gear**: 20 pounds  \n- **Total initial weight**:  \n  $$\n  20 + 10 + 20 = 50 \\text{ p",
+      "corrupted_output": "Let's break down the problem step by step.\n\n### Initial Weight:\n- **Water**: 20 pounds  \n- **Food**: 10 pounds  \n- **Gear**: 20 pounds  \n- **Total initial weight**:  \n  $$\n  20 + 10 + 20 = 50 \\text{ p",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 10,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_437",
+      "donor_target": "72",
+      "recip_target": "50",
+      "unperturbed_output": "To determine how many chickens Lao sold, we need to analyze the cost and revenue structure based on the given information.\n\n---\n\n### **Step 1: Determine the cost per chicken**\n\nEach chicken requires *",
+      "corrupted_output": "To determine how many chickens Lao sold, we need to analyze the cost and revenue structure based on the given information.\n\n---\n\n### **Step 1: Determine the cost per chicken**\n\nEach chicken requires *",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 11,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_398",
+      "donor_target": "72",
+      "recip_target": "5",
+      "unperturbed_output": "To determine how much money the Girl Scouts will have left after paying for the pool, we follow these steps:\n\n---\n\n### **Step 1: Calculate the total cost for the pool**\n\nThe cost per person is $2.50, ",
+      "corrupted_output": "To determine how much money the Girl Scouts will have left after paying for the pool, we follow these steps:\n\n---\n\n### **Step 1: Calculate the total cost for the pool**\n\nThe cost per person is $2.50, ",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 12,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_102",
+      "donor_target": "72",
+      "recip_target": "25",
+      "unperturbed_output": "To determine how much oil Ellie needs in total to fix the bike, we break the problem into two parts:\n\n---\n\n### **Step 1: Oil for the Wheels**\n\n- Each wheel requires **10 ml** of oil.\n- There are **2 w",
+      "corrupted_output": "To determine how much oil Ellie needs in total to fix the bike, we break the problem into two parts:\n\n---\n\n### **Step 1: Oil for the Wheels**\n\n- Each wheel requires **10 ml** of oil.\n- There are **2 w",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 13,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_5638",
+      "donor_target": "72",
+      "recip_target": "6",
+      "unperturbed_output": "We are given the equation:\n\n$$\n2 + 3B = 20\n$$\n\n### Step 1: Subtract 2 from both sides\n$$\n3B = 20 - 2\n$$\n$$\n3B = 18\n$$\n\n### Step 2: Divide both sides by 3\n$$\nB = \\frac{18}{3}\n$$\n$$\nB = 6\n$$\n\n### \u2705 Fina",
+      "corrupted_output": "We are given the equation:\n\n$$\n2 + 3B = 20\n$$\n\n### Step 1: Subtract 2 from both sides\n$$\n3B = 20 - 2\n$$\n$$\n3B = 18\n$$\n\n### Step 2: Divide both sides by 3\n$$\nB = \\frac{18}{3}\n$$\n$$\nB = 6\n$$\n\n### \u2705 Fina",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 14,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_319",
+      "donor_target": "72",
+      "recip_target": "18",
+      "unperturbed_output": "Let's break down the problem step by step.\n\n### Step 1: Initial number of diaries\nNatalie's sister had **8** small diaries in her locker.\n\n---\n\n### Step 2: She bought double the number of diaries she ",
+      "corrupted_output": "Let's break down the problem step by step.\n\n### Step 1: Initial number of diaries\nNatalie's sister had **8 small diaries** in her locker.\n\n---\n\n### Step 2: She bought double the number of diaries she ",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 15,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_5579",
+      "donor_target": "72",
+      "recip_target": "12",
+      "unperturbed_output": "We are given:\n\n- **Square A** has a **perimeter of 24 cm**.\n- **Square B** has an **area equal to one-fourth the area of square A**.\n- We are to find the **perimeter of square B**.\n\n---\n\n### Step 1: F",
+      "corrupted_output": "We are given:\n\n- **Square A** has a **perimeter of 24 cm**.\n- **Square B** has an **area equal to one-fourth the area of Square A**.\n- We are to find the **perimeter of Square B**.\n\n---\n\n### Step 1: F",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 16,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_1482",
+      "donor_target": "72",
+      "recip_target": "88",
+      "unperturbed_output": "To determine how many episodes Donna can watch in a week, we need to break the problem into parts based on the days of the week.\n\n---\n\n### Step 1: Understand the daily watching capacity\n\n- **Weekdays*",
+      "corrupted_output": "To determine how many episodes Donna can watch in a week, we need to break down the problem into parts based on the days of the week.\n\n---\n\n### Step 1: Understand the daily watching capacity\n\n- **Week",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 17,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_687",
+      "donor_target": "72",
+      "recip_target": "6",
+      "unperturbed_output": "To determine how many **additional candles** Stephanie needs, we follow these steps:\n\n---\n\n### **Step 1: Determine the number of cupcakes**\n\nStephanie is decorating **24 cupcakes**.\n\n---\n\n### **Step 2",
+      "corrupted_output": "To determine how many **additional candles** Stephanie needs, we follow these steps:\n\n---\n\n### **Step 1: Determine the number of cupcakes**\n\nStephanie is decorating **24 cupcakes**.\n\n---\n\n### **Step 2",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 18,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_343",
+      "donor_target": "72",
+      "recip_target": "49",
+      "unperturbed_output": "To determine how much it costs for Kim's TV to run for a week, we follow these steps:\n\n---\n\n### **Step 1: Calculate the daily energy consumption**\n\nThe TV uses **125 watts** of electricity per hour.\n\n",
+      "corrupted_output": "To determine how much it costs for Kim's TV to run for a week, we follow these steps:\n\n---\n\n### **Step 1: Calculate the daily energy consumption**\n\nKim's TV uses **125 watts** of electricity per hour.",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 19,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_511",
+      "donor_target": "72",
+      "recip_target": "18",
+      "unperturbed_output": "To determine the total mass of vegetables the merchant sold, we follow these steps:\n\n---\n\n### **Step 1: Calculate the mass of each vegetable sold**\n\nThe merchant sold **half** of each type of vegetabl",
+      "corrupted_output": "To determine the total mass of vegetables the merchant sold, we follow these steps:\n\n---\n\n### **Step 1: Calculate the mass of each vegetable sold**\n\nThe merchant sold **half** of each type of vegetabl",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 20,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_1252",
+      "donor_target": "72",
+      "recip_target": "9",
+      "unperturbed_output": "To determine how many bracelets Marnie can make, we need to follow these steps:\n\n---\n\n### **Step 1: Calculate the total number of beads**\n\nMarnie has:\n\n- 5 bags of 50 beads each  \n- 2 bags of 100 bead",
+      "corrupted_output": "To determine how many bracelets Marnie can make, we need to follow these steps:\n\n---\n\n### **Step 1: Calculate the total number of beads**\n\nMarnie has:\n\n- 5 bags of 50 beads each  \n- 2 bags of 100 bead",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 21,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_2640",
+      "donor_target": "72",
+      "recip_target": "9",
+      "unperturbed_output": "We are given a right triangle $ ABC $ with:\n\n- $ \\cos C = \\frac{9\\sqrt{130}}{130} $\n- The triangle is drawn with right angle at $ A $, and the hypotenuse is labeled as $ \\sqrt{130} $\n\nWe are to find t",
+      "corrupted_output": "We are given a right triangle $ ABC $ with:\n\n- $ \\cos C = \\frac{9\\sqrt{130}}{130} $\n- The triangle is drawn with right angle at $ A $, and the hypotenuse is labeled as $ \\sqrt{130} $\n\nWe are to find t",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 22,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_676",
+      "donor_target": "72",
+      "recip_target": "54",
+      "unperturbed_output": "To determine how much John pays in a 30-day month for his pills, we follow these steps:\n\n---\n\n### **Step 1: Determine the daily cost of pills**\n\nJohn takes **2 pills per day**, and each pill costs **$",
+      "corrupted_output": "To determine how much John pays in a 30-day month for his pills, we follow these steps:\n\n---\n\n### **Step 1: Determine the daily cost of pills**\n\nJohn takes **2 pills per day**, and each pill costs **$",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 23,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_818",
+      "donor_target": "72",
+      "recip_target": "2",
+      "unperturbed_output": "Let's break down the problem step by step.\n\n### Step 1: Count the total number of tasks\n- **Clean the house**: 7 tasks  \n- **Take a shower**: 1 task  \n- **Make dinner**: 4 tasks  \n\n**Total tasks = 7 +",
+      "corrupted_output": "Let's break down the problem step by step.\n\n### Step 1: Count the total number of tasks\n- **Clean the house**: 7 tasks  \n- **Take a shower**: 1 task  \n- **Make dinner**: 4 tasks  \n\n**Total tasks = 7 +",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 24,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_538",
+      "donor_target": "72",
+      "recip_target": "3450",
+      "unperturbed_output": "To determine how much the reseller should sell the luxury bag for a 15% profit, we follow these steps:\n\n---\n\n### **Step 1: Understand the Problem**\n\n- **Cost Price (CP):** $3000  \n- **Desired Profit:*",
+      "corrupted_output": "To determine how much the reseller should sell the luxury bag for a 15% profit, we follow these steps:\n\n---\n\n### **Step 1: Understand the Problem**\n\n- **Cost Price (CP):** $3000  \n- **Desired Profit:*",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 25,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_5676",
+      "donor_target": "72",
+      "recip_target": "90",
+      "unperturbed_output": "We are given the fraction:\n\n$$\n\\frac{1}{1111}\n$$\n\nWe are asked to find the **sum of the first 40 digits after the decimal point** when this fraction is expressed as a decimal.\n\n---\n\n### Step 1: Unders",
+      "corrupted_output": "We are given the fraction:\n\n$$\n\\frac{1}{1111}\n$$\n\nWe are to find the **sum of the first 40 digits after the decimal point** when this fraction is expressed as a decimal.\n\n---\n\n### Step 1: Understand t",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 26,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_5576",
+      "donor_target": "72",
+      "recip_target": "2160",
+      "unperturbed_output": "We are given that the **sum of the interior angles** of a **convex polygon with $ n $ sides** is **1800 degrees**.\n\n---\n\n### Step 1: Use the formula for the sum of interior angles\n\nThe formula for the",
+      "corrupted_output": "We are given that the **sum of the interior angles** of a **convex polygon with $ n $ sides** is **1800 degrees**.\n\n---\n\n### Step 1: Use the formula for the sum of interior angles\n\nThe formula for the",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 27,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_907",
+      "donor_target": "72",
+      "recip_target": "1",
+      "unperturbed_output": "We are given:\n\n- Total pallets = 20  \n- Half the pallets are **paper towels** \u2192 $ \\frac{1}{2} \\times 20 = 10 $  \n- A quarter are **tissues** \u2192 $ \\frac{1}{4} \\times 20 = 5 $  \n- A fifth are **paper pla",
+      "corrupted_output": "We are given:\n\n- Total pallets = 20  \n- Half the pallets are **paper towels** \u2192 $ \\frac{1}{2} \\times 20 = 10 $  \n- A quarter are **tissues** \u2192 $ \\frac{1}{4} \\times 20 = 5 $  \n- A fifth are **paper pla",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 28,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_297",
+      "donor_target": "72",
+      "recip_target": "-21",
+      "unperturbed_output": "We are given the expression:\n\n$$\n16^{\\frac{1}{2}} - 625^{\\frac{1}{2}}\n$$\n\n### Step 1: Simplify each term\n\n- $ 16^{\\frac{1}{2}} = \\sqrt{16} = 4 $\n- $ 625^{\\frac{1}{2}} = \\sqrt{625} = 25 $\n\n### Step 2: ",
+      "corrupted_output": "We are given the expression:\n\n$$\n16^{\\frac{1}{2}} - 625^{\\frac{1}{2}}\n$$\n\n### Step 1: Simplify each term\n\n- $ 16^{\\frac{1}{2}} = \\sqrt{16} = 4 $\n- $ 625^{\\frac{1}{2}} = \\sqrt{625} = 25 $\n\n### Step 2: ",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 29,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_1012",
+      "donor_target": "72",
+      "recip_target": "15,620",
+      "unperturbed_output": "To determine Brian\u2019s total commission from the three sales, we follow these steps:\n\n---\n\n### **Step 1: Understand the Commission Rate**\n\nBrian earns a **2% commission** on each sale. This means for ev",
+      "corrupted_output": "To determine Brian\u2019s total commission from the three sales, we follow these steps:\n\n---\n\n### **Step 1: Understand the Commission Rate**\n\nBrian earns a **2% commission** on each sale. This means for ev",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 30,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_155",
+      "donor_target": "72",
+      "recip_target": "160",
+      "unperturbed_output": "Let's break down the problem step by step.\n\n### Given:\n- Total mangoes harvested = **60 kg**\n- Mangoes sold to the market = **20 kg**\n- Remaining mangoes = **60 - 20 = 40 kg**\n- Half of the remaining ",
+      "corrupted_output": "Let's break down the problem step by step.\n\n### Given:\n- Total mangoes harvested = **60 kg**\n- Mangoes sold to the market = **20 kg**\n- Remaining mangoes = **60 - 20 = 40 kg**\n- Half of the remaining ",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 31,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_2701",
+      "donor_target": "72",
+      "recip_target": "65",
+      "unperturbed_output": "We are given:\n\n- An **isosceles triangle** with side lengths **8 cm, 8 cm, and 10 cm**.\n- A **similar triangle** has its **longest side** equal to **25 cm**.\n- We are to find the **perimeter of the la",
+      "corrupted_output": "We are given:\n\n- An **isosceles triangle** with side lengths **8 cm, 8 cm, and 10 cm**.\n- A **similar triangle** has its **longest side** equal to **25 cm**.\n- We are to find the **perimeter of the la",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 32,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_5706",
+      "donor_target": "72",
+      "recip_target": "5",
+      "unperturbed_output": "We are given the inequality:\n\n$$\n-4 \\le 2x + 1 \\le 6\n$$\n\n### Step 1: Subtract 1 from all parts\n$$\n-4 - 1 \\le 2x \\le 6 - 1\n$$\n$$\n-5 \\le 2x \\le 5\n$$\n\n### Step 2: Divide all parts by 2\n$$\n\\frac{-5}{2} \\l",
+      "corrupted_output": "We are given the inequality:\n\n$$\n-4 \\le 2x + 1 \\le 6\n$$\n\n### Step 1: Subtract 1 from all parts\n$$\n-4 - 1 \\le 2x \\le 6 - 1\n$$\n$$\n-5 \\le 2x \\le 5\n$$\n\n### Step 2: Divide by 2\n$$\n\\frac{-5}{2} \\le x \\le \\f",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 33,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_677",
+      "donor_target": "72",
+      "recip_target": "400",
+      "unperturbed_output": "To determine how much Mr. Caiden needs to pay for the remaining metal roofing, we follow these steps:\n\n---\n\n### **Step 1: Determine the total amount of metal roofing needed**\n\nMr. Caiden requires **30",
+      "corrupted_output": "To determine how much Mr. Caiden needs to pay for the remaining metal roofing, we follow these steps:\n\n---\n\n### **Step 1: Determine the total amount of metal roofing needed**\n\nMr. Caiden requires **30",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 34,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_149",
+      "donor_target": "72",
+      "recip_target": "39",
+      "unperturbed_output": "We are given that the **ratio of the areas of two squares** is:\n\n$$\n\\frac{32}{63}\n$$\n\nLet the side lengths of the two squares be $ s_1 $ and $ s_2 $. Then their areas are:\n\n$$\nA_1 = s_1^2, \\quad A_2 =",
+      "corrupted_output": "We are given that the **ratio of the areas of two squares** is:\n\n$$\n\\frac{32}{63}\n$$\n\nLet the side lengths of the two squares be $ s_1 $ and $ s_2 $. Then their areas are:\n\n$$\nA_1 = s_1^2, \\quad A_2 =",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 35,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_773",
+      "donor_target": "72",
+      "recip_target": "121",
+      "unperturbed_output": "To determine how many miles Amoli and Anayet still need to travel, we follow these steps:\n\n---\n\n### **Step 1: Calculate the distance Amoli traveled**\n\nAmoli drove at a speed of **42 miles per hour** f",
+      "corrupted_output": "To determine how many miles Amoli and Anayet still need to travel, we follow these steps:\n\n---\n\n### **Step 1: Calculate the distance Amoli traveled**\n\nAmoli drove at a speed of **42 miles per hour** f",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 36,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_463",
+      "donor_target": "72",
+      "recip_target": "5",
+      "unperturbed_output": "To determine how long it will take Camilla to finish making **12 pizzas**, we need to consider both the **time to make the dough** and the **time to cook the pizzas**.\n\n---\n\n### Step 1: Time to Make t",
+      "corrupted_output": "To determine how long it will take Camilla to finish making **12 pizzas**, we need to consider both the **time to make the dough** and the **time to cook the pizzas**.\n\n---\n\n### Step 1: Time to Make t",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 37,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_671",
+      "donor_target": "72",
+      "recip_target": "96",
+      "unperturbed_output": "We are given:\n\n- Total number of mangoes on the tree: **400**\n- **3/5** of the mangoes are ripe.\n- Lindsay eats **60%** of the ripe mangoes.\n\n---\n\n### Step 1: Find the number of ripe mangoes\n\n$$\n\\text",
+      "corrupted_output": "We are given:\n\n- Total number of mangoes on the tree: **400**\n- **3/5** of the mangoes are ripe.\n- Lindsay eats **60%** of the ripe mangoes.\n\n---\n\n### Step 1: Find the number of ripe mangoes\n\n$$\n\\text",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 38,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_5847",
+      "donor_target": "72",
+      "recip_target": "1",
+      "unperturbed_output": "We are given:\n\n$$\nx = 2, \\quad y = 1\n$$\n\nWe need to evaluate the expression:\n\n$$\n2 \\times x - 3 \\times y\n$$\n\nSubstitute the values of $ x $ and $ y $:\n\n$$\n2 \\times 2 - 3 \\times 1\n$$\n\nNow compute each ",
+      "corrupted_output": "We are given:\n\n$$\nx = 2, \\quad y = 1\n$$\n\nWe need to evaluate the expression:\n\n$$\n2 \\times x - 3 \\times y\n$$\n\nSubstitute the values of $ x $ and $ y $:\n\n$$\n2 \\times 2 - 3 \\times 1\n$$\n\nNow compute each ",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 39,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_1802",
+      "donor_target": "72",
+      "recip_target": "-110",
+      "unperturbed_output": "We are given:\n\n$$\nx + \\frac{1}{x} = -5\n$$\n\nWe are asked to find:\n\n$$\nx^3 + \\frac{1}{x^3}\n$$\n\n---\n\n### Step 1: Use the identity for cubes\n\nRecall the identity:\n\n$$\nx^3 + \\frac{1}{x^3} = \\left(x + \\frac",
+      "corrupted_output": "We are given:\n\n$$\nx + \\frac{1}{x} = -5\n$$\n\nWe are asked to find:\n\n$$\nx^3 + \\frac{1}{x^3}\n$$\n\n---\n\n### Step 1: Use the identity for cubes\n\nRecall the identity:\n\n$$\nx^3 + \\frac{1}{x^3} = \\left(x + \\frac",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 40,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_330",
+      "donor_target": "72",
+      "recip_target": "209",
+      "unperturbed_output": "To determine how many people will actually attend Laura's wedding, we start by analyzing the given information:\n\n- **Expected number of attendees**: 220  \n- **Percentage of people who typically don't ",
+      "corrupted_output": "To determine how many people will actually attend Laura's wedding, we start by analyzing the information provided:\n\n- **Expected number of attendees**: 220 people  \n- **Percentage of people who typica",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 41,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_514",
+      "donor_target": "72",
+      "recip_target": "45",
+      "unperturbed_output": "Let's break down the problem step by step:\n\n1. **Initial number of stickers**:  \n   Clara starts with **100 stickers**.\n\n2. **She gives 10 stickers to a boy she likes**:  \n   $$\n   100 - 10 = 90 \\text",
+      "corrupted_output": "Let's break down the problem step by step:\n\n1. **Initial number of stickers**: 100  \n2. **Stickers given to a boy**: 10  \n   - Remaining stickers: $ 100 - 10 = 90 $  \n3. **Half of the remaining sticke",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 42,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_634",
+      "donor_target": "72",
+      "recip_target": "34",
+      "unperturbed_output": "To determine the **total number of stripes** on all of Vaishali's hats, we will analyze each group of hats separately and then sum the results.\n\n---\n\n### Step 1: Hats with 3 stripes each\n\n- Number of ",
+      "corrupted_output": "To determine the **total number of stripes** on all of Vaishali's hats, we will analyze each group of hats separately and then sum the results.\n\n---\n\n### Step 1: Hats with 3 stripes each\n\n- Number of ",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 43,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_406",
+      "donor_target": "72",
+      "recip_target": "4",
+      "unperturbed_output": "Let's break down the problem step by step.\n\n---\n\n### **Step 1: Convert all times to minutes for easier calculation**\n\n- **First movie:**  \n  1 hour = 60 minutes  \n  So, 1 hour and 30 minutes = 60 + 30",
+      "corrupted_output": "Let's break down the problem step by step.\n\n---\n\n### **Step 1: Convert all times to minutes for easier calculation**\n\n- **First movie:**  \n  1 hour = 60 minutes  \n  So, 1 hour and 30 minutes = 60 + 30",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 44,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_846",
+      "donor_target": "72",
+      "recip_target": "12",
+      "unperturbed_output": "To determine how much money Kurt saves in a 30-day month by switching to a new energy-efficient refrigerator, we need to compare the monthly electricity costs of the old and new refrigerators.\n\n---\n\n#",
+      "corrupted_output": "To determine how much money Kurt saves in a 30-day month by switching to a new energy-efficient refrigerator, we need to compare the monthly electricity costs of the old and new refrigerators.\n\n---\n\n#",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 45,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_238",
+      "donor_target": "72",
+      "recip_target": "7",
+      "unperturbed_output": "To determine how many cookies Jack needs to sell to reach his goal of $50, we follow these steps:\n\n---\n\n### **Step 1: Calculate earnings from brownies**\n\nJack sold 4 brownies at $3 each:\n\n$$\n4 \\times ",
+      "corrupted_output": "To determine how many cookies Jack needs to sell to reach his goal of $50, we follow these steps:\n\n---\n\n### **Step 1: Calculate earnings from brownies**\n\nJack sold 4 brownies at $3 each:\n\n$$\n4 \\times ",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 46,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_1399",
+      "donor_target": "72",
+      "recip_target": "26",
+      "unperturbed_output": "We are given a problem involving Austin, a surfer, and his wave heights. Let's break it down step by step.\n\n---\n\n### **Step 1: Define Variables**\n\nLet:\n- $ h $ = Austin's height (in feet)\n- $ w_h $ = ",
+      "corrupted_output": "We are given a problem involving Austin, a surfer, and his wave heights. Let's break it down step by step.\n\n---\n\n### **Step 1: Define Variables**\n\nLet:\n- $ h $ = Austin's height (in feet)\n- $ w_h $ = ",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 47,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_6870",
+      "donor_target": "72",
+      "recip_target": "45^\\circ",
+      "unperturbed_output": "We are given two vectors:\n\n$$\n\\vec{u} = \\begin{pmatrix} 2 \\\\ 5 \\end{pmatrix}, \\quad \\vec{v} = \\begin{pmatrix} -3 \\\\ 7 \\end{pmatrix}\n$$\n\nWe are asked to find the **angle** between them, in degrees.\n\n--",
+      "corrupted_output": "We are given two vectors:\n\n$$\n\\vec{u} = \\begin{pmatrix} 2 \\\\ 5 \\end{pmatrix}, \\quad \\vec{v} = \\begin{pmatrix} -3 \\\\ 7 \\end{pmatrix}\n$$\n\nWe are asked to find the **angle** between them, in degrees.\n\n--",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 48,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_1323",
+      "donor_target": "72",
+      "recip_target": "12",
+      "unperturbed_output": "To determine the side length of the square that Tony can make from his quilt, we follow these steps:\n\n---\n\n### **Step 1: Calculate the Area of the Quilt**\n\nTony's quilt is a rectangle with dimensions:",
+      "corrupted_output": "To determine the side length of a square that can be made from a quilt measuring **6 feet by 24 feet**, we follow these steps:\n\n---\n\n### **Step 1: Calculate the Area of the Quilt**\n\nThe area of a rect",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 49,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_92",
+      "donor_target": "72",
+      "recip_target": "1825",
+      "unperturbed_output": "To determine how much Sally and Bob will have saved for their trip after a year, we follow these steps:\n\n---\n\n### **Step 1: Determine Daily Savings**\n\n- **Sally earns $6 per day** and saves half of th",
+      "corrupted_output": "To determine how much Sally and Bob will have saved for their trip after a year, we follow these steps:\n\n---\n\n### **Step 1: Determine Daily Savings**\n\n- **Sally earns $6 per day** and saves half of th",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 50,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_1356",
+      "donor_target": "72",
+      "recip_target": "32",
+      "unperturbed_output": "To determine how many walls Johan painted **purple**, we follow these steps:\n\n---\n\n### **Step 1: Determine the number of rooms painted green**\n\nJohan has a **ten-bedroom house**, and he paints **3/5**",
+      "corrupted_output": "To determine how many walls Johan painted **purple**, we follow these steps:\n\n---\n\n### **Step 1: Determine the number of rooms painted green**\n\nJohan has a **ten-bedroom house**, and he paints **3/5**",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 51,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_922",
+      "donor_target": "72",
+      "recip_target": "426000",
+      "unperturbed_output": "To determine the total amount of money Cadence has earned in both companies, we need to calculate her earnings in each company separately and then sum them.\n\n---\n\n### **Step 1: Determine the time she ",
+      "corrupted_output": "To determine the total amount of money Cadence has earned in both companies, we need to calculate her earnings in each company separately and then sum them.\n\n---\n\n### **Step 1: Determine the time she ",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 52,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_156",
+      "donor_target": "72",
+      "recip_target": "10",
+      "unperturbed_output": "We are given the following exchange rates:\n\n- **5 lunks = 3 kunks**\n- **2 kunks = 4 apples**\n\nWe are asked to find how many **lunks** are needed to purchase **one dozen apples** (which is 12 apples).\n",
+      "corrupted_output": "We are given the following exchange rates:\n\n- **5 lunks = 3 kunks**\n- **2 kunks = 4 apples**\n\nWe are asked to find how many **lunks** are needed to purchase **one dozen apples** (which is 12 apples).\n",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 53,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_507",
+      "donor_target": "72",
+      "recip_target": "150",
+      "unperturbed_output": "To determine how much James paid for the steaks, we need to analyze the pricing structure and apply it to the quantity he purchased.\n\n---\n\n### **Step 1: Understand the Pricing Structure**\n\nJames is bu",
+      "corrupted_output": "To determine how much James paid for the steaks, we need to analyze the **buy one get one free** promotion and apply it to the total weight of the steaks he purchased.\n\n---\n\n### Step 1: Understand the",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 54,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_549",
+      "donor_target": "72",
+      "recip_target": "300",
+      "unperturbed_output": "To determine the total number of legs of furniture Kenzo has remaining in his company, we will follow these steps:\n\n---\n\n### **Step 1: Calculate the number of legs from the chairs**\n\n- Kenzo has **80 ",
+      "corrupted_output": "To determine the total number of legs of furniture Kenzo has remaining in his company, we will follow these steps:\n\n---\n\n### **Step 1: Calculate the total number of legs from chairs**\n\n- Kenzo has **8",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 55,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_1269",
+      "donor_target": "72",
+      "recip_target": "4400",
+      "unperturbed_output": "To determine the **total revenue** for the Kwik-e-Tax Center on a given day, we need to calculate the revenue from each type of return and then sum them up.\n\n---\n\n### Step 1: Revenue from Federal Retu",
+      "corrupted_output": "To determine the **total revenue** for the Kwik-e-Tax Center on a given day, we need to calculate the revenue from each type of return and then sum them up.\n\n---\n\n### Step 1: Revenue from Federal Retu",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 56,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_21",
+      "donor_target": "72",
+      "recip_target": "2",
+      "unperturbed_output": "We are given the product:\n\n$$\n(ax^3 + 3x^2 - 2x)(bx^2 - 7x - 4)\n$$\n\nWe are asked to find the **coefficient of the $x^2$ term** in the expansion.\n\n---\n\n### Step 1: Multiply the two polynomials\n\nWe will",
+      "corrupted_output": "We are given the product:\n\n$$\n(ax^3 + 3x^2 - 2x)(bx^2 - 7x - 4)\n$$\n\nWe are asked to find the **coefficient of the $x^2$ term** in the expansion.\n\n---\n\n### Step 1: Multiply the two polynomials\n\nLet\u2019s d",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 57,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_418",
+      "donor_target": "72",
+      "recip_target": "20",
+      "unperturbed_output": "Let's break down the problem step by step.\n\n### Given:\n- Ken has **50 pencils**.\n- He gives **10 pencils to Manny**.\n- He gives **10 more pencils to Nilo than he gave to Manny**.\n- He keeps the **rest",
+      "corrupted_output": "Let's break down the problem step by step.\n\n### Given:\n- Ken has **50 pencils**.\n- He gives **10 pencils to Manny**.\n- He gives **10 more pencils to Nilo than he gave to Manny**.\n- He keeps the **rest",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 58,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_5707",
+      "donor_target": "72",
+      "recip_target": "1",
+      "unperturbed_output": "We are given the expression:\n\n$$\n3 \\times (7 - 5) - 5\n$$\n\n### Step 1: Simplify inside the parentheses\n$$\n7 - 5 = 2\n$$\n\n### Step 2: Multiply\n$$\n3 \\times 2 = 6\n$$\n\n### Step 3: Subtract 5\n$$\n6 - 5 = 1\n$$",
+      "corrupted_output": "We are given the expression:\n\n$$\n3 \\times (7 - 5) - 5\n$$\n\n### Step 1: Simplify inside the parentheses\n$$\n7 - 5 = 2\n$$\n\n### Step 2: Multiply\n$$\n3 \\times 2 = 6\n$$\n\n### Step 3: Subtract 5\n$$\n6 - 5 = 1\n$$",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 59,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_451",
+      "donor_target": "72",
+      "recip_target": "12",
+      "unperturbed_output": "Let's break down the problem step by step:\n\n1. **Total bulbs**: 40  \n2. **Used**: 16  \n3. **Left after using**:  \n   $$\n   40 - 16 = 24\n   $$\n\n4. **Gives half of what is left to a friend**:  \n   $$\n  ",
+      "corrupted_output": "Let's break down the problem step by step:\n\n1. **Initial number of bulbs**: 40  \n2. **Bulbs used**: 16  \n3. **Bulbs left after using**:  \n   $$\n   40 - 16 = 24\n   $$\n\n4. **Bulbs given to a friend**: H",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 60,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_278",
+      "donor_target": "72",
+      "recip_target": "333200",
+      "unperturbed_output": "To determine the total price of the property, we need to calculate the cost of both the house and the barn separately and then add them together.\n\n---\n\n### Step 1: Calculate the cost of the house\n\nThe",
+      "corrupted_output": "To determine the total price of the property, we need to calculate the cost of both the house and the barn separately and then add them together.\n\n---\n\n### Step 1: Calculate the cost of the house\n\n- *",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 61,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_1485",
+      "donor_target": "72",
+      "recip_target": "5",
+      "unperturbed_output": "We are given:\n\n- Total number of balls = 50  \n- Red balls = 20  \n- Blue balls = 10  \n- The rest are either **pink** or **orange**  \n- There are **3 times as many pink as orange** balls.\n\n---\n\n### Step",
+      "corrupted_output": "We are given:\n\n- Total number of balls = 50  \n- Red balls = 20  \n- Blue balls = 10  \n- The rest are either **pink** or **orange**  \n- There are **3 times as many pink as orange** balls.\n\n---\n\n### Step",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 62,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_863",
+      "donor_target": "72",
+      "recip_target": "6",
+      "unperturbed_output": "We are given:\n\n- Total number of students = 25  \n- Number of students who like **French fries** = 15  \n- Number of students who like **burgers** = 10  \n- Number of students who like **both** French fr",
+      "corrupted_output": "We are given:\n\n- Total number of students = 25  \n- Number of students who like **French fries** = 15  \n- Number of students who like **burgers** = 10  \n- Number of students who like **both** French fr",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 63,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_1476",
+      "donor_target": "72",
+      "recip_target": "19",
+      "unperturbed_output": "We are given:\n\n- The **bridge can hold up to 100 kg**.\n- **Kelly** weighs **34 kg**.\n- **Kelly's weight is 15% less than Megan's**.\n- **Mike weighs 5 kg more than Megan**.\n\n---\n\n### Step 1: Find Megan",
+      "corrupted_output": "We are given:\n\n- The **bridge can hold up to 100 kg**.\n- **Kelly** weighs **34 kg**.\n- **Kelly's weight is 15% less than Megan's**.\n- **Mike weighs 5 kg more than Megan**.\n\n---\n\n### Step 1: Find Megan",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 64,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_5768",
+      "donor_target": "72",
+      "recip_target": "290",
+      "unperturbed_output": "We are given:\n\n- Total number of adults = 2000\n- Half of the adults are women \u2192 So, number of women = $ \\frac{2000}{2} = 1000 $\n- The other half are men \u2192 Number of men = 1000\n\n---\n\n### Step 1: Calcul",
+      "corrupted_output": "We are given:\n\n- Total number of adults = 2000  \n- Half of the adults are women \u2192 So, number of women = $ \\frac{2000}{2} = 1000 $  \n- The other half are men \u2192 Number of men = 1000  \n\nNow, we are told:",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 65,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_481",
+      "donor_target": "72",
+      "recip_target": "66",
+      "unperturbed_output": "To determine the total cost of the tickets for Julia's family, we need to calculate the cost for each group and then sum them up.\n\n---\n\n### Step 1: Identify the number of adults and children\n\n- **Adul",
+      "corrupted_output": "To determine the total cost of the tickets for Julia's family, we need to calculate the cost for each group and then sum them up.\n\n---\n\n### Step 1: Identify the number of adults and children\n\n- **Adul",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 66,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_6",
+      "donor_target": "72",
+      "recip_target": "48",
+      "unperturbed_output": "To determine how many pieces of pizza Albert eats in one day, we need to calculate the total number of slices from both the large and small pizzas.\n\n---\n\n### Step 1: Calculate the number of slices fro",
+      "corrupted_output": "To determine how many pieces of pizza Albert eats in one day, we need to calculate the total number of slices from both the large and small pizzas.\n\n---\n\n### Step 1: Calculate the number of slices fro",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 67,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_208",
+      "donor_target": "72",
+      "recip_target": "200",
+      "unperturbed_output": "To determine how much money is left in John's piggy bank, we need to follow these steps:\n\n---\n\n### **Step 1: Calculate the total amount saved over 2 years**\n\nJohn saves **$25** every month for **2 yea",
+      "corrupted_output": "To determine how much money is left in John's piggy bank, we need to follow these steps:\n\n---\n\n### **Step 1: Calculate the total amount saved over 2 years**\n\nJohn saves **$25** every month for **2 yea",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 68,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_128",
+      "donor_target": "72",
+      "recip_target": "6",
+      "unperturbed_output": "To determine how many hotel rooms the principal needs to book for a class of 30 students, we need to analyze the room capacity and how many students can fit in each room.\n\n---\n\n### Step 1: Understand ",
+      "corrupted_output": "To determine how many hotel rooms the principal needs to book for a class of 30 students, we need to analyze the room capacity and how many students can fit in each room.\n\n---\n\n### Step 1: Understand ",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 69,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_4857",
+      "donor_target": "72",
+      "recip_target": "2",
+      "unperturbed_output": "We are given the congruence:\n\n$$\nn \\equiv -3736 \\pmod{6}\n$$\n\nWe are to find the integer $ n $ such that $ 0 \\leq n \\leq 5 $.\n\n---\n\n### Step 1: Simplify the congruence\n\nWe want to find the **remainder*",
+      "corrupted_output": "We are given:\n\n$$\nn \\equiv -3736 \\pmod{6}\n$$\n\nWe need to find the integer $ n $ such that $ 0 \\leq n \\leq 5 $, and $ n \\equiv -3736 \\pmod{6} $.\n\n---\n\n### Step 1: Simplify $ -3736 \\mod 6 $\n\nWe can comp",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 70,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_5174",
+      "donor_target": "72",
+      "recip_target": "1",
+      "unperturbed_output": "We are given that:\n\n$$\nn \\equiv 2 \\pmod{3}\n$$\n\nThis means that when $ n $ is divided by 3, the remainder is 2.\n\nWe are asked to find the remainder when $ 5n $ is divided by 3.\n\n---\n\n### Step 1: Use mo",
+      "corrupted_output": "We are given that:\n\n$$\nn \\equiv 2 \\pmod{3}\n$$\n\nThis means that when $ n $ is divided by 3, the remainder is 2.\n\nWe are asked to find the remainder when $ 5n $ is divided by 3.\n\n---\n\n### Step 1: Use mo",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 71,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_3312",
+      "donor_target": "72",
+      "recip_target": "48",
+      "unperturbed_output": "We are given:\n\n- Points $ B $ and $ C $ trisect segment $ \\overline{AD} $.\n- $ M $ is the **midpoint** of $ \\overline{AD} $.\n- $ MC = 8 $.\n\nWe are to find the length of $ \\overline{AD} $.\n\n---\n\n### St",
+      "corrupted_output": "We are given:\n\n- $ B $ and $ C $ trisect $ \\overline{AD} $, meaning they divide $ \\overline{AD} $ into three equal parts.\n- $ M $ is the **midpoint** of $ \\overline{AD} $.\n- $ MC = 8 $\n\nWe are to find",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 72,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_5684",
+      "donor_target": "72",
+      "recip_target": "4",
+      "unperturbed_output": "We are given that the number **74** can be factored as:\n\n$$\n74 = 2 \\times 37\n$$\n\nThis means that **74 has two distinct prime factors**: 2 and 37.\n\n---\n\n### Now, let's find the number of **distinct pri",
+      "corrupted_output": "We are given that the number **74** can be factored as:\n\n$$\n74 = 2 \\times 37\n$$\n\nThis means that **74 has two distinct prime factors**: 2 and 37.\n\n---\n\n### Now, let's find the number of **distinct pri",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 73,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_300",
+      "donor_target": "72",
+      "recip_target": "12",
+      "unperturbed_output": "Let's break down the problem step by step.\n\n---\n\n### **1. Cost of printing the essay**\n\n- **Number of pages**: 25  \n- **Cost per page**: $0.10  \n- **Total cost for printing**:  \n  $$\n  25 \\times 0.10 ",
+      "corrupted_output": "Let's break down the problem step by step.\n\n---\n\n### **1. Cost of printing the essay**\n\n- **Number of pages**: 25  \n- **Cost per page**: $0.10  \n- **Total cost for printing**:  \n  $$\n  25 \\times 0.10 ",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 74,
+      "donor_id": "gsm8k_train_517",
+      "recip_id": "gsm8k_train_1217",
+      "donor_target": "12",
+      "recip_target": "72",
+      "unperturbed_output": "We are given the following information:\n\n- **Justin has 14 dogs.**\n- **Rico has 10 more dogs than Justin**, so:\n  $$\n  \\text{Rico's dogs} = 14 + 10 = 24\n  $$\n- **Camden has $ \\frac{3}{4} $ times as ma",
+      "corrupted_output": "We are given:\n\n- **Justin has 14 dogs.**\n- **Rico has 10 more dogs than Justin**, so:\n  $$\n  \\text{Rico's dogs} = 14 + 10 = 24\n  $$\n- **Camden has $ \\frac{3}{4} $ times as many dogs as Rico**, so:\n  $",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 75,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_1875",
+      "donor_target": "72",
+      "recip_target": "53130",
+      "unperturbed_output": "We are given:\n\n- $\\binom{23}{3} = 1771$\n- $\\binom{23}{4} = 8855$\n- $\\binom{23}{5} = 33649$\n\nWe are asked to find $\\binom{25}{5}$.\n\n---\n\n### Step 1: Use the identity for binomial coefficients\n\nWe can u",
+      "corrupted_output": "We are given:\n\n- $\\binom{23}{3} = 1771$\n- $\\binom{23}{4} = 8855$\n- $\\binom{23}{5} = 33649$\n\nWe are asked to find $\\binom{25}{5}$.\n\n---\n\n### Step 1: Use the identity for binomial coefficients\n\nWe can u",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 76,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_81",
+      "donor_target": "72",
+      "recip_target": "14",
+      "unperturbed_output": "We are given that **Sam skipped 16 times in each round**, and we need to find the **average number of skips per round completed by Jeff**.\n\n---\n\n### Step 1: Understand the problem\n\nWe are told:\n\n- **S",
+      "corrupted_output": "We are given that **Sam skipped 16 times in each round**, and we need to find the **average number of skips per round completed by Jeff**.\n\n---\n\n### Step 1: Understand the relationships between Sam an",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 77,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_193",
+      "donor_target": "72",
+      "recip_target": "160",
+      "unperturbed_output": "We are given:\n\n- The sunflowers from **Packet A** are **20% taller** than those from **Packet B**.\n- The height of the sunflowers from **Packet A** is **192 inches**.\n\n---\n\n### Step 1: Understand the ",
+      "corrupted_output": "We are given:\n\n- The sunflowers from **Packet A** are **20% taller** than those from **Packet B**.\n- The height of the sunflowers from **Packet A** is **192 inches**.\n\n---\n\n### Step 1: Understand the ",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 78,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_189",
+      "donor_target": "72",
+      "recip_target": "48",
+      "unperturbed_output": "We are given the following relationships:\n\n- **Thor is 13 times older than Captain America.**\n- **Captain America is 7 times older than Peter Parker.**\n- **Ironman is 32 years older than Peter Parker.",
+      "corrupted_output": "We are given the following relationships:\n\n- **Thor is 13 times older than Captain America.**\n- **Captain America is 7 times older than Peter Parker.**\n- **Ironman is 32 years older than Peter Parker.",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 79,
+      "donor_id": "gsm8k_train_517",
+      "recip_id": "gsm8k_train_0",
+      "donor_target": "12",
+      "recip_target": "72",
+      "unperturbed_output": "To determine how many clips Natalia sold altogether in April and May, we follow these steps:\n\n---\n\n### **Step 1: Clips sold in April**\n\nNatalia sold **48 clips** in April.\n\n---\n\n### **Step 2: Clips so",
+      "corrupted_output": "To determine how many clips Natalia sold altogether in April and May, we follow these steps:\n\n---\n\n### **Step 1: Clips sold in April**\n\nNatalia sold **48 clips** in April.\n\n---\n\n### **Step 2: Clips so",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 80,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_1040",
+      "donor_target": "72",
+      "recip_target": "33",
+      "unperturbed_output": "We are given:\n\n- **Goats**: 66  \n- **Chickens**: Twice as many as goats \u2192 $ 2 \\times 66 = 132 $  \n- **Ducks**: Half of the total of goats and chickens \u2192  \n  $$\n  \\text{Total of goats and chickens} = 6",
+      "corrupted_output": "We are given:\n\n- **Goats**: 66  \n- **Chickens**: Twice as many as goats \u2192 $ 2 \\times 66 = 132 $  \n- **Ducks**: Half of the total of goats and chickens \u2192  \n  $$\n  \\text{Total of goats and chickens} = 6",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 81,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_5205",
+      "donor_target": "72",
+      "recip_target": "0",
+      "unperturbed_output": "We are given:\n\n- Total number of hot dogs: **25,197,624**\n- Each set contains **4** hot dogs\n\nWe want to find how many hot dogs will be **left over** after dividing them into sets of 4.\n\n---\n\n### Step",
+      "corrupted_output": "We are given:\n\n- Total number of hot dogs: **25,197,624**\n- Each set contains **4** hot dogs\n\nWe want to find how many hot dogs will be **left over** after dividing them into sets of 4.\n\n---\n\n### Step",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 82,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_505",
+      "donor_target": "72",
+      "recip_target": "9",
+      "unperturbed_output": "We are given:\n\n- **90% of the sheep** were rounded up.\n- **10% of the sheep** wandered off into the hills.\n- There are **81 sheep in the pen**.\n\n---\n\n### Step 1: Find the total number of sheep\n\nLet th",
+      "corrupted_output": "We are given:\n\n- **90% of the sheep** were rounded up.\n- **10% of the sheep** wandered off into the hills.\n- There are **81 sheep in the pen**.\n\n---\n\n### Step 1: Find the total number of sheep\n\nLet $ ",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 83,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_556",
+      "donor_target": "72",
+      "recip_target": "134400",
+      "unperturbed_output": "We are given:\n\n- **Starting salary**: $80,000  \n- **Previous salary** was **40% higher** than the starting salary.  \n- **Current salary** is **20% higher** than the previous salary.\n\n---\n\n### Step 1: ",
+      "corrupted_output": "We are given:\n\n- **Starting salary**: $80,000  \n- **Previous salary** was **40% higher** than the starting salary.  \n- **Current salary** is **20% higher** than the previous salary.\n\n---\n\n### Step 1: ",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 84,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_795",
+      "donor_target": "72",
+      "recip_target": "8",
+      "unperturbed_output": "Let's break down the problem step by step.\n\n### **Monday:**\n- **Lunch:** 3 sandwiches  \n- **Dinner:** Twice as many as lunch \u2192 $ 2 \\times 3 = 6 $ sandwiches  \n- **Total on Monday:**  \n  $$\n  3 + 6 = 9",
+      "corrupted_output": "Let's break down the problem step by step.\n\n### Step 1: Calculate how many sandwiches Samson ate on **Monday**\n\n- **Lunch**: 3 sandwiches  \n- **Dinner**: Twice as many as lunch \u2192 $ 2 \\times 3 = 6 $ sa",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 85,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_1471",
+      "donor_target": "72",
+      "recip_target": "3",
+      "unperturbed_output": "We are given:\n\n- The total amount in the fund is **$120**.\n- The fund contains **only $10 and $20 bills**.\n- The **number of $10 bills is twice the number of $20 bills**.\n\nLet\u2019s define:\n\n- Let $ x $ b",
+      "corrupted_output": "We are given:\n\n- The total amount in the fund is **$120**.\n- The fund contains **only $10 and $20 bills**.\n- The **number of $10 bills is twice the number of $20 bills**.\n\nLet\u2019s define:\n\n- Let $ x $ b",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 86,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_332",
+      "donor_target": "72",
+      "recip_target": "49200",
+      "unperturbed_output": "To determine how much Dorothy will have left after paying 18% of her $60,000 annual income in taxes, we follow these steps:\n\n---\n\n### **Step 1: Calculate the Tax Amount**\n\nDorothy earns $60,000 per ye",
+      "corrupted_output": "To determine how much money Dorothy will have left after paying 18% in taxes, we follow these steps:\n\n---\n\n### **Step 1: Calculate the amount of taxes**\n\nDorothy earns **$60,000** per year. She needs ",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 87,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_1119",
+      "donor_target": "72",
+      "recip_target": "155",
+      "unperturbed_output": "Let's break down the problem step by step.\n\n### Given:\n- **Day 1**: 5 minutes\n- **Each subsequent day**, she spends **twice as much time** as the previous day.\n- **After the 5th day**, her parents tak",
+      "corrupted_output": "Let's break down the problem step by step.\n\n### Given:\n- **Day 1**: 5 minutes\n- **Each subsequent day**, she spends **twice as much time** as the previous day.\n- **After the 5th day**, her parents tak",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 88,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_534",
+      "donor_target": "72",
+      "recip_target": "24",
+      "unperturbed_output": "We are given:\n\n- **Jessica is six years older than Claire.**\n- **In two years, Claire will be 20 years old.**\n\n---\n\n### Step 1: Find Claire's current age\n\nIf Claire will be 20 in 2 years, then her **c",
+      "corrupted_output": "We are given:\n\n- **Jessica is six years older than Claire.**\n- **In two years, Claire will be 20 years old.**\n\n---\n\n### Step 1: Find Claire's current age\n\nIf Claire will be 20 in 2 years, then her **c",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 89,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_983",
+      "donor_target": "72",
+      "recip_target": "3",
+      "unperturbed_output": "Let's break down the problem step by step.\n\n---\n\n### **Step 1: Determine Carter's height**\n\nWe are told:\n\n> Carter is **twice as tall** as his **24-inch** tall dog.\n\nSo:\n\n$$\n\\text{Carter's height} = 2",
+      "corrupted_output": "Let's break down the problem step by step.\n\n---\n\n### Step 1: Determine Carter's height\n\nWe are told:\n\n> Carter is **twice as tall** as his **24-inch** tall dog.\n\nSo:\n\n$$\n\\text{Carter's height} = 2 \\ti",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 90,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_2118",
+      "donor_target": "72",
+      "recip_target": "70",
+      "unperturbed_output": "We are asked to compute:\n\n$$\n\\binom{8}{4}\n$$\n\nThis is the binomial coefficient, which is defined as:\n\n$$\n\\binom{n}{k} = \\frac{n!}{k!(n-k)!}\n$$\n\nFor $ n = 8 $ and $ k = 4 $, we have:\n\n$$\n\\binom{8}{4} =",
+      "corrupted_output": "We are asked to compute:\n\n$$\n\\binom{8}{4}\n$$\n\nThis is the binomial coefficient, which is defined as:\n\n$$\n\\binom{n}{k} = \\frac{n!}{k!(n-k)!}\n$$\n\nFor $ n = 8 $ and $ k = 4 $, we have:\n\n$$\n\\binom{8}{4} =",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 91,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_364",
+      "donor_target": "72",
+      "recip_target": "45",
+      "unperturbed_output": "To determine the total number of books that Stu and Albert have, we follow these steps:\n\n---\n\n### **Step 1: Determine the number of books Albert has**\n\nWe are told that Albert has **4 times as many bo",
+      "corrupted_output": "To determine the total number of books that Stu and Albert have, we follow these steps:\n\n---\n\n### **Step 1: Determine the number of books Albert has**\n\nWe are told that Albert has **4 times as many bo",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 92,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_1474",
+      "donor_target": "72",
+      "recip_target": "10",
+      "unperturbed_output": "To find the **average number of hours** Evelyn\u2019s family watches television per week, we need to calculate the **total hours watched over the three weeks** and then divide by the number of weeks.\n\n---\n",
+      "corrupted_output": "To find the **average number of hours** Evelyn\u2019s family watches television per week, we need to calculate the **total hours watched over the three weeks** and then divide by the number of weeks.\n\n---\n",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 93,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_1114",
+      "donor_target": "72",
+      "recip_target": "10",
+      "unperturbed_output": "Let's break down the problem step by step.\n\n### Step 1: Total donuts Jeff makes\nJeff makes **10 donuts each day** for **12 days**.\n\n$$\n10 \\text{ donuts/day} \\times 12 \\text{ days} = 120 \\text{ donuts}",
+      "corrupted_output": "Let's break down the problem step by step.\n\n### Step 1: Total donuts Jeff makes\nJeff makes **10 donuts each day** for **12 days**.\n\n$$\n10 \\text{ donuts/day} \\times 12 \\text{ days} = 120 \\text{ donuts}",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 94,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "math_train_153",
+      "donor_target": "72",
+      "recip_target": "2.4",
+      "unperturbed_output": "We are given:\n\n- **15 men** working **steadily** take **4 days** to dig the foundation.\n- We need to find how many **days** it would take **25 men** to dig the same foundation, assuming they work at t",
+      "corrupted_output": "We are given:\n\n- **15 men** working **steadily** take **4 days** to dig the foundation.\n- We need to find how many **days** it would take **25 men** to dig the same foundation, assuming they work at t",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 95,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_970",
+      "donor_target": "72",
+      "recip_target": "98",
+      "unperturbed_output": "We are given:\n\n- Total mail to deliver: **180 pieces**\n- Johann and **two friends** are delivering the mail.\n- Each friend delivers **41 pieces** of mail.\n\n---\n\n### Step 1: Calculate the total mail de",
+      "corrupted_output": "We are given:\n\n- Total mail to deliver: **180 pieces**\n- Johann and **two friends** are delivering the mail.\n- Each friend delivers **41 pieces** of mail.\n\n---\n\n### Step 1: Calculate the total mail de",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 96,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_779",
+      "donor_target": "72",
+      "recip_target": "45",
+      "unperturbed_output": "We are given the following information:\n\n- **Flowers cost $9**\n- **Clay pot costs $20 more than the flower**\n- **Bag of soil costs $2 less than the flower**\n\n---\n\n### Step 1: Find the cost of the clay",
+      "corrupted_output": "We are given the following information:\n\n- **Flowers cost $9**\n- **Clay pot costs $20 more than the flower**\n- **Bag of soil costs $2 less than the flower**\n\n---\n\n### Step 1: Find the cost of the clay",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 97,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_1430",
+      "donor_target": "72",
+      "recip_target": "50",
+      "unperturbed_output": "We are given:\n\n- 14 girls  \n- 11 boys  \n- Some number of parents  \n- Total people = 14 + 11 + P = 25P (since they split into 3 equally sized playgroups, each with 25 people)\n\nSo:\n\n$$\n14 + 11 + P = 25P",
+      "corrupted_output": "We are given:\n\n- 14 girls  \n- 11 boys  \n- Some number of parents  \n- Total people = 14 + 11 + P = 25P (since they split into 3 equally sized playgroups, each with 25 people)\n\nSo:\n\n$$\n14 + 11 + P = 25P",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 98,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_565",
+      "donor_target": "72",
+      "recip_target": "294",
+      "unperturbed_output": "We are given a road trip with three people: **Tracy**, **Michelle**, and **Katie**. The total distance of the trip is **1000 miles**.\n\n---\n\n### Step 1: Define Variables\n\nLet:\n- $ M $ = miles driven by",
+      "corrupted_output": "We are given a system of equations based on the distances driven by Tracy, Michelle, and Katie:\n\n---\n\n### **Step 1: Define Variables**\n\nLet:\n- $ M $ = miles driven by **Michelle**\n- $ K $ = miles driv",
+      "is_steered": false
+    },
+    {
+      "pair_idx": 99,
+      "donor_id": "gsm8k_train_1385",
+      "recip_id": "gsm8k_train_389",
+      "donor_target": "72",
+      "recip_target": "180",
+      "unperturbed_output": "We are given:\n\n- **First 15 days of November**: 4 inches of rain per day  \n- **Remaining days of November**: Average daily rainfall is **twice** the amount observed during the first 15 days.\n\n---\n\n###",
+      "corrupted_output": "We are given:\n\n- **First 15 days of November**: 4 inches of rain per day  \n- **Remaining days of November**: Average daily rainfall is **twice** the amount observed during the first 15 days.\n\n---\n\n###",
+      "is_steered": false
+    }
+  ]
+}

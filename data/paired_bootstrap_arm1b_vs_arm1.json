@@ -1,0 +1,104 @@
+{
+  "arm_a": {
+    "name": "Arm 1b (Direct SFT)",
+    "file": "data/streaming_arm1b_qwen_qwen3-1.7b.jsonl"
+  },
+  "arm_b": {
+    "name": "Arm 1 (Base Direct)",
+    "file": "data/streaming_arm1_direct_qwen_qwen3-1.7b.jsonl"
+  },
+  "n_bootstrap": 10000,
+  "seed": 42,
+  "overall": {
+    "n_problems": 250,
+    "total_evaluations": 1000,
+    "n_bootstrap": 10000,
+    "acc_a": 71.20000457763672,
+    "ci_a": [
+      66.2,
+      76.1
+    ],
+    "acc_b": 73.9000015258789,
+    "ci_b": [
+      69.3,
+      78.3
+    ],
+    "delta": -2.6999969482421875,
+    "ci_delta": [
+      -5.8999999999999915,
+      0.5999999999999943
+    ],
+    "p_value": 0.1074,
+    "truncation_a": 0.0,
+    "truncation_b": 0.0
+  },
+  "gsm8k": {
+    "n_problems": 150,
+    "total_evaluations": 600,
+    "n_bootstrap": 10000,
+    "acc_a": 71.0,
+    "ci_a": [
+      64.5,
+      77.33333333333333
+    ],
+    "acc_b": 71.0,
+    "ci_b": [
+      64.66666666666666,
+      77.0
+    ],
+    "delta": 0.0,
+    "ci_delta": [
+      -4.333333333333343,
+      4.499999999999986
+    ],
+    "p_value": 1.0,
+    "truncation_a": 0.0,
+    "truncation_b": 0.0
+  },
+  "math500": {
+    "n_problems": 100,
+    "total_evaluations": 400,
+    "n_bootstrap": 10000,
+    "acc_a": 71.5,
+    "ci_a": [
+      63.5,
+      79.0
+    ],
+    "acc_b": 78.25,
+    "ci_b": [
+      71.5,
+      84.5
+    ],
+    "delta": -6.75,
+    "ci_delta": [
+      -11.25,
+      -2.75
+    ],
+    "p_value": 0.001,
+    "truncation_a": 0.0,
+    "truncation_b": 0.0
+  },
+  "math500_hard_l35": {
+    "n_problems": 60,
+    "total_evaluations": 240,
+    "n_bootstrap": 10000,
+    "acc_a": 60.41666793823242,
+    "ci_a": [
+      49.166666666666664,
+      71.25
+    ],
+    "acc_b": 70.0,
+    "ci_b": [
+      60.0,
+      79.16666666666666
+    ],
+    "delta": -9.583332061767578,
+    "ci_delta": [
+      -15.833333333333343,
+      -3.749999999999986
+    ],
+    "p_value": 0.0022,
+    "truncation_a": 0.0,
+    "truncation_b": 0.0
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "count": 32,
+  "problems": [
+    {
+      "id": "gsm8k_612",
+      "benchmark": "GSM8K",
+      "stratum": "Short",
+      "arm1_acc": 0.25,
+      "arm4_acc": 1.0
+    },
+    {
+      "id": "gsm8k_720",
+      "benchmark": "GSM8K",
+      "stratum": "Short",
+      "arm1_acc": 0.0,
+      "arm4_acc": 0.5
+    },
+    {
+      "id": "gsm8k_453",
+      "benchmark": "GSM8K",
+      "stratum": "Medium",
+      "arm1_acc": 0.25,
+      "arm4_acc": 1.0
+    },
+    {
+      "id": "gsm8k_827",
+      "benchmark": "GSM8K",
+      "stratum": "Medium",
+      "arm1_acc": 0.25,
+      "arm4_acc": 0.75
+    },
+    {
+      "id": "gsm8k_531",
+      "benchmark": "GSM8K",
+      "stratum": "Medium",
+      "arm1_acc": 0.25,
+      "arm4_acc": 1.0
+    },
+    {
+      "id": "gsm8k_203",
+      "benchmark": "GSM8K",
+      "stratum": "Medium",
+      "arm1_acc": 0.25,
+      "arm4_acc": 1.0
+    },
+    {
+      "id": "gsm8k_357",
+      "benchmark": "GSM8K",
+      "stratum": "Medium",
+      "arm1_acc": 0.0,
+      "arm4_acc": 0.5
+    },
+    {
+      "id": "gsm8k_687",
+      "benchmark": "GSM8K",
+      "stratum": "Medium",
+      "arm1_acc": 0.25,
+      "arm4_acc": 1.0
+    },
+    {
+      "id": "gsm8k_162",
+      "benchmark": "GSM8K",
+      "stratum": "Medium",
+      "arm1_acc": 0.0,
+      "arm4_acc": 1.0
+    },
+    {
+      "id": "gsm8k_570",
+      "benchmark": "GSM8K",
+      "stratum": "Long",
+      "arm1_acc": 0.0,
+      "arm4_acc": 1.0
+    },
+    {
+      "id": "gsm8k_710",
+      "benchmark": "GSM8K",
+      "stratum": "Long",
+      "arm1_acc": 0.0,
+      "arm4_acc": 1.0
+    },
+    {
+      "id": "gsm8k_1077",
+      "benchmark": "GSM8K",
+      "stratum": "Long",
+      "arm1_acc": 0.25,
+      "arm4_acc": 0.5
+    },
+    {
+      "id": "gsm8k_530",
+      "benchmark": "GSM8K",
+      "stratum": "Long",
+      "arm1_acc": 0.25,
+      "arm4_acc": 0.5
+    },
+    {
+      "id": "gsm8k_584",
+      "benchmark": "GSM8K",
+      "stratum": "Long",
+      "arm1_acc": 0.0,
+      "arm4_acc": 0.5
+    },
+    {
+      "id": "gsm8k_601",
+      "benchmark": "GSM8K",
+      "stratum": "Long",
+      "arm1_acc": 0.25,
+      "arm4_acc": 1.0
+    },
+    {
+      "id": "gsm8k_39",
+      "benchmark": "GSM8K",
+      "stratum": "Long",
+      "arm1_acc": 0.25,
+      "arm4_acc": 1.0
+    },
+    {
+      "id": "gsm8k_779",
+      "benchmark": "GSM8K",
+      "stratum": "Long",
+      "arm1_acc": 0.0,
+      "arm4_acc": 1.0
+    },
+    {
+      "id": "gsm8k_1165",
+      "benchmark": "GSM8K",
+      "stratum": "Long",
+      "arm1_acc": 0.0,
+      "arm4_acc": 0.75
+    },
+    {
+      "id": "math500_309",
+      "benchmark": "MATH-500",
+      "stratum": "Level 3",
+      "arm1_acc": 0.0,
+      "arm4_acc": 1.0
+    },
+    {
+      "id": "math500_39",
+      "benchmark": "MATH-500",
+      "stratum": "Level 3",
+      "arm1_acc": 0.25,
+      "arm4_acc": 1.0
+    },
+    {
+      "id": "math500_64",
+      "benchmark": "MATH-500",
+      "stratum": "Level 4",
+      "arm1_acc": 0.0,
+      "arm4_acc": 0.5
+    },
+    {
+      "id": "math500_292",
+      "benchmark": "MATH-500",
+      "stratum": "Level 4",
+      "arm1_acc": 0.0,
+      "arm4_acc": 0.75
+    },
+    {
+      "id": "math500_248",
+      "benchmark": "MATH-500",
+      "stratum": "Level 4",
+      "arm1_acc": 0.25,
+      "arm4_acc": 1.0
+    },
+    {
+      "id": "math500_213",
+      "benchmark": "MATH-500",
+      "stratum": "Level 4",
+      "arm1_acc": 0.25,
+      "arm4_acc": 1.0
+    },
+    {
+      "id": "math500_217",
+      "benchmark": "MATH-500",
+      "stratum": "Level 4",
+      "arm1_acc": 0.25,
+      "arm4_acc": 0.75
+    },
+    {
+      "id": "math500_62",
+      "benchmark": "MATH-500",
+      "stratum": "Level 5",
+      "arm1_acc": 0.0,
+      "arm4_acc": 1.0
+    },
+    {
+      "id": "math500_94",
+      "benchmark": "MATH-500",
+      "stratum": "Level 5",
+      "arm1_acc": 0.0,
+      "arm4_acc": 0.5
+    },
+    {
+      "id": "math500_152",
+      "benchmark": "MATH-500",
+      "stratum": "Level 5",
+      "arm1_acc": 0.25,
+      "arm4_acc": 1.0
+    },
+    {
+      "id": "math500_381",
+      "benchmark": "MATH-500",
+      "stratum": "Level 5",
+      "arm1_acc": 0.25,
+      "arm4_acc": 0.75
+    },
+    {
+      "id": "math500_394",
+      "benchmark": "MATH-500",
+      "stratum": "Level 5",
+      "arm1_acc": 0.25,
+      "arm4_acc": 1.0
+    },
+    {
+      "id": "math500_382",
+      "benchmark": "MATH-500",
+      "stratum": "Level 5",
+      "arm1_acc": 0.25,
+      "arm4_acc": 0.75
+    },
+    {
+      "id": "math500_432",
+      "benchmark": "MATH-500",
+      "stratum": "Level 5",
+      "arm1_acc": 0.0,
+      "arm4_acc": 1.0
+    }
+  ]
+}

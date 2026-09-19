@@ -1,0 +1,10 @@
+{
+  "checkpoint": "checkpoints/lora_arm3_v1_1_qwen3_1.7b_k6_codi_fallback",
+  "valid_trials": 94,
+  "p_chance": 12.76595744680851,
+  "p_steered": 13.829787234042554,
+  "delta_steer": 1.0638297872340434,
+  "mean_amplification": 6.080119680851064,
+  "null_patch_identity_rate": 0.8085106382978722,
+  "verdict": "FAIL"
+}

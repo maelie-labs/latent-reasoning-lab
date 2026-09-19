@@ -1,0 +1,48 @@
+{
+  "model_id": "Qwen/Qwen3-1.7B",
+  "arm": "arm1b",
+  "k_tokens": 0,
+  "total_queries": 1000,
+  "pass_at_1": 71.2,
+  "gsm8k_pass_at_1": 71.0,
+  "math500_pass_at_1": 71.5,
+  "math500_l3_5_pass_at_1": 60.42,
+  "truncation_rate": 0.0,
+  "truncation_count": 0,
+  "token_distribution": {
+    "min": 149,
+    "median": 372.0,
+    "mean": 453.81,
+    "p90": 780.6,
+    "p95": 995.05,
+    "max": 2286
+  },
+  "prompt_leakage_count": 0,
+  "seeds": [
+    42,
+    123,
+    456,
+    789
+  ],
+  "seed_breakdown": {
+    "42": 70.0,
+    "123": 74.4,
+    "456": 69.6,
+    "789": 70.8
+  },
+  "gsm8k_strata_breakdown": {
+    "Short": 86.0,
+    "Medium": 76.5,
+    "Long": 50.5
+  },
+  "grader": "math_verify 0.9.0 (pure canonical)",
+  "sampling_config": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "presence_penalty": 1.5,
+    "max_new_tokens": 8192
+  },
+  "runtime": "Batched PyTorch (B=16) on cuda:0",
+  "wall_clock_s": 3352.03
+}

@@ -1,0 +1,15 @@
+{
+  "problem_A": {
+    "id": "prob_A",
+    "question": "Janet\u2019s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers market?",
+    "answer": 18.0
+  },
+  "problem_B": {
+    "id": "prob_B",
+    "question": "James decides to run 3 sprints 3 times a week. He runs 60 meters each sprint. How many total meters does he run every week?",
+    "answer": 540.0
+  },
+  "clean_output_A": "</think>\n\nLet's break down Janet's daily earnings from her duck eggs step by step.\n\n1. **Daily Egg Production:**\n   - **Total Eggs:** 16 eggs per day.\n\n2. **Eating for Breakfast:**\n   - **Eggs Eaten:** 3 eggs every morning.\n   - **Remaining Eggs:** \n     \\[\n     16 \\text{ eggs} - 3 \\text{ eggs} = 13 \\text{ eggs}\n     \\]\n\n3. **Baking for Friends:**\n   - **Eggs Baked:** 4 eggs every day.\n   - **Remaining Eggs After Baking:**\n     \\[\n     13 \\text{ eggs} - 4 \\text{ eggs} = 9 \\text{ eggs}\n     \\]\n\n4. **Earnings from Selling:**\n   - **Selling Price per Egg:** $2 per egg.\n   - **Total Earnings:**\n     \\[\n     9 \\text{ eggs} \\times \\$2/\\text{egg} = \\$18\n     \\]\n\n**Final Answer:**\n\\[\n\\boxed{18}\n\\]<\uff5cend\u2581of\u2581sentence\uff5c>",
+  "counterfactual_patched_output_A": "</think>\n\nLet's break down Janet's daily earnings from selling eggs at the farmers market step by step.\n\n1. **Daily Egg Production:**\n   - **Total Eggs:** 16 eggs per day.\n\n2. **Eggs Consumed:**\n   - **Breakfast:** 3 eggs per day.\n   - **Baked Muffins:** 4 eggs per day.\n   - **Total Consumed:** \\( 3 + 4 = 7 \\) eggs.\n\n3. **Remaining Eggs:**\n   - **Remaining Eggs:** \\( 16 - 7 = 9 \\) eggs.\n\n4. **Earnings from Remaining Eggs:**\n   - **Selling Price:** $2 per egg.\n   - **Total Earnings:** \\( 9 \\times 2 = \\$18 \\).\n\n**Final Answer:**\n\\[\n\\boxed{18}\n\\]<\uff5cend\u2581of\u2581sentence\uff5c>",
+  "probe_patched_output_A": "</think>\n\nLet's break down Janet's daily earnings from selling eggs at the farmers market step by step.\n\n1. **Daily Egg Production:**\n   - **Total Egs:** 16 eggs per day.\n\n2. **Eggs Consumed:**\n   - **Breakfast:** 3 eggs per day.\n   - **Baked Muffins:** 4 eggs per day.\n   - **Total Egs Consumed:** \\( 3 + 4 = 7 \\) eggs.\n\n3. **Eggs Left for Sale:**\n   - **Remaining Egs:** \\( 16 - 7 = 9 \\) eggs.\n\n4. **Earnings from\u9500\u552e:**\n   - **Selling Price per Egg:** \\$2.\n   - **Total Earnings:** \\( 9 \\text{ eggs} \\times \\$2/\\text{egg} = \\$18 \\).\n\n**Final Answer:**\n\\[\n\\boxed{18}\n\\]<\uff5cend\u2581of\u2581sentence\uff5c>"
+}

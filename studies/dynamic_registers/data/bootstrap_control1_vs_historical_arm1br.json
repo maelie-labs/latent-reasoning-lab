@@ -1,0 +1,22 @@
+{
+  "comparator": "Historical Arm 1b-R (Cross-Study Reference)",
+  "total_pairs": 1000,
+  "overall": {
+    "observed_delta": 0.5,
+    "ci_95": [
+      -2.0,
+      3.0
+    ],
+    "p_value": 0.732,
+    "n": 1000
+  },
+  "math_hard": {
+    "observed_delta": -2.5,
+    "ci_95": [
+      -7.5,
+      2.5
+    ],
+    "p_value": 0.3806,
+    "n": 240
+  }
+}

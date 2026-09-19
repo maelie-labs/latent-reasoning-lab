@@ -1,0 +1,97 @@
+{
+  "model_id": "Qwen/Qwen3-1.7B",
+  "device": "cuda:0",
+  "timestamp": "2026-09-12T04:59:43Z",
+  "mmlu_samples": 1000,
+  "base_accuracy": 57.2,
+  "base_categories": {
+    "Humanities": {
+      "total": 343,
+      "correct": 172,
+      "accuracy_pct": 50.15
+    },
+    "Other": {
+      "total": 243,
+      "correct": 146,
+      "accuracy_pct": 60.08
+    },
+    "STEM": {
+      "total": 193,
+      "correct": 107,
+      "accuracy_pct": 55.44
+    },
+    "Social Sciences": {
+      "total": 221,
+      "correct": 147,
+      "accuracy_pct": 66.52
+    }
+  },
+  "arm3_retrofit": {
+    "adapter_path": "checkpoints/lora_arm3_qwen_qwen3-1.7b_k6",
+    "accuracy": 58.0,
+    "categories": {
+      "Humanities": {
+        "total": 343,
+        "correct": 173,
+        "accuracy_pct": 50.44
+      },
+      "Other": {
+        "total": 243,
+        "correct": 150,
+        "accuracy_pct": 61.73
+      },
+      "STEM": {
+        "total": 193,
+        "correct": 106,
+        "accuracy_pct": 54.92
+      },
+      "Social Sciences": {
+        "total": 221,
+        "correct": 151,
+        "accuracy_pct": 68.33
+      }
+    },
+    "paired_bootstrap": {
+      "mean_diff_pct": 0.8,
+      "ci_95_low": -1.5,
+      "ci_95_high": 3.0,
+      "p_value_zero": 0.2601,
+      "p_value_non_inferiority": 0.0261
+    },
+    "surgical_neutrality_confirmed": true
+  },
+  "arm1b_control": {
+    "adapter_path": "checkpoints/lora_arm1b_qwen_qwen3-1.7b_k0",
+    "accuracy": 56.9,
+    "categories": {
+      "Humanities": {
+        "total": 343,
+        "correct": 167,
+        "accuracy_pct": 48.69
+      },
+      "Other": {
+        "total": 243,
+        "correct": 148,
+        "accuracy_pct": 60.91
+      },
+      "STEM": {
+        "total": 193,
+        "correct": 104,
+        "accuracy_pct": 53.89
+      },
+      "Social Sciences": {
+        "total": 221,
+        "correct": 150,
+        "accuracy_pct": 67.87
+      }
+    },
+    "paired_bootstrap": {
+      "mean_diff_pct": -0.3,
+      "ci_95_low": -2.5,
+      "ci_95_high": 1.9,
+      "p_value_zero": 0.4122,
+      "p_value_non_inferiority": 0.1604
+    },
+    "surgical_neutrality_confirmed": false
+  }
+}

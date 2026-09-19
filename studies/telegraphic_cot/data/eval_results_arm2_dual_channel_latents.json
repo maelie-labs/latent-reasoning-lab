@@ -1,0 +1,25 @@
+{
+  "tag": "arm2_dual_channel_latents",
+  "elapsed_seconds": 1097.245481967926,
+  "total_queries": 1000,
+  "overall_pass1": 79.4,
+  "gsm8k_pass1": 78.5,
+  "math500_pass1": 80.75,
+  "math_hard_pass1": 73.33333333333333,
+  "truncation_rate": 2.1,
+  "concurrency": 32,
+  "seeds": [
+    42,
+    123,
+    456,
+    789
+  ],
+  "token_telemetry": {
+    "think_tokens_median": 819.5,
+    "think_tokens_p90": 4016.1,
+    "think_tokens_mean": 1369.606,
+    "ans_tokens_median": 390.5,
+    "ans_tokens_p90": 770.1000000000005,
+    "ans_tokens_mean": 474.291
+  }
+}

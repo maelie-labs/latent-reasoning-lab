@@ -1,0 +1,17 @@
+{
+  "tag": "arm1_dynamic_registers",
+  "elapsed_seconds": 452.2094039916992,
+  "total_queries": 1000,
+  "overall_pass1": 70.0,
+  "gsm8k_pass1": 68.33333333333333,
+  "math500_pass1": 72.5,
+  "math_hard_pass1": 65.0,
+  "truncation_rate": 0.2,
+  "concurrency": 32,
+  "seeds": [
+    42,
+    123,
+    456,
+    789
+  ]
+}

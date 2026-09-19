@@ -1,0 +1,19 @@
+{
+  "model_id": "Qwen/Qwen3-4B",
+  "device": "cuda:1",
+  "dtype": "torch.bfloat16",
+  "vram_model_gb": 7.55,
+  "peak_vram_gb": 13.54,
+  "hidden_size": 2560,
+  "num_layers": 36,
+  "num_heads": 32,
+  "num_kv_heads": 8,
+  "gqa_ratio": 4,
+  "vocab_size": 151936,
+  "mean_row_norm": 1.097372,
+  "std_row_norm": 0.17188,
+  "alpha_factor": 0.021689,
+  "baseline_tok_per_sec": 23.87,
+  "test_prompt": "Janet\u2019s ducks lay 16 eggs per day. She eats 3 for breakfast and bakes 4 into muffins. She sells the remainder for $2 each. How much does she make per day?",
+  "test_response": "<think>\nOkay, let's see. Janet has a bunch of ducks that lay eggs every day. The problem says they lay 16 eggs per day. Then she eats 3 for breakfast. Then she bakes 4 into muffins. The rest she sells for $2 each. We need to figure out how much money she makes per day.\n\nFirst, let me break it down step by step. So, starting with the total number of eggs: 16. Then she eats 3. So, I need to subtract those 3 from the total. Then she bakes 4 into muffins, so that's another 4 that she's using. So, those 4 would be subtracted as well. Then the remaining eggs are sold for $2 each. So, the total money she makes would be the number of eggs left after eating and baking multiplied by $2.\n\nLet me write that out. Total eggs: 16. She eats 3, so 16 - 3 = 13. Then she bakes 4, so 13 - 4 = 9. So, she has 9 eggs left. Then she sells each for $2, so 9 * 2 = $"
+}

@@ -1,0 +1,31 @@
+{
+  "comparison": "Arm 1 (Telegraphic CoT) vs Control 1 (Verbose CoT Ceiling)",
+  "total_pairs": 1000,
+  "overall": {
+    "observed_delta": -17.7,
+    "ci_95": [
+      -20.599999999999998,
+      -14.799999999999999
+    ],
+    "p_value": 0.0,
+    "n": 1000
+  },
+  "math_hard_l3_5": {
+    "observed_delta": -25.833333333333336,
+    "ci_95": [
+      -32.083333333333336,
+      -19.583333333333332
+    ],
+    "p_value": 0.0,
+    "n": 240
+  },
+  "gsm8k": {
+    "observed_delta": -17.0,
+    "ci_95": [
+      -21.0,
+      -13.166666666666666
+    ],
+    "p_value": 0.0,
+    "n": 600
+  }
+}

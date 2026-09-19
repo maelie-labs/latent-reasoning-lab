@@ -1,0 +1,1448 @@
+{
+  "timestamp": "2026-09-14 20:15:51",
+  "stats": {
+    "1": {
+      "localized": 22,
+      "premature": 0,
+      "delayed": 7,
+      "no_change": 0,
+      "too_few_nums": 31,
+      "total": 60
+    },
+    "2": {
+      "localized": 3,
+      "premature": 19,
+      "delayed": 7,
+      "no_change": 0,
+      "too_few_nums": 31,
+      "total": 60
+    },
+    "3": {
+      "localized": 5,
+      "premature": 23,
+      "delayed": 0,
+      "no_change": 1,
+      "too_few_nums": 31,
+      "total": 60
+    }
+  },
+  "details": [
+    {
+      "problem_id": "math500_309",
+      "base_text": "\n\n\n\n\n\nThe product of a set of distinct positive integers is 84. What is the least possible sum of these integers?\n\nOkay, so I I need to find the least possible sum of these integers. Let me\n\nOkay, so I I need to find the least possible sum of these integers. Let me\n\nOkay, so I I need to find the least possible sum of these integers. Let me\n\nOkay, so I I need to find the least possible sum of these integers. Let me\n\nOkay, so I I need to find the least possible sum of these integers. Let me\n\nOkay, so I need to find the least possible sum of these integers. Let me think about this. So, the problem is: The product of a set of distinct positive integers is 84. What is the least possible sum of these integers?\n\nAlright, so the problem is asking for the least possible sum of distinct positive integers whose product is 84. Hmm, let's see. So, first, I need to figure out what the question is asking. It says, \"The product of a set of distinct positive integers is 84. What is the least possible sum of these integers?\" So, I need to find the set of distinct positive integers",
+      "base_nums": [
+        84,
+        84,
+        84,
+        84
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "delayed",
+          "first_diff_idx": 4,
+          "corrupt_text_snippet": "Okay, let's start by understanding the problem. So, we have a set of distinct positive integers whos"
+        },
+        "2": {
+          "category": "delayed",
+          "first_diff_idx": 4,
+          "corrupt_text_snippet": "\n\n\n\nOkay, let's see the product of a set of distinct positive integers is 84. What is the least poss"
+        },
+        "3": {
+          "category": "localized",
+          "first_diff_idx": 4,
+          "corrupt_text_snippet": "\n\nOkay, let's see the product of a set of distinct positive integers is 84. What is the least possib"
+        }
+      }
+    },
+    {
+      "problem_id": "math500_205",
+      "base_text": "Okay, let's see the given.\n\nOkay, so I need to find A times the vector [-13, 3, 4]. Given that A times [3, 1, 0] equals [2, 4, -3] and A times [-5, 2, 2] equals [0, -5, -5]. \n\nFirst, I identify the given.\n\nSo, I need to find A times [-13, 3, 4]. \n\nLet me see. \n\nSo, I need to find A times [-13, 3, 4]. \n\nLet me see. \n\nSo, I need to find A times [-13, 3, 4]. \n\nLet me see. \n\nSo, the problem is about finding the matrix A such that when it acts on certain vectors, it gives specific results. Then, using that matrix, compute the result of A times another vector. \n\nFirst, I need to figure out what matrix A is. \n\nGiven that A times vector v1 equals vector w1, and A times vector v2 equals vector w2. \n\nSo, if I can find the matrix A, then I can apply it to the vector [-13, 3, ",
+      "base_nums": [
+        -13,
+        3,
+        4,
+        3,
+        1,
+        0,
+        2,
+        4,
+        -3,
+        -5,
+        2,
+        2,
+        0,
+        -5,
+        -5,
+        -13,
+        3,
+        4,
+        -13,
+        3,
+        4,
+        -13,
+        3,
+        4,
+        1,
+        1,
+        2,
+        2,
+        -13,
+        3
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "localized",
+          "first_diff_idx": 3,
+          "corrupt_text_snippet": "To solve the problem, we are given two matrix equations involving a matrix $\\mathbf{A}$, and we are "
+        },
+        "2": {
+          "category": "premature",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "Okay, let's start by identifying the given information. We have two equations involving matrix A, an"
+        },
+        "3": {
+          "category": "premature",
+          "first_diff_idx": 3,
+          "corrupt_text_snippet": "Okay, so I need to find the matrix A such that when it's applied to these vectors gives the specifie"
+        }
+      }
+    },
+    {
+      "problem_id": "math500_81",
+      "base_text": "\nOkay, let's see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_37",
+      "base_text": "\n\n\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\nOkay, so I\n\n",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_483",
+      "base_text": "\n\n\n\nOkay, let's see the area of triangle ABC is equal to $a^2 - (b - c)^2$, where $a,$b,$c$ are the sides of triangle ABC, as usual. Compute $\\tan A.$\n\nOkay, so let's see the area of triangle ABC is equal to $a^2 - (b - c)^2$, where $a,$b,$c$ are the sides of triangle ABC, as usual. Compute $\\tan A.$\n\nAlright, so let's see the area of triangle ABC is equal to $a^2 - (b - c)^2$, where $a,$b,$c$ are the sides of triangle ABC, as usual. Compute $\\tan A.$\n\nSo, first, let me see the area of triangle ABC is equal to $a^2 - (b - c)^2$. So, the area of triangle ABC is given by this expression. The problem is asking me to compute $\\tan A$, where A is the angle opposite side a. \n\nAlright, so I need to recall that the area of a triangle can be calculated in multiple ways. The standard formula for the area of a triangle is $\\frac{1}{2}ab\\sin C$, where a and",
+      "base_nums": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "localized",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "Okay, so I need to find tan A in triangle ABC where the area is given as a\u00b2 - (b - c)\u00b2. Let me think"
+        },
+        "2": {
+          "category": "delayed",
+          "first_diff_idx": 8,
+          "corrupt_text_snippet": "\n\nOkay, let's see the problem again.\n\nSo, the area of triangle ABC is given as $ a^2 - (b - c)^2 $, "
+        },
+        "3": {
+          "category": "premature",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "Okay, so let me me me me me me me me me me me me me me me me me me me me me me me me me me me me me "
+        }
+      }
+    },
+    {
+      "problem_id": "math500_269",
+      "base_text": "\nOkay, let's see the final deduction and verify constraints.\n\nOkay, let's see the final deduction and verify constraints.\n\nOkay, let's see the final deduction and verify constraints.\n\nAlright, so let's see the final deduction and verify constraints.\n\nSo let's see the final deduction and verify constraints.\n\nSo let's see the final deduction and verify constraints.\n\nSo let's see the final deduction and verify constraints.\n\nSo let's see the final deduction and verify constraints.\n\nSo let's see the final deduction and verify constraints.\n\nSo let's see the final deduction and verify constraints.\n\nSo let's see the final deduction and verify constraints.\n\nSo let's see the final deduction and verify constraints.\n\nSo let's see the final deduction and verify constraints.\n\nSo let's see the final deduction and verify constraints.\n\nSo let's see the final deduction and verify constraints.\n\nSo let's see the final deduction and verify constraints.\n\nSo let's see the final deduction and verify constraints.\n\nSo let's see the final deduction and verify constraints.\n\nSo let's see the final deduction and verify constraints.\n\nSo let's see the final deduction and verify constraints.\n\nSo let's see the final deduction and verify constraints.\n\nSo let's see the final deduction and verify constraints.\n\nSo let's see the final deduction and verify",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_3",
+      "base_text": "Okay, so I need to find the number of positive whole-number divisors of 196. Let me think about how to approach this.\n\nFirst, I remember that to find the number of divisors of a number, we can use its prime factorization. So, if I can factor 196 into its prime factors, then I can use the formula for the number of divisors. The formula is that if a number N has a prime factorization of $ N = p_1^{a_1} \\times p_2^{a_2} \\times \\dots \\times p_k^{a_k} $, then the number of positive divisors is $ (a_1 +_1 + 1)(a_2 + 1) \\times \\dots \\times (a_k + 1) $.\n\nSo, first step: factor 196 into its prime factors.\n\nLet me recall that 196 is 14 squared, which is 2 times 7 squared. Wait, 14 is 2 times 7, so 14 squared is 2 squared times 7 squared. So, 196 = 2\u00b2 \u00d7 7\u00b2.\n\nSo, the prime factors",
+      "base_nums": [
+        196,
+        196,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        196,
+        196,
+        14,
+        2,
+        7,
+        14,
+        2,
+        7,
+        14,
+        2,
+        7,
+        196,
+        2,
+        7
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "localized",
+          "first_diff_idx": 2,
+          "corrupt_text_snippet": "Okay, so I need to find the number of positive whole-number divisors of 196. Hmm, let me think. Firs"
+        },
+        "2": {
+          "category": "premature",
+          "first_diff_idx": 2,
+          "corrupt_text_snippet": "Okay, so I need to find the number of positive whole-number divisors of 196. Let me think about how "
+        },
+        "3": {
+          "category": "premature",
+          "first_diff_idx": 1,
+          "corrupt_text_snippet": "Okay, so the problem is asking how many positive whole-number divisors 196 has. Hmm, let me think. I"
+        }
+      }
+    },
+    {
+      "problem_id": "math500_342",
+      "base_text": "\n\n\n\n\n\n\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_351",
+      "base_text": "Okay, let's see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_393",
+      "base_text": "Okay, let's start by identifying the given information. Jen wants to throw a softball with the same force as Jack throws a baseball. The softball has a mass of 200 grams, and the baseball has a mass of 150 grams. We need to find the ratio of acceleration of Jen's ball to Jack's. \n\nSo, the formula given is F = m * a, where F is force, m is mass, and a is acceleration. Since Jen and Jack are throwing the balls with the same force, we can set F_jen = F_jack. \n\nLet me write down the variables:\n\n- Mass of Jen's softball: m_jen = 200 g\n- Mass of Jack's baseball: m_jack = 150 g\n- Force is the same: F_jen = F_jack\n\nWe need to find the ratio of acceleration: a_jen / a_jack\n\nSo, from the formula, acceleration is F/m. Therefore, a_jen = F_jen / m_jen and a_jack = F_jack / m_jack. Since F_jen = F_jack, the ratio becomes (F_jen / m_jen) / (F_jen / m",
+      "base_nums": [
+        200,
+        150,
+        200,
+        150
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "delayed",
+          "first_diff_idx": 2,
+          "corrupt_text_snippet": "To solve the problem, we are given:\n\n- **Force** is the same for both Jen and Jack:  \n$$ F_{\\text{Je"
+        },
+        "2": {
+          "category": "delayed",
+          "first_diff_idx": 2,
+          "corrupt_text_snippet": "</think>\n\nTo solve the problem, we are given the following:\n\n- **Force** is the same for both Jen an"
+        },
+        "3": {
+          "category": "localized",
+          "first_diff_idx": 2,
+          "corrupt_text_snippet": "Okay, let's see. So, Jen wants to throw a softball with the same force as Jack throws a baseball. Th"
+        }
+      }
+    },
+    {
+      "problem_id": "math500_386",
+      "base_text": "\n\n\n\n\n\n\n\nOkay, let me see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_396",
+      "base_text": "Okay, let's start by identifying the given information. We have a square ABCD with area 16 square inches. So, the side length of the square is 4 inches because area of a square is side squared. So, each side is 4 inches. \n\nThe figure represents the pieces of a Chinese tangram, which all the triangles are isosceles and piece \"e\" is a square. So, piece \"e\" is a square. The gray piece is the one shaded in the Asymptote figure. The Asymptote code draws the figure, and the gray piece is a triangle. Wait, the Asymptote code says fill((2,0)--(4,2)--(4,0)--cycle,gray(.7)); so that's a triangle. So, the gray piece is a triangle. The question is asking for the area of the gray piece.\n\nFirst, let's recall that in a tangram, there are seven pieces, and the total area of all pieces should be equal to the area of the square, which is 16 square inches. So, the total area of all the pieces is 16. But since piece \"e\" is a square, and the gray piece is a",
+      "base_nums": [
+        16,
+        4,
+        4,
+        2,
+        0,
+        4,
+        2,
+        4,
+        0,
+        0.7,
+        16,
+        16
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "localized",
+          "first_diff_idx": 1,
+          "corrupt_text_snippet": "</think>\n\nWe are given a square $ABCD$ with area 16 square inches. This means each side of the squar"
+        },
+        "2": {
+          "category": "premature",
+          "first_diff_idx": 1,
+          "corrupt_text_snippet": "Okay, let's see the problem again. So, we have a square ABCD with area 16 square inches. So, first, "
+        },
+        "3": {
+          "category": "premature",
+          "first_diff_idx": 1,
+          "corrupt_text_snippet": "Okay, let's see. So, we have a square ABCD with area 16 square inches. So, first, I need to figure o"
+        }
+      }
+    },
+    {
+      "problem_id": "math500_39",
+      "base_text": "\n\nOkay, let's start by identifying the given numbers and the target variable. The problem is asking for the greatest common factor (GCF) of 6432 and 132, then adding 11 to that GCF. So, the target variable is the GCF plus 11.\n\nFirst, I need to find the GCF of 6432 and 132. To do that, I need to factor both the numbers. Let's start by breaking down the numbers into their prime factors.\n\nStarting with 6432. Let's see, 6432 is a large number. Let me try to divide it by 2 first. 6432 divided by 2 is 3216. Divided by 2 again is 1608. Divided by 2 again is 804. Divided by 2 again is 402. Divided by 2 again is 201. Now, 201 is not divisible by 2. Let's try 3. 201 divided by 3 is 67. 67 is a prime number. So the prime factors of 64",
+      "base_nums": [
+        6432,
+        132,
+        11,
+        11,
+        6432,
+        132,
+        6432,
+        6432,
+        2,
+        6432,
+        2,
+        3216,
+        2,
+        1608,
+        2,
+        804,
+        2,
+        402,
+        2,
+        201,
+        201,
+        2,
+        3,
+        201,
+        3,
+        67,
+        67,
+        64
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "localized",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "\nOkay, let's see the intermediate operations and verify relations\nOkay, let's see the intermediate o"
+        },
+        "2": {
+          "category": "premature",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "\n</think>\n\n\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think"
+        },
+        "3": {
+          "category": "premature",
+          "first_diff_idx": 3,
+          "corrupt_text_snippet": "Okay, let's start by breaking down the problem step by step.\n\nWe need to find the greatest common fa"
+        }
+      }
+    },
+    {
+      "problem_id": "math500_203",
+      "base_text": "\n\n\n\nOkay, let me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_322",
+      "base_text": "\n\n\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_319",
+      "base_text": "\n\n\n\n\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay,",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_253",
+      "base_text": "Okay, let's start by understanding the problem. We need to find what fraction of 2 feet is 3 inches. First, let's convert both measurements to the same unit. Since the question is about fractions of feet and inches, it's probably easiest to convert both measurements to inches. So, 2 feet is equal to how many inches. There are 12 inches in a foot, so 2 feet is 2 times 12 inches. So, 2 feet is 24 inches. Then, we have 3 inches. So, the problem is asking us to find what fraction of 24 inches is 3 inches. So, the question is asking for what fraction of 24 inches is 3 inches. So, the fraction would be 3/24. But we can simplify that fraction. Let's see, both numerator and denominator are divisible by 3. So, 3 divided by 3 is 1, and 24 divided by 3 is 8. So, the simplified fraction is 1/8. So, the answer is 1/8. Let me check that again. 2 feet is 24 inches. 3 inches is 3/24 of ",
+      "base_nums": [
+        2,
+        3,
+        2,
+        12,
+        2,
+        2,
+        12,
+        2,
+        24,
+        3,
+        24,
+        3,
+        24,
+        3,
+        3,
+        24,
+        3,
+        3,
+        3,
+        1,
+        24,
+        3,
+        8,
+        1,
+        8,
+        1,
+        8,
+        2,
+        24,
+        3,
+        3,
+        24
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "localized",
+          "first_diff_idx": 3,
+          "corrupt_text_snippet": "Okay, so I need to figure out what fraction of 2 feet is 3 inches. Hmm, let's start by converting bo"
+        },
+        "2": {
+          "category": "premature",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "\nCompute intermediate operations and verify relations\nOkay, let's see the problem. Let's see the pro"
+        },
+        "3": {
+          "category": "premature",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "\n\nOkay, let's see the problem.\n\nOkay, let's see the problem.\n\nOkay, let's see the problem.\n\nOkay, le"
+        }
+      }
+    },
+    {
+      "problem_id": "math500_261",
+      "base_text": "\n\nOkay, let me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_174",
+      "base_text": "\n\nOkay, let's see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_143",
+      "base_text": "Okay, let's see the given and target variable\nOkay, let's see the given and target variable\nOkay, let's see the given and target variable\nOkay, let's see the given and target variable\nOkay, let's see the given and target variable\nOkay, let's see the given and target variable\nOkay, let's see the given and target variable\nOkay, let's see the given and target variable\nOkay, let's see the given and target variable\nOkay, let's see the given and target variable\nOkay, let's see the given and target variable\nOkay, let's see the given and target variable\nOkay, let's see the given and target variable\nOkay, let's see the given and target variable\nOkay, let's see the given and target variable\nOkay, let's see the given and target variable\nOkay, let's see the given and target variable\nOkay, let's see the given and target variable\nOkay, let's see the given and target variable\nOkay, let's see the given and target variable\nOkay, let's see the given and target variable\nOkay, let's see the given and target variable\nOkay, let's see the given and target variable\nOkay, let's",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_64",
+      "base_text": "\n\nOkay, let's see the problem.\n\nOkay, so let's see the problem.\n\nWe are given an equation involving sine functions of different angles, and we need to find the value of d. The equation is:\n\n(sin x)^7 = a sin 7x + b sin 5x + c sin 3x + d sin x.\n\nSo, the problem is to find the constants a, b, c, and d such that this equation holds for all angles x. And we need to find d.\n\nAlright, so let's think about how to approach this. The equation is (sin x)^7 expressed as a combination of sine functions with different multiples of x. So, we need to find the coefficient d.\n\nFirst, I need to recall that when dealing with equations involving multiple angles, especially with sine functions, it's often helpful to use trigonometric identities to simplify the left-hand side. Since the left-hand side is (sin x)^7, which is a seventh power of sine, and the right-hand side is a combination of sine functions with different multiples of x. So, perhaps we can use the multiple-angle formulas or some expansion to express (sin x)^7 in terms of lower multiples of sine.\n\nAlternatively, maybe we can use the",
+      "base_nums": [
+        7,
+        7,
+        5,
+        3,
+        7,
+        7,
+        7
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "delayed",
+          "first_diff_idx": 4,
+          "corrupt_text_snippet": "</think>\n\nTo solve the problem, we are given the identity:\n\n$$\n(\\sin x)^7 = a \\sin 7x + b \\sin 5x + "
+        },
+        "2": {
+          "category": "delayed",
+          "first_diff_idx": 7,
+          "corrupt_text_snippet": "Okay, so I need to find the value of d in this equation. Let me think about how to approach this pro"
+        },
+        "3": {
+          "category": "localized",
+          "first_diff_idx": 7,
+          "corrupt_text_snippet": "Okay, so I need to find the value of d in this equation. Let me think about how to approach this pro"
+        }
+      }
+    },
+    {
+      "problem_id": "math500_346",
+      "base_text": "\n\n\n\n\n\nOkay, let me see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see see",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_376",
+      "base_text": "Okay, let's see the line y = -x + 6. So, the line is y = -x + 6. So, the point P is on this line. So, the coordinates of P are (x, -x + 6). So, the coordinates of P are (x, -x + 6). So, the coordinates of P are (x, -x + 6). So, the coordinates of P are (x, -x + 6). So, the coordinates of P are (x, -x + 6). So, the coordinates of P are (x, -x + 6). So, the coordinates of P are (x, -x + 6). So, the coordinates of P are (x, -x + 6). So, the coordinates of P are (x, -x + 6). So, the coordinates of P are (x, -x + 6). So, the coordinates of P are (x, -x + 6). So, the coordinates of P are (x, -x + 6). So, the coordinates of P are (x, -x + 6). So, the coordinates of P are (x, -",
+      "base_nums": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "localized",
+          "first_diff_idx": 1,
+          "corrupt_text_snippet": "To solve the problem, we are given a line $ y = -x + 6 $ and a point $ P(x, y) $ on this line. We ar"
+        },
+        "2": {
+          "category": "premature",
+          "first_diff_idx": 1,
+          "corrupt_text_snippet": "Okay, so that PA=PO. Let me compute intermediate operations and verify constraints.\n\nAlright, so the"
+        },
+        "3": {
+          "category": "premature",
+          "first_diff_idx": 2,
+          "corrupt_text_snippet": "Okay, so I need to find the coordinates of point P on the line y = -x + 6 such that PA equals PO. So"
+        }
+      }
+    },
+    {
+      "problem_id": "math500_292",
+      "base_text": "Okay, let's see the final deduction and verify constraints\n\nOkay, let's see the final deduction and verify constraints\n\nOkay, let's see the final deduction and verify constraints\n\nOkay, let's see the final deduction and verify constraints\n\nOkay, let's see the final deduction and verify constraints\n\nOkay, let's see the final deduction and verify constraints\n\nOkay, let's see the final deduction and verify constraints\n\nAlright, let's see the final deduction and verify constraints\n\nOkay, let's see the final deduction and verify constraints\n\nAlright, let's see the final deduction and verify constraints\n\nOkay, let's see the final deduction and verify constraints\n\nAlright, let's see the final deduction and verify constraints\n\nOkay, let's see the final deduction and verify constraints\n\nAlright, let's see the final deduction and verify constraints\n\nOkay, let's see the final deduction and verify constraints\n\nAlright, let's see the final deduction and verify constraints\n\nOkay, let's see the final deduction and verify constraints\n\nAlright, let's see the final deduction and verify constraints\n\nOkay, let's see the final deduction and verify constraints\n\nAlright, let's see the final deduction and verify constraints\n\nOkay, let's see the final deduction and verify constraints\n\nAlright, let's see",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_216",
+      "base_text": "\nOkay, let's see the value of 56 Drinkets in Trinkets.\n\nOkay, let's start by identifying the given information. We know that 1 Trinket is equal to 4 Blinkets, and 3 Blinkets are equal to 7 Drinkets. So, we need to find the value of 56 Drinkets in Trinkets.\n\nFirst, let's convert Drinkets to Blinkets and then Blinkets to Trinkets. So, 3 Blinkets = 7 Drinkets. Therefore, 1 Blinket = 7/3 Drinkets. Then, 1 Trinket = 4 Blinkets = (4 * 7/3) Drinkets = 28/3 Drinkets. Therefore, 1 Trinket = 28/3 Drinkets. So, 56 Drinkets = 56 / (28/3) Trinkets = 56 * 3/28 Trinkets = 6 Trinkets. Wait, that seems too simple. Let me check again.\n\nWait, maybe I should do it step by step. Let's start with the conversion from Drinkets to Blinkets and then Blinkets to Trinkets.\n\nGiven",
+      "base_nums": [
+        56,
+        1,
+        4,
+        3,
+        7,
+        56,
+        3,
+        7,
+        1,
+        7,
+        3,
+        1,
+        4,
+        4,
+        7,
+        3,
+        28,
+        3,
+        1,
+        28,
+        3,
+        56,
+        56,
+        28,
+        3,
+        56,
+        3,
+        28,
+        6
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "localized",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "To solve the problem, we need to convert **Drinkets** to **Trinkets** using the given exchange rates"
+        },
+        "2": {
+          "category": "premature",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "Okay, let's see the problem.\n\nOkay, let's see the problem. So, the question is: In the land of Ink, "
+        },
+        "3": {
+          "category": "premature",
+          "first_diff_idx": 6,
+          "corrupt_text_snippet": "Okay, let's see. The problem is about converting Drinkets to Trinkets. So, first, I need to figure o"
+        }
+      }
+    },
+    {
+      "problem_id": "math500_78",
+      "base_text": "\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\n",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_248",
+      "base_text": "Okay, let me see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see if I can see",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_379",
+      "base_text": "Okay, let's see. The problem is about finding which grade has the number of male bus riders closest to 135% of the number of female bus riders. So, first, I need to understand the data given in the table. The table has four grades: 9th, 10th, 11th, and 12th. For each grade, there are 300 males and 300 females surveyed. The percentages for males and females are given for each grade. The question is asking for which grade has the number of male bus riders closest to 135% of the number of female bus riders. \n\nSo, first, I need to figure out for each grade, how many male and female bus riders there are, and then check the ratio of males to females. But the question is not about the ratio, but about the number of male riders being closest to 135% of the number of female riders. So, for each grade, I need to calculate the number of male riders and the number of female riders, then check if the male riders are closest to 135% of the female riders. \n\nBut wait, the percentages are given as percentages of the total number of",
+      "base_nums": [
+        135,
+        9,
+        10,
+        11,
+        12,
+        300,
+        300,
+        135,
+        135,
+        135
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "localized",
+          "first_diff_idx": 1,
+          "corrupt_text_snippet": "To solve the problem, we need to determine which grade has the number of its **male bus riders** clo"
+        },
+        "2": {
+          "category": "premature",
+          "first_diff_idx": 1,
+          "corrupt_text_snippet": "</think>\n\nTo solve the problem, we need to determine which grade has the **number of male bus riders"
+        },
+        "3": {
+          "category": "no_change",
+          "first_diff_idx": null,
+          "corrupt_text_snippet": "Okay, let's see. The problem is about finding which grade has the number of male bus riders closest "
+        }
+      }
+    },
+    {
+      "problem_id": "math500_380",
+      "base_text": "\n\n\n\nOkay, let's start by identifying the given equation and the constraints. The inequality is:\n\n$$\n\\frac{|x^2 - 81|}{x^2 - 36x} < 0\n$$\n\nFirst, I need to analyze the expression and figure out the domain where this inequality is defined. The denominator is $x^2 - 36x$, which is equal to $x(x - 36)$. So, the denominator is zero when $x$ is not zero, so the denominator is zero when $x $ is not zero. Wait, but I need to think about the constraints.\n\nWait, maybe I need to think about the domain where the denominator is not zero. So, the denominator is $x^2 - 36x$, which is equal to $x(x - 36)$. So, the denominator is zero when $x = 0$ or $x = 36$.$. So, the domain is all real numbers except $x = 0 $ and $ x = 36 $.\n\nBut the numerator is $|x^2 - 81|$. So, the numerator is the absolute value of $x^2 - 81$. So",
+      "base_nums": [
+        2,
+        81,
+        2,
+        36,
+        0,
+        2,
+        36,
+        36,
+        2,
+        36,
+        36,
+        0,
+        36,
+        0,
+        36,
+        2,
+        81,
+        2,
+        81
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "delayed",
+          "first_diff_idx": 7,
+          "corrupt_text_snippet": "Okay, let's start by identifying the given equation and the constraints. The inequality is:\n\n$$\n\\fra"
+        },
+        "2": {
+          "category": "localized",
+          "first_diff_idx": 6,
+          "corrupt_text_snippet": "\n\n\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</think>\n\n</thin"
+        },
+        "3": {
+          "category": "premature",
+          "first_diff_idx": 6,
+          "corrupt_text_snippet": "\n\nOkay, let's see the problem.\n\nOkay, let's see the problem.\n\nAlright, so the problem is to solve th"
+        }
+      }
+    },
+    {
+      "problem_id": "math500_302",
+      "base_text": "Okay, so I need to figure out how many digits repeat in the decimal expansion of 31 divided by 11111. Let me think about this step by step.\n\nFirst, the problem says that when converting 31/11111 to a decimal, it's a repeating decimal. The question is asking how many digits repeat in that decimal. For example, if it's 0.123123..., then the answer is 3. If it's 0.4367, then the answer is 1. So, I need to find the repeating part of the decimal expansion of 31/11111.\n\nFirst, let me recall that when you divide a number by another, the decimal expansion either terminates or repeats. Since 11111 is a number with five 1s, maybe it's related to some repeating pattern. But 11111 is 11111, which is 10^4 + 10^3 + 10^2 + 10 + 1. But I need to check if 11111 divides into 31 evenly or not. Wait, 31",
+      "base_nums": [
+        31,
+        11111,
+        31,
+        11111,
+        0.123123,
+        3,
+        0.4367,
+        1,
+        31,
+        11111,
+        11111,
+        1,
+        11111,
+        11111,
+        10,
+        4,
+        10,
+        3,
+        10,
+        2,
+        10,
+        1,
+        11111,
+        31,
+        31
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "localized",
+          "first_diff_idx": 2,
+          "corrupt_text_snippet": "</think>\n\nWe are given the fraction:\n\n$$\n\\frac{31}{11111}\n$$\n\nand told that it results in a **repeat"
+        },
+        "2": {
+          "category": "premature",
+          "first_diff_idx": 2,
+          "corrupt_text_snippet": "Okay, so I need to figure out how many digits repeat in the decimal expansion of 31 divided by 11111"
+        },
+        "3": {
+          "category": "premature",
+          "first_diff_idx": 2,
+          "corrupt_text_snippet": "Okay, so I need to figure out how many digits repeat in the decimal expansion of 31 divided by 11111"
+        }
+      }
+    },
+    {
+      "problem_id": "math500_213",
+      "base_text": "Okay, let me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_93",
+      "base_text": "\n\nOkay, let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's see the equation. Let's",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_131",
+      "base_text": "\n\n\n\nOkay, let's see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we can see if we",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_442",
+      "base_text": "\n\n\n\n\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay, let's see\n\nOkay,",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_137",
+      "base_text": "Okay, let's see the problem again. So, we need to divide 413 base 5 by 2 base 5 and express the result in base 5. Alright, first, let's understand the problem. So, the problem is to divide a number in base 5, which is 413 base 5, by another number in base 5, which is 2 base 5. So, the first, let's see, the problem is to express the quotient of 413 base 5 divided by 2 base 5 in base 5. Alright, so, first, let's recall that base 5 numbers are represented with digits 0 to 4, and each digit represents a power of 5. So, 413 base 5 is a number that's 4*5^2 + 1*5^1 + 3*5^0. Let me compute that. Then, 2 base 5 is 2*5^0, which is 2. So, the problem is to divide 413 base 5 by 2 base 5 and express the result in base 5. Alright, so, first, let's convert 4",
+      "base_nums": [
+        413,
+        5,
+        2,
+        5,
+        5,
+        5,
+        413,
+        5,
+        5,
+        2,
+        5,
+        413,
+        5,
+        2,
+        5,
+        5,
+        5,
+        0,
+        4,
+        5,
+        413,
+        5,
+        4,
+        5,
+        2,
+        1,
+        5,
+        1,
+        3,
+        5,
+        0,
+        2,
+        5,
+        2,
+        5,
+        0,
+        2,
+        413,
+        5,
+        2,
+        5,
+        5,
+        4
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "localized",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "Okay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let "
+        },
+        "2": {
+          "category": "premature",
+          "first_diff_idx": 6,
+          "corrupt_text_snippet": "Okay, let's start by identifying the given values and constraints. The problem is to express the quo"
+        },
+        "3": {
+          "category": "premature",
+          "first_diff_idx": 6,
+          "corrupt_text_snippet": "\n\nOkay, let's start by identifying the given problem. We need to divide the number 413 in base 5 by "
+        }
+      }
+    },
+    {
+      "problem_id": "math500_217",
+      "base_text": "\n\n\n\n\n\n\n\nThe\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay\n\nOkay",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_249",
+      "base_text": "\n\n\n\n\n\nOkay, let me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_461",
+      "base_text": "\n\nOkay, let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's see the given. Let's",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_354",
+      "base_text": "\n\n\n\n\n\nThe median is their median is their median is their median is their median is their median is their median is their median is their median is their median is their median is their median is their median is their median is their median is their median is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^7. What is 3^",
+      "base_nums": [
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "localized",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "Okay, so let me me me me me me me me me me me me me me me me me me me me me me me me me me me me me "
+        },
+        "2": {
+          "category": "premature",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "\n\n\n\nThe sum of 27 consecutive positive integers is 3^7. What is their median?\n\nOkay, so I need to fi"
+        },
+        "3": {
+          "category": "premature",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "Okay, let's start by identifying the given information. We are told that the sum of 27 consecutive p"
+        }
+      }
+    },
+    {
+      "problem_id": "math500_85",
+      "base_text": "Okay, let's see. So, there's a right cylindrical tank being filled with water at a rate of 20\u03c0 cubic meters per hour. The water level rises four meters per hour. We need to find the radius of the tank. Hmm, okay. Let me think.\n\nFirst, let me recall some formulas. The volume of a cylinder is \u03c0r\u00b2h, where r is the radius and h is the height. So, the volume of water in the tank at any given time would be \u03c0r\u00b2h, where h is the height of the water. But here, the tank is being filled at a rate of 20\u03c0 m\u00b3/hour, and the water level is rising at 4 m/hour. So, maybe we can relate these two rates?\n\nWait, the problem says the water level rises four meters per hour. So, if the tank is being filled, the rate at which the volume increases is 20\u03c0 m\u00b3/hour, and the rate at which the height increases is 4 m/hour. So, maybe we can relate the volume rate to the height rate?\n\nLet me think. The volume is \u03c0r\u00b2h, and the rate of change of volume is dV/dt = 2",
+      "base_nums": [
+        20,
+        20,
+        4,
+        20,
+        4,
+        2
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "localized",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "To solve this problem, we need to analyze the relationship between the rate at which water is being "
+        },
+        "2": {
+          "category": "premature",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "To solve the problem, we need to analyze the relationship between the rate at which water is being a"
+        },
+        "3": {
+          "category": "premature",
+          "first_diff_idx": 3,
+          "corrupt_text_snippet": "Okay, let's try to figure out the radius of this cylindrical tank. So, the problem says that the tan"
+        }
+      }
+    },
+    {
+      "problem_id": "math500_9",
+      "base_text": "Okay, so I need to figure out how many different values can be obtained by inserting parentheses into the expression 2\u00b73\u00b74\u00b75 + 1. The original expression is 2\u00d73\u00d74\u00d75 + 1, and the problem says that without rearranging terms, only inserting parentheses. So, the key is to figure out all possible ways to parenthesize this expression and compute the result each time, then count the distinct values.\n\nFirst, let me recall that inserting parentheses changes the order of operations. In the original expression, multiplication is done before addition, so 2\u00d73\u00d74\u00d75 + 1 = (2\u00d73\u00d74\u00d75) + 1 = 120 + 1 = 121. But by inserting parentheses, we can change the order of operations. For example, the given example is (2\u00d7(3\u00d74))\u00d7(5+1) = 144. So, different parenthesizations can lead to different results.\n\nSo, the problem is to find all possible values that can be obtained by inserting parentheses in the expression 2\u00b73\u00b74\u00b75 + 1, considering that parentheses can be inserted in different places, but rearranging terms is not allowed",
+      "base_nums": [
+        2,
+        3,
+        4,
+        5,
+        1,
+        2,
+        3,
+        4,
+        5,
+        1,
+        2,
+        3,
+        4,
+        5,
+        1,
+        2,
+        3,
+        4,
+        5,
+        1,
+        120,
+        1,
+        121,
+        2,
+        3,
+        4,
+        5,
+        1,
+        144,
+        2,
+        3,
+        4,
+        5,
+        1
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "localized",
+          "first_diff_idx": 5,
+          "corrupt_text_snippet": "We are given the expression:\n\n$$\n2 \\cdot 3 \\cdot 4 \\cdot 5 + 1\n$$\n\nand asked to find how many **dist"
+        },
+        "2": {
+          "category": "localized",
+          "first_diff_idx": 15,
+          "corrupt_text_snippet": "Okay, so I need to figure out how many different values can be obtained by inserting parentheses int"
+        },
+        "3": {
+          "category": "premature",
+          "first_diff_idx": 5,
+          "corrupt_text_snippet": "To solve the problem, we need to determine how many different values can be obtained by inserting pa"
+        }
+      }
+    },
+    {
+      "problem_id": "math500_62",
+      "base_text": "Okay, so let me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_94",
+      "base_text": "Okay, let's see the problem again. So, we have a quadrilateral ABCD with angles BAD and CDA trisected. We need to find the measure of angle AFD. \n\nFirst, let me try to visualize the diagram. The Asymptote code shows points A, B, C, D with coordinates given. A is at (0,0), B at (2,4), C at (7,4), D at (7,-2). So, the quadrilateral is ABCD with A connected to B connected to C connected to D connected back to A. There are points E and F, with E somewhere inside and F somewhere else. The trisection of angles BAD and CDA. So, angle BAD is trisected, meaning divided into three equal parts, and similarly for angle CDA. \n\nSo, angle BAD is trisected, meaning it's divided into three equal angles. Similarly, angle CDA is trisected. The diagram labels some angles as x and y, with some labels indicating 110\u00b0 and 100\u00b0. \n\nLet me try to parse the Asymptote code labels. The labels \"x\" are at positions (1,1.5), (",
+      "base_nums": [
+        0,
+        0,
+        2,
+        4,
+        7,
+        4,
+        7,
+        -2,
+        110,
+        100,
+        1,
+        1.5
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "localized",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "To solve the problem, we are given a quadrilateral $ABCD$ with angles $\\angle BAD$ and $\\angle CDA$ "
+        },
+        "2": {
+          "category": "delayed",
+          "first_diff_idx": 8,
+          "corrupt_text_snippet": "Okay, so I need to figure out the measure of angle AFD in this quadrilateral ABCD where angles BAD a"
+        },
+        "3": {
+          "category": "premature",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "Okay, so I need to figure out the measure of angle AFD in this quadrilateral ABCD where angles BAD a"
+        }
+      }
+    },
+    {
+      "problem_id": "math500_488",
+      "base_text": "\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay, let's\nOkay",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_400",
+      "base_text": "Okay, let's see the problem again. So, the problem is about a circle with center Q, radii AQ and BQ form a right angle. So, the two smaller regions are tangent semicircles. The radius of the circle with center Q is 14 inches. What is the radius of the smaller semicircle? Express your answer as a common fraction.\n\nAlright, let me try to visualize this. There's a circle with center Q, and radii AQ and BQ form a right angle. So, points A and B are on the circle, and the line segments AQ and BQ are perpendicular to each other. So, the circle has radius 14 inches. There are two smaller regions that are tangent semicircles. Hmm, so maybe there's a semicircle on top of the right angle, and another semicircle on the other side? Or maybe there's a semicircle inside the circle?\n\nWait, the problem says \"the two smaller regions are tangent semicircles.\" So, the regions are tangent, meaning they touch at one point, and they are semicircles. So, maybe there's a semicircle that's tangent to the original circle and another semicircle? Or maybe there's a",
+      "base_nums": [
+        14,
+        14
+      ],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 2 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_415",
+      "base_text": "\n\n\n\n\n\n\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay, let me see\n\nOkay",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_142",
+      "base_text": "Okay, let's see the problem again. So, the problem is about seating a group of 5 Democrats, 5 Republicans, and 1 Independent around a circular table, with the condition that all members of each party sit next to each other. We need to find the number of distinct seating arrangements, considering rotations as equivalent.\n\nFirst, let's note that the total number of people is 5 + 5 + 1 = 11. Since it's a circular table, the number of distinct arrangements is usually (n-1)! for a circular table, but here there are constraints.\n\nBut the problem says that all members of each party must sit next to each other. So, the Democrats must form a single block, the Republicans a single block, and the Independent a single block. So, we can think of these three blocks as units to arrange around the table.\n\nHowever, since it's a circular table, the number of ways to arrange the blocks is (number of blocks - 1)! = (3 - 1)! = 2! = 2. But we also need to consider the internal arrangements within each block.\n\nFor each block (Democrats, Republicans, Independent), the members can be arranged among themselves. So, for the Democrats,",
+      "base_nums": [
+        5,
+        5,
+        1,
+        5,
+        5,
+        1,
+        11,
+        -1,
+        1,
+        3,
+        1,
+        2,
+        2
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "localized",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "To solve the problem, we need to determine how many **distinct ways** the 11 members of the Senate c"
+        },
+        "2": {
+          "category": "premature",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "</think>\n\nTo solve the problem, we need to determine how many ways the 11 members of the Senate comm"
+        },
+        "3": {
+          "category": "premature",
+          "first_diff_idx": 7,
+          "corrupt_text_snippet": "Okay, so I need to figure out how many ways the Senate committee members can sit around a circular t"
+        }
+      }
+    },
+    {
+      "problem_id": "math500_136",
+      "base_text": "Okay, let's see the problem again. So, we have a sequence of positive real numbers (a\u2081, a\u2082, ..., a\u2099) with the following constraints:\n\n1. Sum of a_i = 96\n2. Sum of a_i\u00b2 = 144\n3. Sum of a_i\u00b3 = 216\n\nWe need to find the sum of all possible values of n.\n\nFirst, let's note that n is a positive integer, and each a_i is a positive real number.\n\nGiven that all a_i are positive, we can apply inequalities like Cauchy-Schwarz or Power Mean to relate the sums.\n\nBut since we have three different sums, maybe we can find bounds on n.\n\nLet me think. Let's consider the Cauchy-Schwarz inequality. For the sum of squares, we have:\n\n(\u03a3a_i)\u00b2 \u2264 n \u03a3a_i\u00b2\n\nSo, 96\u00b2 \u2264 n * 144\n\nWhich gives 9216 \u2264 144n \u2192 n \u2265 9216 / 144 = 64.\n\nSo n is at least 64.\n\nBut also, we have the sum of cubes. Maybe we can",
+      "base_nums": [
+        1,
+        96,
+        2,
+        144,
+        3,
+        216,
+        96,
+        144,
+        9216,
+        144,
+        9216,
+        144,
+        64,
+        64
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "localized",
+          "first_diff_idx": 1,
+          "corrupt_text_snippet": "Okay, so I need to find the sum of all possible values of $ n $ given the constraints on the sequenc"
+        },
+        "2": {
+          "category": "premature",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "Okay, so I need to find the sum of all possible values of n given these three equations:\n\nSum of a_i"
+        },
+        "3": {
+          "category": "premature",
+          "first_diff_idx": 6,
+          "corrupt_text_snippet": "Okay, so I need to find the sum of all possible values of n given the constraints on the sequence of"
+        }
+      }
+    },
+    {
+      "problem_id": "math500_152",
+      "base_text": "Okay, let's start by identifying the given information. We have triangle ABC with medians AD, BE, and CF intersecting at centroid G. The line through G parallel to BC intersects AB at M and AC at N. The area of triangle ABC is 144. Need to find area of triangle ENG.\n\nFirst, let's recall that in a triangle, the centroid divides each median into a ratio of 2:1, with the centroid being closer to the vertex. So, for example, median AD is divided by G into AG:GD = 2:1.\n\nNow, the line through G parallel to BC intersects AB at M and AC at N. So, this line MN is parallel to BC and passes through G. Since MN is parallel to BC, triangles AMN and ABC are similar by AA similarity (since angles are common and the sides are parallel). The ratio of similarity would be the ratio of their corresponding sides.\n\nBut since G is the centroid, which divides the medians in 2:1, maybe we can find the ratio of AM to AB. Let me think.\n\nLet me try to visualize triangle ABC with centroid G. Let me draw it mentally. The medians AD, BE, and CF intersect at G. The line",
+      "base_nums": [
+        144,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "localized",
+          "first_diff_idx": 1,
+          "corrupt_text_snippet": "We are given a triangle $ ABC $ with medians $ AD $, $ BE $, and $ CF $ intersecting at the centroid"
+        },
+        "2": {
+          "category": "delayed",
+          "first_diff_idx": 7,
+          "corrupt_text_snippet": "Okay, so I need to find the area of triangle ENG given that the area of triangle ABC is 144. Let me "
+        },
+        "3": {
+          "category": "localized",
+          "first_diff_idx": 4,
+          "corrupt_text_snippet": "Okay, so I need to find the area of triangle ENG given that the area of triangle ABC is 144. Let me "
+        }
+      }
+    },
+    {
+      "problem_id": "math500_313",
+      "base_text": "Okay, let's start by identifying the given information. The unicycle's wheel has a radius of 9 inches, and it makes 2 revolutions every 3 seconds. We need to find the unicycle's speed in inches per second.\n\nFirst, I need to recall that the circumference of a circle is given by the formula C = 2\u03c0r. Since the radius is 9 inches, the circumference would be 2 * \u03c0 * 9 inches. Let me compute that: 2 * \u03c0 * 9 = 18\u03c0 inches. So, each revolution covers 18\u03c0 inches.\n\nNow, if the unicycle makes 2 revolutions every 3 seconds, then the distance covered in 3 seconds is 2 * 18\u03c0 inches. Let me calculate that: 2 * 18\u03c0 = 36\u03c0 inches. \n\nTo find the speed, we need to divide the distance by the time. The time is 3 seconds, so the speed is 36\u03c0 inches divided by 3 seconds. Let me compute that: 36\u03c0 / 3 = 12\u03c0 inches per second.\n\nWait, but let me check if I did that correctly. The circumference is 18\u03c0 inches per revolution",
+      "base_nums": [
+        9,
+        2,
+        3,
+        2,
+        9,
+        2,
+        9,
+        2,
+        9,
+        18,
+        18,
+        2,
+        3,
+        3,
+        2,
+        18,
+        2,
+        18,
+        36,
+        3,
+        36,
+        3,
+        36,
+        3,
+        12,
+        18
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "delayed",
+          "first_diff_idx": 15,
+          "corrupt_text_snippet": "Okay, let's see. Charlie is riding his unicycle, and we need to find his speed in inches per second."
+        },
+        "2": {
+          "category": "premature",
+          "first_diff_idx": 4,
+          "corrupt_text_snippet": "Okay, let's see. So, Charlie is riding his unicycle, and we need to find his speed in inches per sec"
+        },
+        "3": {
+          "category": "premature",
+          "first_diff_idx": 3,
+          "corrupt_text_snippet": "Okay, let's see. So, Charlie is riding his unicycle, and we need to find his speed in inches per sec"
+        }
+      }
+    },
+    {
+      "problem_id": "math500_381",
+      "base_text": "\nOkay, let's see the interval (0,3). So, the problem is to find the probability that a triangle with sides of length 1, x, and y exists. So, the first step is to identify the given information. The numbers x and y are selected at random from the interval (0,3). So, the constraints are that x and y are in the interval (0,3). The target variable is the probability that a triangle with sides of length 1, x, and y exists. So, the next step is to find the probability that such a triangle exists. To do this, we need to use the triangle inequality theorem, which states that the sum of any two sides of a triangle must be greater than the third side. So, for a triangle with sides 1, x, and y, the following must hold: 1 + x > y, 1 + y > x, and x + y > 1. So, the probability is the volume of the region in the (x,y) plane where these inequalities are satisfied, divided by the total area of the region where x and y are in (0,3). So, the total area is 9, since it's a square from 0",
+      "base_nums": [
+        0,
+        3,
+        1,
+        0,
+        3,
+        0,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        3,
+        9,
+        0
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "localized",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "</think>\n\nTo solve the problem, we need to determine the probability that a triangle with sides of l"
+        },
+        "2": {
+          "category": "premature",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "Okay, so let me me me me me me me me me me me me me me me me me me me me me me me me me me me me me "
+        },
+        "3": {
+          "category": "premature",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "Okay, so let me me me me me me me me me me me me me me me me me me me me me me me me me me me me me "
+        }
+      }
+    },
+    {
+      "problem_id": "math500_238",
+      "base_text": "\n\n\n\nOkay, let me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_145",
+      "base_text": "\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\nOkay, let's see the given\n\n",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_26",
+      "base_text": "Okay, let's see if we can sit next to each other. \n\nOkay, let's see if we can sit next to each other. \n\nOkay, so the problem is: In how many ways can 7 people sit around a round table if no two of the 3 people Pierre, Rosa, and Thomas can sit next to each other? And rotations are considered the same.\n\nAlright, so first, I need to figure out how to approach this problem. Let me think. So, the question is about circular permutations with restrictions. So, circular permutations are different from linear ones because rotations are considered the same. So, for circular arrangements, the number of ways to arrange n people is (n-1)! instead of n!.\n\nBut here, we have a restriction: no two of Pierre, Rosa, and Thomas can sit next to each other. So, we need to count the number of circular arrangements where these three people are not adjacent to each other.\n\nFirst, let me recall the general approach for such problems. Usually, for circular permutations with restrictions, we can use the principle of inclusion-exclusion. But I need to be careful with the steps.\n\nSo, first, let's consider the total number of circular arrangements without any restrictions. For 7 people around",
+      "base_nums": [
+        7,
+        3,
+        -1,
+        7
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "delayed",
+          "first_diff_idx": 2,
+          "corrupt_text_snippet": "</think>\n\nTo solve the problem of how many ways 7 people can sit around a round table such that **no"
+        },
+        "2": {
+          "category": "localized",
+          "first_diff_idx": 1,
+          "corrupt_text_snippet": "Okay, let's see the problem again.\n\nOkay, so the problem is: We have 7 people sitting around a round"
+        },
+        "3": {
+          "category": "premature",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "Okay, so let me see... let me see... let me see... let me see... let me see... let me see... let me "
+        }
+      }
+    },
+    {
+      "problem_id": "math500_394",
+      "base_text": "Okay, so I need to figure out what value of x Archimedes should choose to minimize z while Brahmagupta is maximizing z. So, the function is z = (2x - y)^2 - 2y^2 - 3y. \n\nFirst, let me understand the problem. Archimedes picks x first, then Brahmagupta picks y. So, Archimedes wants to choose x such that, after Brahmagupta chooses y to maximize z, the value of z is minimized. So, it's a game theory problem where Archimedes is choosing x to minimize the maximum z, and Brahmagupta is choosing y to maximize z. \n\nSo, maybe I need to think of this as a minimax problem. So, for a given x, Brahmagupta will choose y to maximize z. Then, Archimedes wants to choose x such that this maximum z is as small as possible. \n\nSo, first, for a given x, find the maximum value of z with respect to y, then find the x that minimizes this maximum. \n\nSo, let's start by finding, for a given x, what is the maximum of z with respect to y. \n\nSo, z = (",
+      "base_nums": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "delayed",
+          "first_diff_idx": 5,
+          "corrupt_text_snippet": "We are given a function:\n\n$$\nz(x, y) = (2x - y)^2 - 2y^2 - 3y\n$$\n\nArchimedes chooses $ x $, and then"
+        },
+        "2": {
+          "category": "delayed",
+          "first_diff_idx": 5,
+          "corrupt_text_snippet": "We are given a function:\n\n$$\nz(x, y) = (2x - y)^2 - 2y^2 - 3y\n$$\n\nArchimedes chooses $ x $, and then"
+        },
+        "3": {
+          "category": "localized",
+          "first_diff_idx": 5,
+          "corrupt_text_snippet": "To solve this problem, we are given a function:\n\n$$\nz(x, y) = (2x - y)^2 - 2y^2 - 3y\n$$\n\nand we are "
+        }
+      }
+    },
+    {
+      "problem_id": "math500_417",
+      "base_text": "\n\n\n\nOkay, let's see the polynomial f(x) is 3x^4 +5x^2 -9x -2. If g(x) is equal to the polynomial f(x-1), what is the sum of the coefficients of g?\n\n</think>\n\nTo find the sum of the coefficients of the polynomial $ g(x) = f(x - 1) $, we need to understand that the polynomial $ f(x) = 3x^4 + 5x^2 - 9x - 2 $.\n\n---\n\n### Step 1: Understand the problem\n\nLet $ f(x) $ is\n\nLet $ f(x) $ is\n\nLet $ f(x) $ is\n\nLet $ f(x) $ is\n\nLet $ f(x) $ is\n\nLet $ f(x) $ is\n\nLet $ f(x) $ is\n\nLet $ f(x) $ is\n\nLet $ f(x) $ is\n\nLet $ f(x) $ is\n\nLet $ f(x) $ is\n\nLet $ f(x) $ is\n\nLet $ f(x) $ is\n\nLet $ f(x) $ is\n\nLet $ f(x) $ is\n\nLet $ f(x) $ is\n\nLet $ f(x) $ is\n\nLet",
+      "base_nums": [
+        3,
+        4,
+        5,
+        2,
+        -9,
+        -2,
+        -1,
+        1,
+        3,
+        4,
+        5,
+        2,
+        9,
+        2,
+        1
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "localized",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "To find the **sum of the coefficients** of the polynomial $ g(x) = f(x - 1) $, we can use a clever t"
+        },
+        "2": {
+          "category": "premature",
+          "first_diff_idx": 4,
+          "corrupt_text_snippet": "\n\nOkay, let's see the polynomial f(x) is given as 3x^4 + 5x^2 - 9x - 2. If g(x) is equal to f(x - 1)"
+        },
+        "3": {
+          "category": "premature",
+          "first_diff_idx": 4,
+          "corrupt_text_snippet": "Okay, let's see the polynomial f(x) is given as 3x^4 + 5x^2 - 9x - 2. If g(x) is equal to f(x - 1), "
+        }
+      }
+    },
+    {
+      "problem_id": "math500_24",
+      "base_text": "### **Problem Analysis**\n\nWe are given the following:\n\n- **Initial annual wage:** \\$20,000\n- **Deposits are made at the end of each year**\n- **Interest is compounded annually**\n- **Goal:** At the end of the **third year**, the total amount in the savings account must be **at least \\$66,200**\n- **Goal is to find the minimal compound interest rate** that satisfies this condition\n\n---\n\n### **Step-by-Step Solution**\n\nLet\u2019s denote the **annual interest rate** as $ r $ (in decimal form), and the **total amount in the account at the end of the third year** is:\n\n$$\nA = 20,000 \\times (1 + r) + 20,000 \\times (1 + r)^2 + 20,000 \\times (1 + r)^3\n$$\n\nThis is a **geometric series** with:\n\n- First term: $ a = 20,000 $\n- Common ratio: $ r $\n- Number of terms: 3\n\nThe formula for the sum of a geometric series is:\n\n$$\nA = a \\times \\frac{(1 +",
+      "base_nums": [
+        20,
+        0,
+        66,
+        200,
+        20,
+        0,
+        1,
+        20,
+        0,
+        1,
+        2,
+        20,
+        0,
+        1,
+        3,
+        20,
+        0,
+        3,
+        1
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "localized",
+          "first_diff_idx": 4,
+          "corrupt_text_snippet": "We are given the following:\n\n- Annual wage: \\$20,000\n- Deposits are made at the **end of the year**,"
+        },
+        "2": {
+          "category": "premature",
+          "first_diff_idx": 4,
+          "corrupt_text_snippet": "### Problem Summary\n\nA worker receives an annual wage of **\\$20,000** and deposits this amount **at "
+        },
+        "3": {
+          "category": "premature",
+          "first_diff_idx": 4,
+          "corrupt_text_snippet": "### Problem Summary\n\nA worker receives an annual wage of **\\$20,000** and deposits it into a savings"
+        }
+      }
+    },
+    {
+      "problem_id": "math500_382",
+      "base_text": "Okay, let's see the problem again. So, we have a rectangular field enclosed in an athletic track. The track consists of two edges of the field and two semicircles. The length of the track is 400 meters. We need to find the largest possible area of the field.\n\nFirst, let's visualize the track. The track is like a running track, which has two straight sides and two semicircular ends. So, the total length of the track is 400 meters. The track is made up of two straight sides and two semicircles. So, the total length of the track would be the sum of the two straight sides and the two semicircles.\n\nWait, but the problem says \"the track consists of two edges of the field, and two semicircles.\" So, the track is like a rectangle with two semicircular ends. So, the total length of the track would be the perimeter of the rectangle plus the circumference of the two semicircles. But since the semicircles are on the ends, the total length of the track would be the length of the rectangle plus the circumference of the two semicircles.\n\nBut wait, the track is a closed loop, so the total length of the track",
+      "base_nums": [
+        400,
+        400
+      ],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 2 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_432",
+      "base_text": "Okay, let me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me",
+      "base_nums": [],
+      "bundle_evals": {},
+      "note": "Skipped segmentation: only 0 numbers in baseline"
+    },
+    {
+      "problem_id": "math500_197",
+      "base_text": "Okay, let's see the problem again. So, the problem is: If $x^3$ is a positive factor of $10!$, how many possible integer values of $x$ are there?\n\nAlright, so I need to figure out how many integer values of x satisfy the condition that x cubed divides 10 factorial. Let me think. So, first, let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see. Let me see",
+      "base_nums": [
+        3,
+        10,
+        10
+      ],
+      "bundle_evals": {
+        "1": {
+          "category": "localized",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "Okay, so I need to figure out how many possible integer values of x are there such that x\u00b3 is a posi"
+        },
+        "2": {
+          "category": "premature",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "Okay, so let me start... let me start... let me start... let me start... let me start... let me star"
+        },
+        "3": {
+          "category": "premature",
+          "first_diff_idx": 0,
+          "corrupt_text_snippet": "Okay, so I need to figure out how many possible integer values of x are there such that x\u00b3 is a posi"
+        }
+      }
+    }
+  ]
+}

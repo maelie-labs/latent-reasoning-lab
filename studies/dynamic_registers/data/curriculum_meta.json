@@ -1,0 +1,14 @@
+{
+  "model_id": "Qwen/Qwen3-1.7B",
+  "input_file": "data/curated_train_v1_1_dilution10pct_qwen3_1.7b.jsonl",
+  "total_samples": 1367,
+  "train_samples": 1267,
+  "dev_samples": 100,
+  "timestamp": 1789527579.5040262,
+  "files": {
+    "arm1_train": "studies/dynamic_registers/data/train_dynamic_registers.jsonl",
+    "arm1_dev": "studies/dynamic_registers/data/dev_dynamic_registers.jsonl",
+    "arm2_train": "studies/dynamic_registers/data/train_matched_filler_registers.jsonl",
+    "arm2_dev": "studies/dynamic_registers/data/dev_matched_filler_registers.jsonl"
+  }
+}

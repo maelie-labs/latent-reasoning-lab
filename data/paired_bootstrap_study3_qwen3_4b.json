@@ -1,0 +1,42 @@
+{
+  "model_tag": "qwen3_4b",
+  "candidate_file": "data/streaming_study3_telegraphic_cot_qwen3_4b.jsonl",
+  "control_file": "data/streaming_study3_headers_only_qwen3_4b.jsonl",
+  "overall": {
+    "observed_delta": -9.7,
+    "ci_95": [
+      -12.4,
+      -7.0
+    ],
+    "p_value": 0.0,
+    "n": 1000
+  },
+  "gsm8k": {
+    "observed_delta": -8.0,
+    "ci_95": [
+      -11.33,
+      -4.67
+    ],
+    "p_value": 0.0,
+    "n": 600
+  },
+  "math500": {
+    "observed_delta": -12.25,
+    "ci_95": [
+      -17.0,
+      -7.5
+    ],
+    "p_value": 0.0,
+    "n": 400
+  },
+  "math_hard_l3_5": {
+    "observed_delta": -13.75,
+    "ci_95": [
+      -20.42,
+      -7.5
+    ],
+    "p_value": 0.0,
+    "n": 240
+  },
+  "historical_1_7b_reference_delta": -8.0
+}

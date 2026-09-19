@@ -1,0 +1,28 @@
+{
+  "tag": "arm1_base_headers_only",
+  "mode": "base_headers_only",
+  "model_id": "Qwen/Qwen3-1.7B",
+  "total_evaluations": 1000,
+  "overall_accuracy": 70.19999999999999,
+  "gsm8k_accuracy": 68.83333333333333,
+  "math500_accuracy": 72.25,
+  "math_hard_accuracy": 63.33333333333333,
+  "truncation_rate": 0.1,
+  "duration_seconds": 4316.582718372345,
+  "token_distribution": {
+    "min": 334,
+    "median": 866.0,
+    "p90": 2650.0,
+    "max": 8192
+  },
+  "paired_bootstrap": {
+    "vs_arm1b_register_headers": {
+      "observed_delta": -3.0000000000000027,
+      "ci_95": [
+        -5.599999999999994,
+        -0.5000000000000004
+      ],
+      "p_value": 0.023
+    }
+  }
+}

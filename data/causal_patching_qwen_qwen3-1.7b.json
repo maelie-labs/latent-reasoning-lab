@@ -1,0 +1,27 @@
+{
+  "model_id": "Qwen/Qwen3-1.7B",
+  "lora_path": "checkpoints/lora_arm3_qwen_qwen3-1.7b_k6_selfdistill",
+  "n_problems": 100,
+  "k_steps": 6,
+  "empirical_alpha": 0.01144,
+  "timestamp": "2026-09-14T00:24:47Z",
+  "control_0_null_patch": {
+    "min_cosine_sim": 0.99609375,
+    "all_identical_text": true,
+    "tolerance_met": false,
+    "max_delta_logit": 0.0
+  },
+  "finite_difference_sensitivity": {
+    "mean_amplification_factor": 17.306047678012064
+  },
+  "control_a_noise": {
+    "divergence_rate_pct": 100.0
+  },
+  "control_b_steering": {
+    "chance_rate_pct": 1.0,
+    "steered_rate_pct": 2.247191011235955,
+    "delta_steer_pct": 1.2471910112359552,
+    "pre_reg_passed": false,
+    "total_trials": 89
+  }
+}

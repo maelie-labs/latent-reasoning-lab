@@ -1,0 +1,863 @@
+{
+  "arm1b_headers_only": {
+    "mode": "headers_only",
+    "checkpoint": "checkpoints/lora_arm1b_register_ladder_headers_only_qwen3_1.7b/best_checkpoint",
+    "accuracy": 68.33333333333333,
+    "correct": 41,
+    "total": 60,
+    "results": [
+      {
+        "id": "math500_309",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 1013,
+        "pred_sample": "We are given that the **product of a set of distinct positive integers is 84**, and we need to find the **least possible sum** of these integers.\n\n---\n\n### Step 1: Prime Factorization of 84\n\n$$\n84 = 2"
+      },
+      {
+        "id": "math500_205",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 1103,
+        "pred_sample": "We are given a matrix $\\mathbf{A}$ such that:\n\n$$\n\\mathbf{A} \\begin{pmatrix} 3 \\\\ 1 \\\\ 0 \\end{pmatrix} = \\begin{pmatrix} 2 \\\\ 4 \\\\ -3 \\end{pmatrix}, \\quad \\text{and} \\quad \\mathbf{A} \\begin{pmatrix} -"
+      },
+      {
+        "id": "math500_81",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 365,
+        "pred_sample": "We are given a system of weight relationships between different objects:\n\n---\n\n### Step 1: Define Variables\n\nLet:\n- $ T $ = weight of one treek  \n- $ S $ = weight of one squig  \n- $ G $ = weight of on"
+      },
+      {
+        "id": "math500_37",
+        "level": 3,
+        "is_correct": false,
+        "pred_len": 405,
+        "pred_sample": "We are given a **regular pentagon** and asked to find the **minimum number of degrees** it must be rotated counterclockwise about its center until it **coincides with its original position**.\n\n---\n\n##"
+      },
+      {
+        "id": "math500_483",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 967,
+        "pred_sample": "We are given that the **area** of triangle $ ABC $ is:\n\n$$\n\\text{Area} = a^2 - (b - c)^2\n$$\n\nwhere $ a, b, c $ are the sides of the triangle.\n\nWe are to compute $ \\tan A $, where $ A $ is the angle op"
+      },
+      {
+        "id": "math500_269",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 304,
+        "pred_sample": "We are given:\n\n- **2 indistinguishable IMO gold medals**\n- **2 indistinguishable IPhO gold medals**\n\nWe want to find the number of **distinct arrangements** of these 4 medals in a **row**.\n\n---\n\n### S"
+      },
+      {
+        "id": "math500_3",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 252,
+        "pred_sample": "We are asked to find how many **positive whole-number divisors** the number **196** has.\n\n---\n\n### Step 1: Prime Factorization of 196\n\nWe start by factoring 196 into its prime components:\n\n$$\n196 = 2^"
+      },
+      {
+        "id": "math500_342",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 235,
+        "pred_sample": "We are given the inequality:\n\n$$\n\\frac{1}{4} < \\frac{x}{7} < \\frac{1}{3}\n$$\n\n### Step 1: Multiply all parts by 7 to eliminate the denominator.\n\n$$\n\\frac{1}{4} \\cdot 7 < x < \\frac{1}{3} \\cdot 7\n$$\n\n$$\n"
+      },
+      {
+        "id": "math500_351",
+        "level": 3,
+        "is_correct": false,
+        "pred_len": 720,
+        "pred_sample": "We are asked to simplify:\n\n$$\n\\cos \\left( \\frac{2 \\pi}{15} \\right) \\cos \\left( \\frac{4 \\pi}{15} \\right) \\cos \\left( \\frac{8 \\pi}{15} \\right) \\cos \\left( \\frac{16 \\pi}{15} \\right)\n$$\n\n---\n\n### Step 1: "
+      },
+      {
+        "id": "math500_393",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 373,
+        "pred_sample": "We are given:\n\n- Mass of **softball** = 200 g  \n- Mass of **baseball** = 150 g  \n- Jen throws the **softball** with the same **force** as Jack throws the **baseball**\n\nWe are to find the **ratio of ac"
+      },
+      {
+        "id": "math500_386",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 340,
+        "pred_sample": "We are given the inequality:\n\n$$\n|x - 2| \\leq 5.6\n$$\n\n### Step 1: Solve the absolute value inequality\n\nThe absolute value inequality $ |x - a| \\leq b $ is equivalent to:\n\n$$\n- b \\leq x - a \\leq b\n$$\n\n"
+      },
+      {
+        "id": "math500_396",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 420,
+        "pred_sample": "We are given a **square** $ABCD$ with area 16 square inches. This means each side of the square is:\n\n$$\n\\text{Side length} = \\sqrt{16} = 4 \\text{ inches}\n$$\n\n---\n\n### Step 1: Understand the Tangram Pi"
+      },
+      {
+        "id": "math500_39",
+        "level": 3,
+        "is_correct": false,
+        "pred_len": 181,
+        "pred_sample": "We are asked to find the result when the **greatest common factor (GCF)** of **6432** and **132** is increased by **11**.\n\n---\n\n### Step 1: Find the GCF of 6432 and 132\n\nWe can use the **Euclidean alg"
+      },
+      {
+        "id": "math500_203",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 667,
+        "pred_sample": "We are given the polynomial:\n\n$$\nP(x) = (5x + 9)^{611} + (x + 5)^{11} + (x - 1)^{11} + 3x^2 + 1\n$$\n\nand asked to find the **remainder** when this polynomial is divided by $ x + 2 $.\n\n---\n\n### Step 1: "
+      },
+      {
+        "id": "math500_322",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 243,
+        "pred_sample": "We are given:\n\n- $ f(x) = x - 3 $\n- $ q(x) = bx + 1 $\n- $ f(q(1)) = -3 $\n\nWe need to find the value of $ b $.\n\n---\n\n### Step 1: Compute $ q(1) $\n\nSubstitute $ x = 1 $ into $ q(x) $:\n\n$$\nq(1) = b(1) + "
+      },
+      {
+        "id": "math500_319",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 234,
+        "pred_sample": "We are given the equation:\n\n$$\n|x - 4| - 10 = 2\n$$\n\n### Step 1: Isolate the absolute value expression\n\nAdd 10 to both sides:\n\n$$\n|x - 4| = 12\n$$\n\n### Step 2: Solve the absolute value equation\n\nThe abs"
+      },
+      {
+        "id": "math500_253",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 196,
+        "pred_sample": "We are asked to find what fraction of **2 feet** is **3 inches**.\n\n---\n\n### Step 1: Convert both measurements to the same unit\n\nLet\u2019s convert **2 feet** into **inches**:\n\n$$\n1 \\text{ foot} = 12 \\text{"
+      },
+      {
+        "id": "math500_261",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 282,
+        "pred_sample": "We are given:\n\n- Triangle $ \\triangle ABC $\n- $ \\angle A = 14^\\circ $\n- $ AB $ is a **diameter** of the circle in which the triangle is inscribed.\n\n---\n\n### Step 1: Use the fact that $ AB $ is a diame"
+      },
+      {
+        "id": "math500_174",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 408,
+        "pred_sample": "We are given the equation of a parabola:\n\n$$\nx = y^2 - 4y - 1\n$$\n\nThis is a **horizontal** parabola (since $ x $ is expressed in terms of $ y $), and we are asked to find how many **$ y $-intercepts**"
+      },
+      {
+        "id": "math500_143",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 690,
+        "pred_sample": "We are given two vectors:\n\n$$\n\\vec{OA} = \\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix}, \\quad \\vec{OB} = \\begin{pmatrix} -3 \\\\ -2 \\\\ 1 \\end{pmatrix}\n$$\n\nWe are to find the **area of triangle $ OAB $**.\n\n-"
+      },
+      {
+        "id": "math500_64",
+        "level": 4,
+        "is_correct": false,
+        "pred_len": 476,
+        "pred_sample": "We are given the identity:\n\n$$\n(\\sin x)^7 = a \\sin 7x + b \\sin 5x + c \\sin 3x + d \\sin x\n$$\n\nfor all angles $ x $, and we are to find the value of $ d $.\n\n---\n\n### Step 1: Use trigonometric identities"
+      },
+      {
+        "id": "math500_346",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 495,
+        "pred_sample": "We are given the equation:\n\n$$\n\\sqrt[3]{x^2 - 4x + 4} = 16\n$$\n\n---\n\n### Step 1: Eliminate the cube root\n\nTo get rid of the cube root, we raise both sides of the equation to the power of 3:\n\n$$\nx^2 - 4"
+      },
+      {
+        "id": "math500_376",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 598,
+        "pred_sample": "We are given:\n\n- A point $ P $ lies on the line $ y = -x + 6 $\n- The point $ P $ is equidistant from $ A(10, -10) $ and $ O(0, 0) $, i.e., $ PA = PO $\n\nWe are to find the coordinates of such a point $"
+      },
+      {
+        "id": "math500_292",
+        "level": 4,
+        "is_correct": false,
+        "pred_len": 1812,
+        "pred_sample": "We are given a recurrence relation:\n\n$$\nx_n = x_{n-1} - x_{n-2} + x_{n-3} - x_{n-4}, \\quad \\text{for } n \\geq 5,\n$$\n\nwith initial values:\n\n$$\nx_1 = 211, \\quad x_2 = 375, \\quad x_3 = 420, \\quad x_4 = 5"
+      },
+      {
+        "id": "math500_216",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 341,
+        "pred_sample": "We are given a unique money system in the land of Ink:\n\n- **1 Trinket = 4 Blinkets**\n- **3 Blinkets = 7 Drinkets**\n\nWe are asked to find the **value of 56 Drinkets** in terms of Trinkets.\n\n---\n\n### St"
+      },
+      {
+        "id": "math500_78",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 731,
+        "pred_sample": "We are given the function:\n\n$$\nf(x) = x^3 + 3x^2 + 1\n$$\n\nand the identity:\n\n$$\nf(x) - f(a) = (x - a)^2 (x - b)\n$$\n\nOur goal is to find real numbers $ a \\neq 0 $ and $ b $ such that this equation holds"
+      },
+      {
+        "id": "math500_248",
+        "level": 4,
+        "is_correct": false,
+        "pred_len": 2345,
+        "pred_sample": "We are given:\n\n$$\n\\mathbf{A} = \\begin{pmatrix} 3 & 7 \\\\ -1 & -2 \\end{pmatrix}\n$$\n\nand asked to compute:\n\n$$\n\\mathbf{A}^{27} + \\mathbf{A}^{31} + \\mathbf{A}^{40}\n$$\n\n---\n\n### Step 1: Find the eigenvalue"
+      },
+      {
+        "id": "math500_379",
+        "level": 4,
+        "is_correct": false,
+        "pred_len": 906,
+        "pred_sample": "We are given the percentage of **male** and **female** bus riders for each grade, and we need to determine which grade has the **number of male bus riders closest to 135% of the number of female bus r"
+      },
+      {
+        "id": "math500_380",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 727,
+        "pred_sample": "We are given the inequality:\n\n$$\n\\frac{|x^2 - 81|}{x^2 - 36x} < 0\n$$\n\n---\n\n### Step 1: Understand the structure of the expression\n\nThe expression is a **fraction** where the **numerator** is $ |x^2 - "
+      },
+      {
+        "id": "math500_302",
+        "level": 4,
+        "is_correct": false,
+        "pred_len": 1261,
+        "pred_sample": "We are given the fraction:\n\n$$\n\\frac{31}{11111}\n$$\n\nand asked to determine how many **digits repeat** in its decimal expansion.\n\n---\n\n### Step 1: Understand the Problem\n\nWe are told that the decimal i"
+      },
+      {
+        "id": "math500_213",
+        "level": 4,
+        "is_correct": false,
+        "pred_len": 975,
+        "pred_sample": "We are asked to compute the infinite sum:\n\n$$\n\\sum_{n = 1}^\\infty \\frac{F_{n + 1}}{F_n F_{n + 2}},\n$$\n\nwhere $ F_n $ denotes the $ n $-th Fibonacci number, with initial conditions:\n\n$$\nF_0 = 0,\\quad F"
+      },
+      {
+        "id": "math500_93",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 431,
+        "pred_sample": "We are given the equation of a circle:\n\n$$\nx^2 - 10x + y^2 + 6y + c = 0\n$$\n\nWe are asked to find the value of $ c $ such that the **radius** of the circle is **1**.\n\n---\n\n### Step 1: Rewrite the equat"
+      },
+      {
+        "id": "math500_131",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 540,
+        "pred_sample": "We are given the function:\n\n$$\nf(x) = ax^4 - bx^2 + x + 5\n$$\n\nand we are told that:\n\n$$\nf(-3) = 2\n$$\n\nWe are asked to find the value of $ f(3) $.\n\n---\n\n### Step 1: Use the given information to find a "
+      },
+      {
+        "id": "math500_442",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 292,
+        "pred_sample": "We are given the function:\n\n$$\nf(x) = 2^x\n$$\n\nWe are asked to compute:\n\n$$\n\\sqrt{f(f(f(f(1)))))\n$$\n\n---\n\n### Step 1: Compute $ f(1) $\n\n$$\nf(1) = 2^1 = 2\n$$\n\n---\n\n### Step 2: Compute $ f(f(1)) = f(2) $"
+      },
+      {
+        "id": "math500_137",
+        "level": 4,
+        "is_correct": false,
+        "pred_len": 386,
+        "pred_sample": "We are given:\n\n- $ 413_5 \\div 2_5 $\n\nWe need to express the result in **base 5**.\n\n---\n\n### Step 1: Convert both numbers to base 10\n\n#### Convert $ 413_5 $ to base 10:\n\n$$\n4 \\cdot 5^2 + 1 \\cdot 5^1 + "
+      },
+      {
+        "id": "math500_217",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 894,
+        "pred_sample": "We are asked to find the **smallest positive multiple of 450** whose **digits are all zeroes and ones**.\n\n---\n\n### Step 1: Understand the requirements\n\n- The number must be a **multiple of 450**.\n- Al"
+      },
+      {
+        "id": "math500_249",
+        "level": 4,
+        "is_correct": false,
+        "pred_len": 5027,
+        "pred_sample": "We are given that $ t $ is an **odd** integer such that:\n\n$$\nt + 2 \\equiv t^{-1} \\pmod{23}\n$$\n\nand we are to find the **unique** such $ t $ with $ 0 < t < 23 $.\n\n---\n\n### Step 1: Understand the equati"
+      },
+      {
+        "id": "math500_461",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 536,
+        "pred_sample": "We are given a piecewise function:\n\n$$\nf(n) = \n\\begin{cases}\n\\lfloor n \\rfloor & \\text{if } n \\geq 4, \\\\\n\\lceil n \\rceil & \\text{if } n < 4.\n\\end{cases}\n$$\n\nWe are asked to compute:\n\n$$\nf\\left(\\frac{\\"
+      },
+      {
+        "id": "math500_354",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 892,
+        "pred_sample": "We are given that the **sum of 27 consecutive positive integers** is $ 3^7 $. We are to find the **median** of these integers.\n\n---\n\n### Step 1: Understand the structure\n\nLet the **first integer** be "
+      },
+      {
+        "id": "math500_85",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 383,
+        "pred_sample": "We are given:\n\n- The tank is a **right circular cylinder**.\n- It is being filled at a rate of $ 20\\pi $ cubic meters per hour.\n- The **water level rises at 4 meters per hour**.\n\nWe are to find the **r"
+      },
+      {
+        "id": "math500_9",
+        "level": 5,
+        "is_correct": false,
+        "pred_len": 1841,
+        "pred_sample": "We are given the expression:\n\n$$\n2 \\cdot 3 \\cdot 4 \\cdot 5 + 1\n$$\n\nAnd we are told that **parentheses can be inserted** to change the order of operations, but **rearranging terms is not allowed**.\n\n--"
+      },
+      {
+        "id": "math500_62",
+        "level": 5,
+        "is_correct": false,
+        "pred_len": 503,
+        "pred_sample": "We are given a matrix:\n\n$$\nA = \\begin{pmatrix} 2 & 3 \\\\ 0 & -2 \\end{pmatrix}\n$$\n\nand asked to find the **smallest positive real number** $ C $ such that:\n\n$$\n\\| A \\mathbf{v} \\| \\leq C \\| \\mathbf{v} \\|"
+      },
+      {
+        "id": "math500_94",
+        "level": 5,
+        "is_correct": false,
+        "pred_len": 1064,
+        "pred_sample": "We are given a quadrilateral $ABCD$ with angles $\\angle BAD$ and $\\angle CDA$ trisected. We are to find the measure of $\\angle AFD$, where points $E$ and $F$ are defined as follows:\n\n- $E$ is on segme"
+      },
+      {
+        "id": "math500_488",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 191,
+        "pred_sample": "We are given that the **sale price** of a shirt is **\\$14.40**, and this is **60% off** the original price.\n\n---\n\n### Step 1: Understand the relationship\n\nIf something is **60% off**, that means the s"
+      },
+      {
+        "id": "math500_400",
+        "level": 5,
+        "is_correct": false,
+        "pred_len": 1373,
+        "pred_sample": "We are given a circle with center $ Q $ and radius 14 inches. The radii $ AQ $ and $ BQ $ form a **right angle**, meaning that triangle $ ABQ $ is a right triangle with right angle at $ Q $. \n\nAlso, t"
+      },
+      {
+        "id": "math500_415",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 729,
+        "pred_sample": "We are asked to find the **remainder when**  \n$$\n129^{34} + 96^{38}\n$$  \nis divided by **11**.\n\n---\n\n### Step 1: Reduce the bases modulo 11\n\nWe first simplify the base numbers modulo 11:\n\n- $ 129 \\mod"
+      },
+      {
+        "id": "math500_142",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 437,
+        "pred_sample": "We are given a **circular table** with:\n\n- **5 Democrats**\n- **5 Republicans**\n- **1 Independent**\n\nTotal: **11 members**\n\nWe want to find the number of **distinct seating arrangements** such that:\n\n-"
+      },
+      {
+        "id": "math500_136",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 1532,
+        "pred_sample": "We are given a sequence of **positive real numbers** $(a_1, a_2, \\dots, a_n)$ such that:\n\n$$\n\\sum_{i=1}^n a_i = 96, \\quad \\sum_{i=1}^n a_i^2 = 144, \\quad \\sum_{i=1}^n a_i^3 = 216.\n$$\n\nWe are to find t"
+      },
+      {
+        "id": "math500_152",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 1931,
+        "pred_sample": "We are given:\n\n- Triangle $ ABC $ with medians $ AD $, $ BE $, and $ CF $ intersecting at the **centroid** $ G $.\n- A line through $ G $ that is **parallel to $ BC $** intersects $ AB $ at $ M $ and $"
+      },
+      {
+        "id": "math500_313",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 239,
+        "pred_sample": "We are given:\n\n- Radius of the unicycle wheel = 9 inches  \n- Number of revolutions per 3 seconds = 2  \n\n---\n\n### Step 1: Find the circumference of the wheel\n\nThe circumference $ C $ of a circle is:\n\n$"
+      },
+      {
+        "id": "math500_381",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 1540,
+        "pred_sample": "We are given that two numbers $ x $ and $ y $ are selected at random from the interval $ (0, 3) $. We are to find the probability that a triangle with sides of length 1, $ x $, and $ y $ exists.\n\n---\n"
+      },
+      {
+        "id": "math500_238",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 553,
+        "pred_sample": "We are given the function:\n\n$$\nf(x) = \\frac{1}{|x^2 + 3x - 4| + |x^2 + 9x + 20|}\n$$\n\nand asked to find **all real values of $ x $** that are **not in the domain** of $ f(x) $.\n\n---\n\n### Step 1: Unders"
+      },
+      {
+        "id": "math500_145",
+        "level": 5,
+        "is_correct": false,
+        "pred_len": 2320,
+        "pred_sample": "We are given:\n\n$$\nz + \\frac{1}{z} = \\frac{1 + \\sqrt{5}}{2}\n$$\n\nWe are to find:\n\n$$\nz^{85} + \\frac{1}{z^{85}}\n$$\n\n---\n\n### Step 1: Recognize the identity\n\nLet\u2019s denote:\n\n$$\nx = z + \\frac{1}{z}\n$$\n\nThen"
+      },
+      {
+        "id": "math500_26",
+        "level": 5,
+        "is_correct": false,
+        "pred_len": 1782,
+        "pred_sample": "We are asked to find the number of **distinct seating arrangements** of **7 people** around a **round table**, with the condition that **no two of the 3 specific people** \u2014 **Pierre, Rosa, and Thomas*"
+      },
+      {
+        "id": "math500_394",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 1104,
+        "pred_sample": "We are given the function:\n\n$$\nz(x, y) = (2x - y)^2 - 2y^2 - 3y\n$$\n\n---\n\n### Step 1: Understand the game\n\n- **Archimedes** chooses $ x $ first.\n- **Brahmagupta** then chooses $ y $ to **maximize** $ z"
+      },
+      {
+        "id": "math500_417",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 251,
+        "pred_sample": "We are given the polynomial:\n\n$$\nf(x) = 3x^4 + 5x^2 - 9x - 2\n$$\n\nand told that:\n\n$$\ng(x) = f(x - 1)\n$$\n\nWe are asked to find the **sum of the coefficients** of $ g(x) $.\n\n---\n\n### Step 1: Understand w"
+      },
+      {
+        "id": "math500_24",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 1056,
+        "pred_sample": "We are given:\n\n- Annual wage: \\$20,000\n- Deposits at the **end of each year**\n- Goal: Have at least **\\$66,200** by the **end of the third year**\n\nWe need to find the **minimal compound interest rate*"
+      },
+      {
+        "id": "math500_382",
+        "level": 5,
+        "is_correct": false,
+        "pred_len": 682,
+        "pred_sample": "We are given a **rectangular field** enclosed in an **athletic track**, which consists of:\n\n- Two **edges** of the rectangle (the long sides),\n- And **two semicircular ends** (the short sides).\n\nThe t"
+      },
+      {
+        "id": "math500_432",
+        "level": 5,
+        "is_correct": false,
+        "pred_len": 3578,
+        "pred_sample": "We are given the recurrence relation:\n\n$$\nf(n + 1) = (-1)^{n + 1} n - 2f(n), \\quad \\text{for } n \\ge 1,\n$$\nwith the initial condition:\n$$\nf(1) = f(1986).\n$$\n\nWe are to compute:\n$$\nS = f(1) + f(2) + f("
+      },
+      {
+        "id": "math500_197",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 679,
+        "pred_sample": "We are given that $ x^3 $ is a **positive factor** of $ 10! $. We are to find how many **integer values** of $ x $ satisfy this condition.\n\n---\n\n### Step 1: Prime Factorization of $ 10! $\n\nFirst, comp"
+      }
+    ]
+  },
+  "arm2b_headers_pause": {
+    "mode": "headers_pause",
+    "checkpoint": "checkpoints/lora_arm2b_register_ladder_headers_pause_qwen3_1.7b/best_checkpoint",
+    "accuracy": 71.66666666666667,
+    "correct": 43,
+    "total": 60,
+    "results": [
+      {
+        "id": "math500_309",
+        "level": 3,
+        "is_correct": false,
+        "pred_len": 721,
+        "pred_sample": "We are given that the **product of a set of distinct positive integers is 84**, and we need to find the **least possible sum** of these integers.\n\n---\n\n### Step 1: Factorize 84\n\n$$\n84 = 2^2 \\times 3 \\"
+      },
+      {
+        "id": "math500_205",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 1204,
+        "pred_sample": "We are given a matrix $\\mathbf{A}$ such that:\n\n$$\n\\mathbf{A} \\begin{pmatrix} 3 \\\\ 1 \\\\ 0 \\end{pmatrix} = \\begin{pmatrix} 2 \\\\ 4 \\\\ -3 \\end{pmatrix}, \\quad \\mathbf{A} \\begin{pmatrix} -5 \\\\ 2 \\\\ 2 \\end{"
+      },
+      {
+        "id": "math500_81",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 330,
+        "pred_sample": "We are given a few equations involving the weights of different objects:\n\n1. **Ten treeks weigh as much as three squigs and one goolee**:\n   $$\n   10T = 3S + G \\quad \\text{(Equation 1)}\n   $$\n\n2. **Tw"
+      },
+      {
+        "id": "math500_37",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 212,
+        "pred_sample": "We are given a **regular pentagon** (a five-sided polygon with all sides and angles equal). The question asks:\n\n> What is the **minimum number of degrees** it must be rotated **counterclockwise** abou"
+      },
+      {
+        "id": "math500_483",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 1442,
+        "pred_sample": "We are given that the area of triangle $ ABC $ is:\n\n$$\n\\text{Area} = a^2 - (b - c)^2\n$$\n\nwhere $ a, b, c $ are the sides of triangle $ ABC $. We are to compute $ \\tan A $, where $ A $ is the angle opp"
+      },
+      {
+        "id": "math500_269",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 356,
+        "pred_sample": "We are given:\n\n- **2 indistinguishable IMO gold medals**\n- **2 indistinguishable IPhO gold medals**\n\nWe want to arrange them in a **row**, and we need to find the number of **distinct arrangements**.\n"
+      },
+      {
+        "id": "math500_3",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 283,
+        "pred_sample": "We are asked to find how many **positive whole-number divisors** the number **196** has.\n\n---\n\n### Step 1: Prime Factorization of 196\n\nWe start by factoring 196 into its prime components:\n\n$$\n196 = 2^"
+      },
+      {
+        "id": "math500_342",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 235,
+        "pred_sample": "We are given the inequality:\n\n$$\n\\frac{1}{4} < \\frac{x}{7} < \\frac{1}{3}\n$$\n\n### Step 1: Multiply all parts by 7 to eliminate the denominator\n\n$$\n\\frac{1}{4} \\cdot 7 < x < \\frac{1}{3} \\cdot 7\n$$\n\n$$\n\\"
+      },
+      {
+        "id": "math500_351",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 1782,
+        "pred_sample": "We are given the product:\n\n$$\n\\cos \\left( \\frac{2 \\pi}{15} \\right) \\cos \\left( \\frac{4 \\pi}{15} \\right) \\cos \\left( \\frac{8 \\pi}{15} \\right) \\cos \\left( \\frac{16 \\pi}{15} \\right)\n$$\n\n---\n\n### Step 1: "
+      },
+      {
+        "id": "math500_393",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 649,
+        "pred_sample": "We are given:\n\n- Mass of the **softball**: $ m_{\\text{softball}} = 200 \\, \\text{g} $\n- Mass of the **baseball**: $ m_{\\text{baseball}} = 150 \\, \\text{g} $\n- Force is the same for both: $ F = F $\n\nWe a"
+      },
+      {
+        "id": "math500_386",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 315,
+        "pred_sample": "We are given the inequality:\n\n$$\n|x - 2| \\leq 5.6\n$$\n\n### Step 1: Understand the inequality\n\nThe expression $ |x - 2| \\leq 5.6 $ means that the distance between $ x $ and 2 is at most 5.6.\n\nThis is eq"
+      },
+      {
+        "id": "math500_396",
+        "level": 3,
+        "is_correct": false,
+        "pred_len": 544,
+        "pred_sample": "We are given:\n\n- Quadrilateral $ABCD$ is a **square** with area 16 square inches.\n- The figure represents a **Chinese tangram**, and piece \"e\" is a **square**.\n- We are to find the **area of the gray "
+      },
+      {
+        "id": "math500_39",
+        "level": 3,
+        "is_correct": false,
+        "pred_len": 202,
+        "pred_sample": "We are given:\n\n- **6432**\n- **132**\n\nWe need to find the **greatest common factor (GCF)** of these two numbers, then **add 11** to it.\n\n---\n\n### Step 1: Find the GCF of 6432 and 132\n\nWe can use the **"
+      },
+      {
+        "id": "math500_203",
+        "level": 3,
+        "is_correct": false,
+        "pred_len": 549,
+        "pred_sample": "We are given the expression:\n\n$$\n(5x + 9)^{611} + (x + 5)^{11} + (x - 1)^{11} + 3x^2 + 1\n$$\n\nand asked to find the **remainder** when this expression is divided by $ x + 2 $.\n\n---\n\n### Step 1: Use the"
+      },
+      {
+        "id": "math500_322",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 255,
+        "pred_sample": "We are given:\n\n- $ f(x) = x - 3 $\n- $ q(x) = bx + 1 $\n\nWe are also told that:\n$$\nf(q(1)) = -3\n$$\n\n---\n\n### Step 1: Compute $ q(1) $\n\nSubstitute $ x = 1 $ into $ q(x) $:\n$$\nq(1) = b(1) + 1 = b + 1\n$$\n\n"
+      },
+      {
+        "id": "math500_319",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 235,
+        "pred_sample": "We are given the equation:\n\n$$\n|x - 4| - 10 = 2\n$$\n\n---\n\n### Step 1: Isolate the absolute value expression\n\nAdd 10 to both sides:\n\n$$\n|x - 4| = 12\n$$\n\n---\n\n### Step 2: Solve the absolute value equatio"
+      },
+      {
+        "id": "math500_253",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 215,
+        "pred_sample": "We are asked to find **what fraction of 2 feet is 3 inches**.\n\n---\n\n### Step 1: Convert both measurements to the same unit\n\nLet\u2019s convert **2 feet** to **inches**:\n\n$$\n1 \\text{ foot} = 12 \\text{ inche"
+      },
+      {
+        "id": "math500_261",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 326,
+        "pred_sample": "We are given:\n\n- Triangle $ \\triangle ABC $ is inscribed in a circle.\n- $ AB $ is a **diameter** of the circle.\n- $ \\angle A = 14^\\circ $\n\nWe are to find the measure of $ \\angle B $.\n\n---\n\n### Step 1:"
+      },
+      {
+        "id": "math500_174",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 406,
+        "pred_sample": "We are given the equation of a parabola:\n\n$$\nx = y^2 - 4y - 1\n$$\n\nWe are asked to find how many **$ y $-intercepts** this parabola has.\n\n---\n\n### Step 1: Understand what a $ y $-intercept is\n\nA **$ y "
+      },
+      {
+        "id": "math500_143",
+        "level": 3,
+        "is_correct": true,
+        "pred_len": 670,
+        "pred_sample": "We are given two vectors:\n\n$$\n\\vec{OA} = \\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix}, \\quad \\vec{OB} = \\begin{pmatrix} -3 \\\\ -2 \\\\ 1 \\end{pmatrix}\n$$\n\nWe are to find the **area of triangle $ OAB $**.\n\n-"
+      },
+      {
+        "id": "math500_64",
+        "level": 4,
+        "is_correct": false,
+        "pred_len": 636,
+        "pred_sample": "We are given the identity:\n\n$$\n(\\sin x)^7 = a \\sin 7x + b \\sin 5x + c \\sin 3x + d \\sin x\n$$\n\nfor all angles $ x $. We are to find the value of $ d $.\n\n---\n\n### Step 1: Use Trigonometric Identities\n\nWe"
+      },
+      {
+        "id": "math500_346",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 543,
+        "pred_sample": "We are given the equation:\n\n$$\n\\sqrt[3]{x^2 - 4x + 4} = 16\n$$\n\n---\n\n### Step 1: Eliminate the cube root\n\nTo solve for $ x $, first remove the cube root by cubing both sides:\n\n$$\nx^2 - 4x + 4 = 16^3\n$$"
+      },
+      {
+        "id": "math500_376",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 547,
+        "pred_sample": "We are given:\n\n- A point $ P = (a, b) $ lies on the line $ y = -x + 6 $\n- We want $ P $ such that $ PA = PO $, i.e., $ P $ is equidistant from $ A(10, -10) $ and $ O(0, 0) $\n\n---\n\n### Step 1: Use the "
+      },
+      {
+        "id": "math500_292",
+        "level": 4,
+        "is_correct": false,
+        "pred_len": 2735,
+        "pred_sample": "We are given a recurrence relation:\n\n$$\nx_n = x_{n-1} - x_{n-2} + x_{n-3} - x_{n-4} \\quad \\text{for } n \\geq 5,\n$$\nwith initial values:\n$$\nx_1 = 211, \\quad x_2 = 375, \\quad x_3 = 420, \\quad x_4 = 523."
+      },
+      {
+        "id": "math500_216",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 319,
+        "pred_sample": "We are given a unique money system in the land of Ink:\n\n- **1 Trinket = 4 Blinkets**\n- **3 Blinkets = 7 Drinkets**\n\nWe are asked to find the **value of 56 Drinkets** in terms of **Trinkets**.\n\n---\n\n##"
+      },
+      {
+        "id": "math500_78",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 789,
+        "pred_sample": "We are given the function:\n\n$$\nf(x) = x^3 + 3x^2 + 1\n$$\n\nand we are told that there exist real numbers $ a \\neq 0 $ and $ b $ such that:\n\n$$\nf(x) - f(a) = (x - a)^2 (x - b)\n$$\n\n---\n\n### Step 1: Expand"
+      },
+      {
+        "id": "math500_248",
+        "level": 4,
+        "is_correct": false,
+        "pred_len": 1897,
+        "pred_sample": "We are given the matrix:\n\n$$\n\\mathbf{A} = \\begin{pmatrix} 3 & 7 \\\\ -1 & -2 \\end{pmatrix}\n$$\n\nand asked to compute:\n\n$$\n\\mathbf{A}^{27} + \\mathbf{A}^{31} + \\mathbf{A}^{40}\n$$\n\n---\n\n### Step 1: Find eig"
+      },
+      {
+        "id": "math500_379",
+        "level": 4,
+        "is_correct": false,
+        "pred_len": 934,
+        "pred_sample": "We are given a table showing the percentage of male and female bus riders in each grade at Central H.S. We need to determine **which grade has the number of its male bus riders closest to 135% of the "
+      },
+      {
+        "id": "math500_380",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 918,
+        "pred_sample": "We are given the inequality:\n\n$$\n\\frac{|x^2 - 81|}{x^2 - 36x} < 0\n$$\n\n---\n\n### Step 1: Understand the expression\n\nLet\u2019s denote:\n\n- Numerator: $ N = |x^2 - 81| $\n- Denominator: $ D = x^2 - 36x $\n\nSo th"
+      },
+      {
+        "id": "math500_302",
+        "level": 4,
+        "is_correct": false,
+        "pred_len": 752,
+        "pred_sample": "We are given the fraction:\n\n$$\n\\frac{31}{11111}\n$$\n\nand asked to determine how many **digits repeat** in its decimal expansion.\n\n---\n\n### Step 1: Understand the Problem\n\nA repeating decimal occurs whe"
+      },
+      {
+        "id": "math500_213",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 2181,
+        "pred_sample": "We are asked to compute the infinite sum:\n\n$$\n\\sum_{n = 1}^\\infty \\frac{F_{n + 1}}{F_n F_{n + 2}},\n$$\n\nwhere $ F_n $ denotes the $ n $-th Fibonacci number, with the initial conditions:\n\n$$\nF_0 = 0, \\q"
+      },
+      {
+        "id": "math500_93",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 524,
+        "pred_sample": "We are given the equation of a circle:\n\n$$\nx^2 - 10x + y^2 + 6y + c = 0\n$$\n\nWe are asked to find the value of $ c $ such that the **radius** of the circle is **length 1**.\n\n---\n\n### Step 1: Rewrite th"
+      },
+      {
+        "id": "math500_131",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 526,
+        "pred_sample": "We are given the function:\n\n$$\nf(x) = ax^4 - bx^2 + x + 5\n$$\n\nand we are told that:\n\n$$\nf(-3) = 2\n$$\n\nWe are asked to find the value of $ f(3) $.\n\n---\n\n### Step 1: Use the given information to find a "
+      },
+      {
+        "id": "math500_442",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 292,
+        "pred_sample": "We are given the function:\n\n$$\nf(x) = 2^x\n$$\n\nWe are asked to compute:\n\n$$\n\\sqrt{f(f(f(f(1)))))\n$$\n\nLet's break this down step by step.\n\n---\n\n### Step 1: Compute $ f(1) $\n\n$$\nf(1) = 2^1 = 2\n$$\n\n---\n\n#"
+      },
+      {
+        "id": "math500_137",
+        "level": 4,
+        "is_correct": false,
+        "pred_len": 410,
+        "pred_sample": "We are given the problem:\n\n$$\n413_5 \\div 2_5\n$$\n\n### Step 1: Convert both numbers to base 10 (decimal)\n\n#### Convert $ 413_5 $ to decimal:\n\n$$\n4 \\cdot 5^2 + 1 \\cdot 5^1 + 3 \\cdot 5^0 = 4 \\cdot 25 + 1 "
+      },
+      {
+        "id": "math500_217",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 1647,
+        "pred_sample": "We are asked to find the **smallest positive multiple of 450** whose **digits are only 0s and 1s**.\n\n---\n\n### Step 1: Understand the problem\n\n- A **multiple of 450** means:\n  $$\n  N = 450 \\times k \\qu"
+      },
+      {
+        "id": "math500_249",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 1838,
+        "pred_sample": "We are given that:\n\n- $ t $ is an **odd** integer such that $ 0 < t < 23 $\n- $ t + 2 $ is the **inverse** of $ t $ modulo 23\n\nThis means:\n\n$$\n(t + 2) \\cdot t \\equiv 1 \\pmod{23}\n$$\n\nLet\u2019s denote:\n\n$$\nx"
+      },
+      {
+        "id": "math500_461",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 520,
+        "pred_sample": "We are given a piecewise function:\n\n$$\nf(n) = \n\\begin{cases}\n\\lfloor n \\rfloor & \\text{if } n \\geq 4, \\\\\n\\lceil n \\rceil & \\text{if } n < 4.\n\\end{cases}\n$$\n\nWe are asked to compute:\n\n$$\nf\\left(\\frac{\\"
+      },
+      {
+        "id": "math500_354",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 513,
+        "pred_sample": "We are given that the **sum of 27 consecutive positive integers is $ 3^7 $**, and we are to find their **median**.\n\n---\n\n### Step 1: Understand the structure\n\nLet the 27 consecutive integers be:\n\n$$\nn"
+      },
+      {
+        "id": "math500_85",
+        "level": 4,
+        "is_correct": true,
+        "pred_len": 393,
+        "pred_sample": "We are given:\n\n- The tank is a **right circular cylinder**.\n- It is being filled at a rate of $ 20\\pi $ cubic meters per hour.\n- The **water level rises at 4 meters per hour**.\n\nWe are to find the **r"
+      },
+      {
+        "id": "math500_9",
+        "level": 5,
+        "is_correct": false,
+        "pred_len": 1085,
+        "pred_sample": "We are given the expression:\n\n$$\n2 \\cdot 3 \\cdot 4 \\cdot 5 + 1\n$$\n\nand asked to find how many **distinct values** can be obtained by inserting parentheses, **without rearranging terms**.\n\n---\n\n### Ste"
+      },
+      {
+        "id": "math500_62",
+        "level": 5,
+        "is_correct": false,
+        "pred_len": 585,
+        "pred_sample": "We are given a matrix:\n\n$$\nA = \\begin{pmatrix} 2 & 3 \\\\ 0 & -2 \\end{pmatrix}\n$$\n\nand asked to find the **smallest positive real number** $ C $ such that:\n\n$$\n\\| A \\mathbf{v} \\| \\leq C \\| \\mathbf{v} \\|"
+      },
+      {
+        "id": "math500_94",
+        "level": 5,
+        "is_correct": false,
+        "pred_len": 1292,
+        "pred_sample": "We are given a quadrilateral $ABCD$ with the following information:\n\n- Angles $\\angle BAD$ and $\\angle CDA$ are **trisected**.\n- We are to find the measure of $\\angle AFD$, where:\n  - $F$ lies on segm"
+      },
+      {
+        "id": "math500_488",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 224,
+        "pred_sample": "We are given that the **sale price** of a shirt is **\\$14.40**, and this is **60% off** the original price.\n\n---\n\n### Step 1: Understand the relationship\n\nIf something is **60% off**, that means you'r"
+      },
+      {
+        "id": "math500_400",
+        "level": 5,
+        "is_correct": false,
+        "pred_len": 1776,
+        "pred_sample": "We are given a circle with center $ Q $ and radius 14 inches. The radii $ AQ $ and $ BQ $ form a **right angle**, meaning that triangle $ ABQ $ is a right triangle with right angle at $ Q $. Also, the"
+      },
+      {
+        "id": "math500_415",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 629,
+        "pred_sample": "We are asked to find the **remainder when**  \n$$\n129^{34} + 96^{38}\n$$  \nis divided by **11**.\n\n---\n\n### Step 1: Reduce the bases modulo 11\n\nWe first reduce each base modulo 11:\n\n- $ 129 \\mod 11 $\n  -"
+      },
+      {
+        "id": "math500_142",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 455,
+        "pred_sample": "We are given a **circular table** with:\n\n- 5 **Democrats**\n- 5 **Republicans**\n- 1 **Independent**\n\nTotal members: $ 5 + 5 + 1 = 11 $\n\nWe want to find the number of **distinct seating arrangements** s"
+      },
+      {
+        "id": "math500_136",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 916,
+        "pred_sample": "We are given a sequence of **positive real numbers** $(a_1, a_2, \\dots, a_n)$ satisfying:\n\n$$\n\\sum_{i=1}^n a_i = 96, \\quad \\sum_{i=1}^n a_i^2 = 144, \\quad \\sum_{i=1}^n a_i^3 = 216.\n$$\n\nWe are to find "
+      },
+      {
+        "id": "math500_152",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 1996,
+        "pred_sample": "We are given:\n\n- Triangle $ ABC $ with medians $ AD $, $ BE $, and $ CF $ intersecting at the **centroid** $ G $.\n- A line through $ G $ that is **parallel to $ BC $** intersects $ AB $ at $ M $ and $"
+      },
+      {
+        "id": "math500_313",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 242,
+        "pred_sample": "We are given:\n\n- **Radius of the unicycle wheel**: $ r = 9 $ inches  \n- **Number of revolutions per 3 seconds**: 2  \n\n---\n\n### Step 1: Find the circumference of the wheel\n\nThe circumference $ C $ of a"
+      },
+      {
+        "id": "math500_381",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 861,
+        "pred_sample": "We are given that two numbers $ x $ and $ y $ are selected at random from the interval $ (0, 3) $. We are asked to find the probability that a triangle with sides of length 1, $ x $, and $ y $ exists."
+      },
+      {
+        "id": "math500_238",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 775,
+        "pred_sample": "We are given the function:\n\n$$\nf(x) = \\frac{1}{|x^2 + 3x - 4| + |x^2 + 9x + 20|}\n$$\n\nand asked to find **all real values of $ x $** that are **not in the domain** of $ f(x) $.\n\n---\n\n### Step 1: Unders"
+      },
+      {
+        "id": "math500_145",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 1499,
+        "pred_sample": "We are given:\n\n$$\nz + \\frac{1}{z} = \\frac{1 + \\sqrt{5}}{2}\n$$\n\nLet\u2019s denote:\n\n$$\n\\alpha = \\frac{1 + \\sqrt{5}}{2}\n$$\n\nSo the equation becomes:\n\n$$\nz + \\frac{1}{z} = \\alpha\n$$\n\nThis is a **conjugate rec"
+      },
+      {
+        "id": "math500_26",
+        "level": 5,
+        "is_correct": false,
+        "pred_len": 826,
+        "pred_sample": "We are asked to find the number of **distinct seating arrangements** of **7 people** around a **round table**, with the condition that **no two of the 3 people** \u2014 **Pierre, Rosa, and Thomas** \u2014 can s"
+      },
+      {
+        "id": "math500_394",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 1086,
+        "pred_sample": "We are given the function:\n\n$$\nz(x, y) = (2x - y)^2 - 2y^2 - 3y\n$$\n\nArchimedes chooses $ x $ first, and then Brahmagupta chooses $ y $ to **maximize** $ z $. Archimedes wants to **minimize** $ z $, as"
+      },
+      {
+        "id": "math500_417",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 245,
+        "pred_sample": "We are given a polynomial:\n\n$$\nf(x) = 3x^4 + 5x^2 - 9x - 2\n$$\n\nand told that:\n\n$$\ng(x) = f(x - 1)\n$$\n\nWe are asked to find the **sum of the coefficients** of $ g(x) $.\n\n---\n\n### Step 1: Understand wha"
+      },
+      {
+        "id": "math500_24",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 1021,
+        "pred_sample": "We are given:\n\n- Initial annual wage: \\$20,000\n- Deposited at the **end of each year**\n- Goal: After **3 years**, have at least **\\$66,200** in the account\n\nWe need to find the **minimal compound inte"
+      },
+      {
+        "id": "math500_382",
+        "level": 5,
+        "is_correct": false,
+        "pred_len": 784,
+        "pred_sample": "We are given a **rectangular field** enclosed in an **athletic track**, which consists of:\n\n- Two **edges** of the rectangle (the length and width),\n- And **two semicircles** (one on each end of the r"
+      },
+      {
+        "id": "math500_432",
+        "level": 5,
+        "is_correct": true,
+        "pred_len": 3454,
+        "pred_sample": "We are given the recurrence relation:\n\n$$\nf(n + 1) = (-1)^{n + 1} n - 2f(n), \\quad \\text{for } n \\geq 1,\n$$\nwith the initial condition:\n$$\nf(1) = f(1986).\n$$\n\nWe are asked to compute:\n$$\nS = f(1) + f("
+      },
+      {
+        "id": "math500_197",
+        "level": 5,
+        "is_correct": false,
+        "pred_len": 847,
+        "pred_sample": "We are given that $ x^3 $ is a **positive factor** of $ 10! $. We need to find how many **possible integer values** of $ x $ satisfy this condition.\n\n---\n\n### Step 1: Prime Factorization of $ 10! $\n\nF"
+      }
+    ]
+  },
+  "arm3_reference_accuracy": 45.0,
+  "delta_arm3_vs_trained_pause": -26.66666666666667,
+  "delta_arm3_vs_trained_headers": -23.33333333333333
+}

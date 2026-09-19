@@ -1,0 +1,368 @@
+{
+  "Arm4_Ceiling": {
+    "GSM8K: All": {
+      "n": 600,
+      "n_problems": 150,
+      "correct": 496,
+      "accuracy": 82.66666666666667,
+      "mean_latency_ms": 55652.183333333334,
+      "median_latency_ms": 38315.0,
+      "median_tokens": 2098.5,
+      "truncation_rate": 0.0
+    },
+    "  - Short (<=3 sent)": {
+      "n": 200,
+      "n_problems": 50,
+      "correct": 173,
+      "accuracy": 86.5,
+      "mean_latency_ms": 37477.85,
+      "median_latency_ms": 22065.0,
+      "median_tokens": 1375.0,
+      "truncation_rate": 0.0
+    },
+    "  - Medium (4-6 sent)": {
+      "n": 200,
+      "n_problems": 50,
+      "correct": 172,
+      "accuracy": 86.0,
+      "mean_latency_ms": 55594.7,
+      "median_latency_ms": 41735.0,
+      "median_tokens": 2257.0,
+      "truncation_rate": 0.0
+    },
+    "  - Long (>=7 sent)": {
+      "n": 200,
+      "n_problems": 50,
+      "correct": 151,
+      "accuracy": 75.5,
+      "mean_latency_ms": 73884.0,
+      "median_latency_ms": 58220.0,
+      "median_tokens": 3025.5,
+      "truncation_rate": 0.0
+    },
+    "MATH-500: All": {
+      "n": 400,
+      "n_problems": 100,
+      "correct": 371,
+      "accuracy": 92.75,
+      "mean_latency_ms": 124504.675,
+      "median_latency_ms": 61280.0,
+      "median_tokens": 2807.5,
+      "truncation_rate": 3.5000000000000004
+    },
+    "  - Level 1": {
+      "n": 80,
+      "n_problems": 20,
+      "correct": 80,
+      "accuracy": 100.0,
+      "mean_latency_ms": 48560.5,
+      "median_latency_ms": 43675.0,
+      "median_tokens": 2256.0,
+      "truncation_rate": 0.0
+    },
+    "  - Level 2": {
+      "n": 80,
+      "n_problems": 20,
+      "correct": 73,
+      "accuracy": 91.25,
+      "mean_latency_ms": 61173.125,
+      "median_latency_ms": 44445.0,
+      "median_tokens": 2679.5,
+      "truncation_rate": 0.0
+    },
+    "  - Level 3": {
+      "n": 80,
+      "n_problems": 20,
+      "correct": 79,
+      "accuracy": 98.75,
+      "mean_latency_ms": 76880.25,
+      "median_latency_ms": 53505.0,
+      "median_tokens": 2584.0,
+      "truncation_rate": 0.0
+    },
+    "  - Level 4": {
+      "n": 80,
+      "n_problems": 20,
+      "correct": 74,
+      "accuracy": 92.5,
+      "mean_latency_ms": 157183.25,
+      "median_latency_ms": 95065.0,
+      "median_tokens": 3159.5,
+      "truncation_rate": 6.25
+    },
+    "  - Level 5": {
+      "n": 80,
+      "n_problems": 20,
+      "correct": 65,
+      "accuracy": 81.25,
+      "mean_latency_ms": 278726.25,
+      "median_latency_ms": 245690.0,
+      "median_tokens": 5406.5,
+      "truncation_rate": 11.25
+    },
+    "MATH-500: Hard Subset (L3-5)": {
+      "n": 240,
+      "n_problems": 60,
+      "correct": 218,
+      "accuracy": 90.83333333333333,
+      "mean_latency_ms": 170929.91666666666,
+      "median_latency_ms": 107710.0,
+      "median_tokens": 3604.5,
+      "truncation_rate": 5.833333333333333
+    },
+    "Overall Suite (250 Problems)": {
+      "n": 1000,
+      "n_problems": 250,
+      "correct": 867,
+      "accuracy": 86.7,
+      "mean_latency_ms": 83193.18,
+      "median_latency_ms": 47765.0,
+      "median_tokens": 2413.5,
+      "truncation_rate": 1.4000000000000001
+    }
+  },
+  "Arm2_K32": {
+    "GSM8K: All": {
+      "n": 600,
+      "n_problems": 150,
+      "correct": 434,
+      "accuracy": 72.33333333333334,
+      "mean_latency_ms": 8662.97,
+      "median_latency_ms": 7667.0,
+      "median_tokens": 360.0,
+      "truncation_rate": 0.0
+    },
+    "  - Short (<=3 sent)": {
+      "n": 200,
+      "n_problems": 50,
+      "correct": 166,
+      "accuracy": 83.0,
+      "mean_latency_ms": 7422.2,
+      "median_latency_ms": 6405.5,
+      "median_tokens": 290.5,
+      "truncation_rate": 0.0
+    },
+    "  - Medium (4-6 sent)": {
+      "n": 200,
+      "n_problems": 50,
+      "correct": 150,
+      "accuracy": 75.0,
+      "mean_latency_ms": 8714.36,
+      "median_latency_ms": 7772.0,
+      "median_tokens": 365.0,
+      "truncation_rate": 0.0
+    },
+    "  - Long (>=7 sent)": {
+      "n": 200,
+      "n_problems": 50,
+      "correct": 118,
+      "accuracy": 59.0,
+      "mean_latency_ms": 9852.35,
+      "median_latency_ms": 8665.5,
+      "median_tokens": 419.0,
+      "truncation_rate": 0.0
+    },
+    "MATH-500: All": {
+      "n": 400,
+      "n_problems": 100,
+      "correct": 313,
+      "accuracy": 78.25,
+      "mean_latency_ms": 16960.8975,
+      "median_latency_ms": 10369.5,
+      "median_tokens": 545.0,
+      "truncation_rate": 0.5
+    },
+    "  - Level 1": {
+      "n": 80,
+      "n_problems": 20,
+      "correct": 76,
+      "accuracy": 95.0,
+      "mean_latency_ms": 9015.375,
+      "median_latency_ms": 7135.5,
+      "median_tokens": 335.5,
+      "truncation_rate": 0.0
+    },
+    "  - Level 2": {
+      "n": 80,
+      "n_problems": 20,
+      "correct": 61,
+      "accuracy": 76.25,
+      "mean_latency_ms": 12049.175,
+      "median_latency_ms": 7590.5,
+      "median_tokens": 364.0,
+      "truncation_rate": 0.0
+    },
+    "  - Level 3": {
+      "n": 80,
+      "n_problems": 20,
+      "correct": 69,
+      "accuracy": 86.25,
+      "mean_latency_ms": 14261.2375,
+      "median_latency_ms": 8649.5,
+      "median_tokens": 450.0,
+      "truncation_rate": 0.0
+    },
+    "  - Level 4": {
+      "n": 80,
+      "n_problems": 20,
+      "correct": 61,
+      "accuracy": 76.25,
+      "mean_latency_ms": 22377.7875,
+      "median_latency_ms": 13678.5,
+      "median_tokens": 724.0,
+      "truncation_rate": 1.25
+    },
+    "  - Level 5": {
+      "n": 80,
+      "n_problems": 20,
+      "correct": 46,
+      "accuracy": 57.49999999999999,
+      "mean_latency_ms": 27100.9125,
+      "median_latency_ms": 19847.5,
+      "median_tokens": 1099.0,
+      "truncation_rate": 1.25
+    },
+    "MATH-500: Hard Subset (L3-5)": {
+      "n": 240,
+      "n_problems": 60,
+      "correct": 176,
+      "accuracy": 73.33333333333333,
+      "mean_latency_ms": 21246.645833333332,
+      "median_latency_ms": 13629.5,
+      "median_tokens": 724.0,
+      "truncation_rate": 0.8333333333333334
+    },
+    "Overall Suite (250 Problems)": {
+      "n": 1000,
+      "n_problems": 250,
+      "correct": 747,
+      "accuracy": 74.7,
+      "mean_latency_ms": 11982.141,
+      "median_latency_ms": 8103.0,
+      "median_tokens": 388.0,
+      "truncation_rate": 0.2
+    }
+  },
+  "Arm2_K6": {
+    "GSM8K: All": {
+      "n": 600,
+      "n_problems": 150,
+      "correct": 422,
+      "accuracy": 70.33333333333334,
+      "mean_latency_ms": 8568.073333333334,
+      "median_latency_ms": 7167.0,
+      "median_tokens": 373.0,
+      "truncation_rate": 0.0
+    },
+    "  - Short (<=3 sent)": {
+      "n": 200,
+      "n_problems": 50,
+      "correct": 162,
+      "accuracy": 81.0,
+      "mean_latency_ms": 7166.35,
+      "median_latency_ms": 6017.5,
+      "median_tokens": 303.5,
+      "truncation_rate": 0.0
+    },
+    "  - Medium (4-6 sent)": {
+      "n": 200,
+      "n_problems": 50,
+      "correct": 146,
+      "accuracy": 73.0,
+      "mean_latency_ms": 8488.335,
+      "median_latency_ms": 7428.0,
+      "median_tokens": 381.0,
+      "truncation_rate": 0.0
+    },
+    "  - Long (>=7 sent)": {
+      "n": 200,
+      "n_problems": 50,
+      "correct": 114,
+      "accuracy": 56.99999999999999,
+      "mean_latency_ms": 10049.535,
+      "median_latency_ms": 8192.5,
+      "median_tokens": 437.0,
+      "truncation_rate": 0.0
+    },
+    "MATH-500: All": {
+      "n": 400,
+      "n_problems": 100,
+      "correct": 308,
+      "accuracy": 77.0,
+      "mean_latency_ms": 16298.7375,
+      "median_latency_ms": 9696.0,
+      "median_tokens": 533.0,
+      "truncation_rate": 0.25
+    },
+    "  - Level 1": {
+      "n": 80,
+      "n_problems": 20,
+      "correct": 75,
+      "accuracy": 93.75,
+      "mean_latency_ms": 8771.3625,
+      "median_latency_ms": 7092.5,
+      "median_tokens": 364.0,
+      "truncation_rate": 0.0
+    },
+    "  - Level 2": {
+      "n": 80,
+      "n_problems": 20,
+      "correct": 59,
+      "accuracy": 73.75,
+      "mean_latency_ms": 10590.1875,
+      "median_latency_ms": 7554.5,
+      "median_tokens": 394.5,
+      "truncation_rate": 0.0
+    },
+    "  - Level 3": {
+      "n": 80,
+      "n_problems": 20,
+      "correct": 67,
+      "accuracy": 83.75,
+      "mean_latency_ms": 15353.325,
+      "median_latency_ms": 8522.5,
+      "median_tokens": 461.5,
+      "truncation_rate": 1.25
+    },
+    "  - Level 4": {
+      "n": 80,
+      "n_problems": 20,
+      "correct": 60,
+      "accuracy": 75.0,
+      "mean_latency_ms": 19910.7375,
+      "median_latency_ms": 12550.0,
+      "median_tokens": 709.0,
+      "truncation_rate": 0.0
+    },
+    "  - Level 5": {
+      "n": 80,
+      "n_problems": 20,
+      "correct": 47,
+      "accuracy": 58.75,
+      "mean_latency_ms": 26868.075,
+      "median_latency_ms": 19266.0,
+      "median_tokens": 1151.0,
+      "truncation_rate": 0.0
+    },
+    "MATH-500: Hard Subset (L3-5)": {
+      "n": 240,
+      "n_problems": 60,
+      "correct": 174,
+      "accuracy": 72.5,
+      "mean_latency_ms": 20710.7125,
+      "median_latency_ms": 12550.0,
+      "median_tokens": 701.5,
+      "truncation_rate": 0.4166666666666667
+    },
+    "Overall Suite (250 Problems)": {
+      "n": 1000,
+      "n_problems": 250,
+      "correct": 730,
+      "accuracy": 73.0,
+      "mean_latency_ms": 11660.339,
+      "median_latency_ms": 7735.5,
+      "median_tokens": 406.5,
+      "truncation_rate": 0.1
+    }
+  }
+}

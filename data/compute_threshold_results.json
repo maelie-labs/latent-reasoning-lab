@@ -1,0 +1,53 @@
+[
+  {
+    "arm_name": "Arm4_Unconstrained",
+    "n_evaluations": 1000,
+    "accuracy": 86.7,
+    "truncation_rate": 1.4000000000000001,
+    "mean_latency_ms": 83193.18,
+    "median_latency_ms": 47765.0,
+    "mean_think_tokens": 3087.977,
+    "median_think_tokens": 2012.0,
+    "mean_ans_tokens": 418.527,
+    "median_ans_tokens": 358.0,
+    "reasoning_gflops": 10499.1218,
+    "reasoning_tflops": 10.4991218,
+    "reasoning_kv_kib": 362653.424,
+    "total_kv_kib": 409528.448,
+    "latency_per_correct_ms": 95955.2249134948
+  },
+  {
+    "arm_name": "Arm2_K32",
+    "n_evaluations": 1000,
+    "accuracy": 74.7,
+    "truncation_rate": 0.2,
+    "mean_latency_ms": 11982.141,
+    "median_latency_ms": 8103.0,
+    "mean_think_tokens": 32.0,
+    "median_think_tokens": 32.0,
+    "mean_ans_tokens": 612.88,
+    "median_ans_tokens": 388.0,
+    "reasoning_gflops": 108.8,
+    "reasoning_tflops": 0.1088,
+    "reasoning_kv_kib": 20384.0,
+    "total_kv_kib": 89026.56,
+    "latency_per_correct_ms": 16040.34939759036
+  },
+  {
+    "arm_name": "Arm2_K6",
+    "n_evaluations": 1000,
+    "accuracy": 73.0,
+    "truncation_rate": 0.1,
+    "mean_latency_ms": 11660.339,
+    "median_latency_ms": 7735.5,
+    "mean_think_tokens": 6.0,
+    "median_think_tokens": 6.0,
+    "mean_ans_tokens": 631.482,
+    "median_ans_tokens": 406.5,
+    "reasoning_gflops": 20.4,
+    "reasoning_tflops": 0.0204,
+    "reasoning_kv_kib": 17472.0,
+    "total_kv_kib": 88197.984,
+    "latency_per_correct_ms": 15973.067123287672
+  }
+]

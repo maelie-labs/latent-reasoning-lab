@@ -1,0 +1,29 @@
+{
+  "model_id": "google/gemma-4-E2B-it",
+  "device": "cuda:0",
+  "timestamp": "2026-09-12T20:57:31Z",
+  "vocab_size": 262144,
+  "hidden_size": 1536,
+  "num_layers": 35,
+  "num_heads": 8,
+  "num_kv_heads": 1,
+  "vram_allocated_mib": 9736.2,
+  "chat_template_analysis": {
+    "rendered_thinking": "<bos><|turn>system\n<|think|>\n<turn|>\n<|turn>user\nWhat is the square root of 144?<turn|>\n<|turn>model\n",
+    "rendered_nothinking": "<bos><|turn>user\nWhat is the square root of 144?<turn|>\n<|turn>model\n",
+    "rendered_default": "<bos><|turn>user\nWhat is the square root of 144?<turn|>\n<|turn>model\n",
+    "has_thought_channel": false
+  },
+  "empirical_calibration": {
+    "mean_token_embedding_norm": 1.193636,
+    "mean_h0_norm": 43.4107,
+    "calibrated_alpha": 0.027496
+  },
+  "recurrence_verification": {
+    "k_steps": 6,
+    "sdp_backend": "SDPBackend.MATH",
+    "status": "PASSED",
+    "top_decoded_token": " to\u00e1n",
+    "top_decoded_token_id": 49110
+  }
+}

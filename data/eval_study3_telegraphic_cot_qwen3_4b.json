@@ -1,0 +1,16 @@
+{
+  "model_id": "Qwen/Qwen3-4B",
+  "mode": "telegraphic_cot",
+  "checkpoint": "checkpoints/lora_telegraphic_cot_qwen3_4b/best_checkpoint",
+  "total_queries": 1000,
+  "correct_count": 733,
+  "pass_at_1": 73.3,
+  "truncation_rate": 0.0,
+  "gsm8k_accuracy": 75.17,
+  "math_accuracy": 70.5,
+  "math_hard_accuracy": 63.33,
+  "median_thought_tokens": 107.0,
+  "median_answer_tokens": 415.0,
+  "elapsed_seconds": 5911.9,
+  "queries_per_second": 0.17
+}

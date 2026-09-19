@@ -1,0 +1,19 @@
+{
+  "model_id": "Qwen/Qwen3-1.7B",
+  "device": "cuda:0",
+  "dtype": "torch.bfloat16",
+  "vram_model_gb": 3.21,
+  "peak_vram_gb": 8.03,
+  "hidden_size": 2048,
+  "num_layers": 28,
+  "num_heads": 16,
+  "num_kv_heads": 8,
+  "gqa_ratio": 2,
+  "vocab_size": 151936,
+  "mean_row_norm": 1.539382,
+  "std_row_norm": 0.260076,
+  "alpha_factor": 0.034016,
+  "baseline_tok_per_sec": 31.79,
+  "test_prompt": "Janet\u2019s ducks lay 16 eggs per day. She eats 3 for breakfast and bakes 4 into muffins. She sells the remainder for $2 each. How much does she make per day?",
+  "test_response": "<think>\nOkay, let me try to figure out how much Janet makes per day from her ducks. So, first, the problem says her ducks lay 16 eggs per day. Then she eats 3 for breakfast and bakes 4 into muffins. The remainder she sells for $2 each. I need to find out how much she makes per day.\n\nAlright, let's break it down step by step. First, the total number of eggs laid by the ducks is 16 per day. Then she uses some of those eggs for breakfast and baking. So, she eats 3 eggs for breakfast and bakes 4 into muffins. So, how many eggs does she use in total for those two things?\n\nLet me add those up: 3 eggs for breakfast plus 4 eggs for muffins. That's 3 + 4 = 7 eggs. So, she uses 7 eggs for breakfast and muffins. Therefore, the number of eggs left for selling would be the total eggs minus the ones she used. So, 16 eggs total minus 7 eggs used, which is 16 - 7 = 9 eggs left.\n\nNow, she sells the remainder for $2 each. So, if she has "
+}

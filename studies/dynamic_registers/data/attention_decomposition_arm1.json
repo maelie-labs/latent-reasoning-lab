@@ -1,0 +1,17 @@
+{
+  "num_samples": 30,
+  "mean_attention_pct": {
+    "prompt": 82.73919961436923,
+    "headers": 3.906415039338064,
+    "registers": 8.207966844289766,
+    "transition": 4.900635753372163,
+    "think_other": 0.24578274863078312
+  },
+  "std_attention_pct": {
+    "prompt": 3.140702985468028,
+    "headers": 0.8727873260815069,
+    "registers": 2.9559278475623127,
+    "transition": 0.6257165006380233,
+    "think_other": 1.3235806081272794
+  }
+}

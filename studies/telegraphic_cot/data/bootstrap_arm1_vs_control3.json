@@ -1,0 +1,31 @@
+{
+  "comparison": "Arm 1 (Telegraphic CoT) vs Control 3 (Matched Pause)",
+  "total_pairs": 1000,
+  "overall": {
+    "observed_delta": -13.600000000000001,
+    "ci_95": [
+      -16.400000000000002,
+      -10.8
+    ],
+    "p_value": 0.0,
+    "n": 1000
+  },
+  "math_hard_l3_5": {
+    "observed_delta": -9.166666666666666,
+    "ci_95": [
+      -15.0,
+      -3.3333333333333335
+    ],
+    "p_value": 0.0022,
+    "n": 240
+  },
+  "gsm8k": {
+    "observed_delta": -17.833333333333336,
+    "ci_95": [
+      -21.666666666666668,
+      -14.000000000000002
+    ],
+    "p_value": 0.0,
+    "n": 600
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "model_id": "Qwen/Qwen3.5-2B",
+  "device": "cuda:0",
+  "vocab_size": 248077,
+  "hidden_size": null,
+  "num_layers": 24,
+  "layer_breakdown": {
+    "attention_layers": 6,
+    "linear_deltanet_layers": 18
+  },
+  "vram_allocated_mib": 3589.3,
+  "mean_embed_norm": 0.675691,
+  "mean_h0_norm": 0.730364,
+  "calibrated_alpha": 0.925143,
+  "chat_template_findings": {
+    "thinking_enabled_prefix": "<|im_start|>user\nWhat is the square root of 144?<|im_end|>\n<|im_start|>assistant\n<think>\n",
+    "thinking_disabled_prefix": "<|im_start|>user\nWhat is the square root of 144?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+    "default_mode": "thinking"
+  },
+  "recurrence_test_passed": true,
+  "top_token_after_6_latents": " ",
+  "timestamp": "2026-09-12T20:19:46Z"
+}

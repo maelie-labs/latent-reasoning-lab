@@ -1,0 +1,43 @@
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+*.env
+
+# Checkpoints and large weights
+checkpoints/
+studies/*/checkpoints/
+*.pt
+*.bin
+*.safetensors
+
+# Logs and PIDs
+*.log
+*.pid
+
+# Raw streaming trace logs and large evaluation dumps
+*.jsonl
+data/*.jsonl
+data/eval_gpqa_diamond_*.json
+data/eval_math500_*_both.json
+data/rerun_baseline_*.json
+data/eval_arm4_*.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# System / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Agent-specific files (keep local, do not publish)
+.agents/
+AGENTS.md
+GEMINI.md
+CLAUDE.md
+*.agent

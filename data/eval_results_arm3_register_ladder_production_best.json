@@ -1,0 +1,13 @@
+{
+  "tag": "arm3_register_ladder_production_best",
+  "model_id": "Qwen/Qwen3-1.7B",
+  "checkpoint": "checkpoints/lora_arm3_register_ladder_production_qwen3_1.7b/best_checkpoint",
+  "total_evaluations": 1000,
+  "overall_accuracy": 71.3,
+  "gsm8k_accuracy": 69.5,
+  "math500_accuracy": 74.0,
+  "math_hard_accuracy": 65.0,
+  "truncation_rate": 0.2,
+  "duration_seconds": 8295.165387153625,
+  "paired_bootstrap_vs_arm1b": null
+}

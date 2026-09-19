@@ -1,0 +1,26 @@
+{
+  "model_id": "Qwen/Qwen3-1.7B",
+  "total_train_examples": 1555,
+  "math_examples": 1230,
+  "live_examples": 431,
+  "solved_direct_examples": 799,
+  "actual_live_ratio": 0.35040650406504065,
+  "general_instruction_examples": 325,
+  "dev_examples": 78,
+  "filter_stats": {
+    "passed": 431,
+    "incorrect_answer": 168,
+    "op_fail: Low operator density in numeric lines (4/12)": 1,
+    "op_fail: Low operator density in numeric lines (3/9)": 1,
+    "op_fail: Low operator density in numeric lines (3/8)": 1,
+    "op_fail: Low operator density in numeric lines (5/14)": 1,
+    "op_fail: Low operator density in numeric lines (5/13)": 1,
+    "op_fail: Low operator density in numeric lines (2/8)": 1,
+    "op_fail: Low operator density in numeric lines (2/7)": 1
+  },
+  "classification": {
+    "total_original_traces": 2070,
+    "solved_direct_count": 1464,
+    "live_candidate_count": 606
+  }
+}

@@ -1,0 +1,8033 @@
+{
+  "model_id": "google/gemma-4-E2B-it",
+  "device": "cuda:0",
+  "timestamp": "2026-09-12T21:01:01Z",
+  "mmlu_samples": 1000,
+  "base_accuracy": 50.4,
+  "duration_s": 60.77,
+  "ms_per_query": 60.8,
+  "base_categories": {
+    "Humanities": {
+      "total": 224,
+      "correct": 126,
+      "accuracy_pct": 56.25
+    },
+    "Other": {
+      "total": 225,
+      "correct": 113,
+      "accuracy_pct": 50.22
+    },
+    "STEM": {
+      "total": 341,
+      "correct": 137,
+      "accuracy_pct": 40.18
+    },
+    "Social Sciences": {
+      "total": 210,
+      "correct": 128,
+      "accuracy_pct": 60.95
+    }
+  },
+  "per_sample_results": [
+    {
+      "index": 0,
+      "subject": "high_school_us_history",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 1,
+      "subject": "high_school_microeconomics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 2,
+      "subject": "computer_security",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 3,
+      "subject": "high_school_computer_science",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 4,
+      "subject": "high_school_psychology",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 5,
+      "subject": "human_sexuality",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 6,
+      "subject": "business_ethics",
+      "category": "Other",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 7,
+      "subject": "high_school_statistics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 8,
+      "subject": "astronomy",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 9,
+      "subject": "high_school_european_history",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 10,
+      "subject": "college_medicine",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 11,
+      "subject": "marketing",
+      "category": "Other",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 12,
+      "subject": "high_school_mathematics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 13,
+      "subject": "sociology",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 14,
+      "subject": "high_school_statistics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 15,
+      "subject": "high_school_mathematics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 16,
+      "subject": "human_aging",
+      "category": "Other",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 17,
+      "subject": "world_religions",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 18,
+      "subject": "professional_law",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 19,
+      "subject": "miscellaneous",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 20,
+      "subject": "college_chemistry",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 21,
+      "subject": "high_school_european_history",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 22,
+      "subject": "public_relations",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 23,
+      "subject": "professional_accounting",
+      "category": "Other",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 24,
+      "subject": "high_school_microeconomics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 25,
+      "subject": "high_school_microeconomics",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 26,
+      "subject": "college_biology",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 27,
+      "subject": "us_foreign_policy",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 28,
+      "subject": "college_biology",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 29,
+      "subject": "nutrition",
+      "category": "Other",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 30,
+      "subject": "global_facts",
+      "category": "Other",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 31,
+      "subject": "conceptual_physics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 32,
+      "subject": "security_studies",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 33,
+      "subject": "professional_psychology",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 34,
+      "subject": "anatomy",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 35,
+      "subject": "high_school_psychology",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 36,
+      "subject": "high_school_microeconomics",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 37,
+      "subject": "us_foreign_policy",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 38,
+      "subject": "high_school_world_history",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 39,
+      "subject": "jurisprudence",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 40,
+      "subject": "jurisprudence",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 41,
+      "subject": "moral_scenarios",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 42,
+      "subject": "business_ethics",
+      "category": "Other",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 43,
+      "subject": "high_school_mathematics",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 44,
+      "subject": "virology",
+      "category": "Other",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 45,
+      "subject": "business_ethics",
+      "category": "Other",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 46,
+      "subject": "public_relations",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 47,
+      "subject": "management",
+      "category": "Other",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 48,
+      "subject": "computer_security",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 49,
+      "subject": "public_relations",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 50,
+      "subject": "business_ethics",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 51,
+      "subject": "business_ethics",
+      "category": "Other",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 52,
+      "subject": "high_school_european_history",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 53,
+      "subject": "professional_accounting",
+      "category": "Other",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 54,
+      "subject": "business_ethics",
+      "category": "Other",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 55,
+      "subject": "college_chemistry",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 56,
+      "subject": "conceptual_physics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 57,
+      "subject": "machine_learning",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 58,
+      "subject": "professional_medicine",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 59,
+      "subject": "high_school_statistics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 60,
+      "subject": "machine_learning",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 61,
+      "subject": "virology",
+      "category": "Other",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 62,
+      "subject": "formal_logic",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 63,
+      "subject": "international_law",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 64,
+      "subject": "human_sexuality",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 65,
+      "subject": "computer_security",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 66,
+      "subject": "electrical_engineering",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 67,
+      "subject": "human_aging",
+      "category": "Other",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 68,
+      "subject": "high_school_computer_science",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 69,
+      "subject": "us_foreign_policy",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 70,
+      "subject": "high_school_government_and_politics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 71,
+      "subject": "moral_disputes",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 72,
+      "subject": "professional_accounting",
+      "category": "Other",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 73,
+      "subject": "abstract_algebra",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 74,
+      "subject": "logical_fallacies",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 75,
+      "subject": "electrical_engineering",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 76,
+      "subject": "high_school_world_history",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 77,
+      "subject": "high_school_geography",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 78,
+      "subject": "high_school_us_history",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 79,
+      "subject": "world_religions",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 80,
+      "subject": "medical_genetics",
+      "category": "Other",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 81,
+      "subject": "high_school_chemistry",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 82,
+      "subject": "philosophy",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 83,
+      "subject": "global_facts",
+      "category": "Other",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 84,
+      "subject": "abstract_algebra",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 85,
+      "subject": "world_religions",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 86,
+      "subject": "philosophy",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 87,
+      "subject": "professional_accounting",
+      "category": "Other",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 88,
+      "subject": "anatomy",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 89,
+      "subject": "virology",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 90,
+      "subject": "high_school_government_and_politics",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 91,
+      "subject": "high_school_mathematics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 92,
+      "subject": "high_school_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 93,
+      "subject": "miscellaneous",
+      "category": "Other",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 94,
+      "subject": "medical_genetics",
+      "category": "Other",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 95,
+      "subject": "security_studies",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 96,
+      "subject": "virology",
+      "category": "Other",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 97,
+      "subject": "jurisprudence",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 98,
+      "subject": "anatomy",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 99,
+      "subject": "college_physics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 100,
+      "subject": "college_mathematics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 101,
+      "subject": "high_school_chemistry",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 102,
+      "subject": "global_facts",
+      "category": "Other",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 103,
+      "subject": "college_computer_science",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 104,
+      "subject": "high_school_microeconomics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 105,
+      "subject": "professional_accounting",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 106,
+      "subject": "high_school_chemistry",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 107,
+      "subject": "business_ethics",
+      "category": "Other",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 108,
+      "subject": "elementary_mathematics",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 109,
+      "subject": "high_school_geography",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 110,
+      "subject": "college_mathematics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 111,
+      "subject": "college_medicine",
+      "category": "Other",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 112,
+      "subject": "college_medicine",
+      "category": "Other",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 113,
+      "subject": "college_mathematics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 114,
+      "subject": "machine_learning",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 115,
+      "subject": "high_school_mathematics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 116,
+      "subject": "international_law",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 117,
+      "subject": "world_religions",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 118,
+      "subject": "high_school_chemistry",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 119,
+      "subject": "anatomy",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 120,
+      "subject": "high_school_government_and_politics",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 121,
+      "subject": "global_facts",
+      "category": "Other",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 122,
+      "subject": "high_school_world_history",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 123,
+      "subject": "anatomy",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 124,
+      "subject": "human_aging",
+      "category": "Other",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 125,
+      "subject": "anatomy",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 126,
+      "subject": "marketing",
+      "category": "Other",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 127,
+      "subject": "high_school_computer_science",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 128,
+      "subject": "high_school_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 129,
+      "subject": "moral_scenarios",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 130,
+      "subject": "logical_fallacies",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 131,
+      "subject": "astronomy",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 132,
+      "subject": "public_relations",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 133,
+      "subject": "high_school_mathematics",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 134,
+      "subject": "abstract_algebra",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 135,
+      "subject": "marketing",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 136,
+      "subject": "logical_fallacies",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 137,
+      "subject": "medical_genetics",
+      "category": "Other",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 138,
+      "subject": "moral_scenarios",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 139,
+      "subject": "high_school_world_history",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 140,
+      "subject": "high_school_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 141,
+      "subject": "high_school_statistics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 142,
+      "subject": "world_religions",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 143,
+      "subject": "machine_learning",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 144,
+      "subject": "high_school_microeconomics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 145,
+      "subject": "high_school_psychology",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 146,
+      "subject": "econometrics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 147,
+      "subject": "college_physics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 148,
+      "subject": "electrical_engineering",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 149,
+      "subject": "medical_genetics",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 150,
+      "subject": "sociology",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 151,
+      "subject": "us_foreign_policy",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 152,
+      "subject": "marketing",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 153,
+      "subject": "econometrics",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 154,
+      "subject": "elementary_mathematics",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 155,
+      "subject": "high_school_world_history",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 156,
+      "subject": "us_foreign_policy",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 157,
+      "subject": "computer_security",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 158,
+      "subject": "machine_learning",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 159,
+      "subject": "professional_accounting",
+      "category": "Other",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 160,
+      "subject": "miscellaneous",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 161,
+      "subject": "human_aging",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 162,
+      "subject": "abstract_algebra",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 163,
+      "subject": "security_studies",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 164,
+      "subject": "college_computer_science",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 165,
+      "subject": "college_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 166,
+      "subject": "high_school_computer_science",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 167,
+      "subject": "astronomy",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 168,
+      "subject": "public_relations",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 169,
+      "subject": "international_law",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 170,
+      "subject": "college_mathematics",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 171,
+      "subject": "prehistory",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 172,
+      "subject": "high_school_psychology",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 173,
+      "subject": "prehistory",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 174,
+      "subject": "moral_scenarios",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 175,
+      "subject": "abstract_algebra",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 176,
+      "subject": "high_school_geography",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 177,
+      "subject": "jurisprudence",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 178,
+      "subject": "high_school_computer_science",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 179,
+      "subject": "college_medicine",
+      "category": "Other",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 180,
+      "subject": "jurisprudence",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 181,
+      "subject": "human_aging",
+      "category": "Other",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 182,
+      "subject": "marketing",
+      "category": "Other",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 183,
+      "subject": "high_school_geography",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 184,
+      "subject": "global_facts",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 185,
+      "subject": "elementary_mathematics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 186,
+      "subject": "international_law",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 187,
+      "subject": "high_school_biology",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 188,
+      "subject": "high_school_psychology",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 189,
+      "subject": "logical_fallacies",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 190,
+      "subject": "management",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 191,
+      "subject": "professional_medicine",
+      "category": "Other",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 192,
+      "subject": "college_biology",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 193,
+      "subject": "high_school_world_history",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 194,
+      "subject": "high_school_microeconomics",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 195,
+      "subject": "machine_learning",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 196,
+      "subject": "high_school_world_history",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 197,
+      "subject": "high_school_geography",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 198,
+      "subject": "world_religions",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 199,
+      "subject": "high_school_government_and_politics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 200,
+      "subject": "high_school_world_history",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 201,
+      "subject": "conceptual_physics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 202,
+      "subject": "high_school_world_history",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 203,
+      "subject": "high_school_biology",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 204,
+      "subject": "machine_learning",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 205,
+      "subject": "conceptual_physics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 206,
+      "subject": "college_biology",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 207,
+      "subject": "high_school_statistics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 208,
+      "subject": "global_facts",
+      "category": "Other",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 209,
+      "subject": "conceptual_physics",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 210,
+      "subject": "college_mathematics",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 211,
+      "subject": "professional_law",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 212,
+      "subject": "miscellaneous",
+      "category": "Other",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 213,
+      "subject": "college_physics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 214,
+      "subject": "marketing",
+      "category": "Other",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 215,
+      "subject": "college_medicine",
+      "category": "Other",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 216,
+      "subject": "high_school_geography",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 217,
+      "subject": "logical_fallacies",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 218,
+      "subject": "formal_logic",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 219,
+      "subject": "college_biology",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 220,
+      "subject": "high_school_european_history",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 221,
+      "subject": "world_religions",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 222,
+      "subject": "clinical_knowledge",
+      "category": "Other",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 223,
+      "subject": "college_medicine",
+      "category": "Other",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 224,
+      "subject": "moral_disputes",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 225,
+      "subject": "high_school_microeconomics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 226,
+      "subject": "high_school_government_and_politics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 227,
+      "subject": "college_medicine",
+      "category": "Other",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 228,
+      "subject": "global_facts",
+      "category": "Other",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 229,
+      "subject": "electrical_engineering",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 230,
+      "subject": "college_medicine",
+      "category": "Other",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 231,
+      "subject": "high_school_microeconomics",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 232,
+      "subject": "high_school_physics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 233,
+      "subject": "moral_scenarios",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 234,
+      "subject": "college_chemistry",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 235,
+      "subject": "elementary_mathematics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 236,
+      "subject": "professional_accounting",
+      "category": "Other",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 237,
+      "subject": "management",
+      "category": "Other",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 238,
+      "subject": "high_school_computer_science",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 239,
+      "subject": "high_school_statistics",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 240,
+      "subject": "professional_law",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 241,
+      "subject": "machine_learning",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 242,
+      "subject": "business_ethics",
+      "category": "Other",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 243,
+      "subject": "high_school_world_history",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 244,
+      "subject": "high_school_us_history",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 245,
+      "subject": "human_sexuality",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 246,
+      "subject": "high_school_psychology",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 247,
+      "subject": "prehistory",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 248,
+      "subject": "public_relations",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 249,
+      "subject": "college_computer_science",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 250,
+      "subject": "high_school_computer_science",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 251,
+      "subject": "us_foreign_policy",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 252,
+      "subject": "logical_fallacies",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 253,
+      "subject": "professional_law",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 254,
+      "subject": "jurisprudence",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 255,
+      "subject": "college_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 256,
+      "subject": "college_physics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 257,
+      "subject": "high_school_microeconomics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 258,
+      "subject": "professional_law",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 259,
+      "subject": "prehistory",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 260,
+      "subject": "electrical_engineering",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 261,
+      "subject": "human_sexuality",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 262,
+      "subject": "college_medicine",
+      "category": "Other",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 263,
+      "subject": "high_school_chemistry",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 264,
+      "subject": "high_school_government_and_politics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 265,
+      "subject": "world_religions",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 266,
+      "subject": "electrical_engineering",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 267,
+      "subject": "business_ethics",
+      "category": "Other",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 268,
+      "subject": "medical_genetics",
+      "category": "Other",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 269,
+      "subject": "philosophy",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 270,
+      "subject": "jurisprudence",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 271,
+      "subject": "abstract_algebra",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 272,
+      "subject": "econometrics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 273,
+      "subject": "professional_accounting",
+      "category": "Other",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 274,
+      "subject": "security_studies",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 275,
+      "subject": "professional_medicine",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 276,
+      "subject": "human_aging",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 277,
+      "subject": "professional_medicine",
+      "category": "Other",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 278,
+      "subject": "philosophy",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 279,
+      "subject": "abstract_algebra",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 280,
+      "subject": "high_school_macroeconomics",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 281,
+      "subject": "high_school_biology",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 282,
+      "subject": "high_school_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 283,
+      "subject": "professional_medicine",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 284,
+      "subject": "high_school_microeconomics",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 285,
+      "subject": "college_physics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 286,
+      "subject": "moral_scenarios",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 287,
+      "subject": "sociology",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 288,
+      "subject": "professional_psychology",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 289,
+      "subject": "high_school_chemistry",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 290,
+      "subject": "virology",
+      "category": "Other",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 291,
+      "subject": "high_school_biology",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 292,
+      "subject": "college_computer_science",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 293,
+      "subject": "prehistory",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 294,
+      "subject": "virology",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 295,
+      "subject": "miscellaneous",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 296,
+      "subject": "us_foreign_policy",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 297,
+      "subject": "human_aging",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 298,
+      "subject": "elementary_mathematics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 299,
+      "subject": "moral_scenarios",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 300,
+      "subject": "professional_accounting",
+      "category": "Other",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 301,
+      "subject": "high_school_macroeconomics",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 302,
+      "subject": "college_physics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 303,
+      "subject": "college_mathematics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 304,
+      "subject": "prehistory",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 305,
+      "subject": "conceptual_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 306,
+      "subject": "high_school_microeconomics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 307,
+      "subject": "high_school_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 308,
+      "subject": "international_law",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 309,
+      "subject": "professional_psychology",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 310,
+      "subject": "college_medicine",
+      "category": "Other",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 311,
+      "subject": "professional_law",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 312,
+      "subject": "nutrition",
+      "category": "Other",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 313,
+      "subject": "college_medicine",
+      "category": "Other",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 314,
+      "subject": "nutrition",
+      "category": "Other",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 315,
+      "subject": "marketing",
+      "category": "Other",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 316,
+      "subject": "moral_scenarios",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 317,
+      "subject": "econometrics",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 318,
+      "subject": "world_religions",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 319,
+      "subject": "global_facts",
+      "category": "Other",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 320,
+      "subject": "high_school_us_history",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 321,
+      "subject": "moral_disputes",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 322,
+      "subject": "security_studies",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 323,
+      "subject": "high_school_macroeconomics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 324,
+      "subject": "miscellaneous",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 325,
+      "subject": "college_biology",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 326,
+      "subject": "high_school_government_and_politics",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 327,
+      "subject": "high_school_geography",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 328,
+      "subject": "logical_fallacies",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 329,
+      "subject": "nutrition",
+      "category": "Other",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 330,
+      "subject": "marketing",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 331,
+      "subject": "college_biology",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 332,
+      "subject": "logical_fallacies",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 333,
+      "subject": "college_medicine",
+      "category": "Other",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 334,
+      "subject": "abstract_algebra",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 335,
+      "subject": "high_school_macroeconomics",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 336,
+      "subject": "high_school_computer_science",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 337,
+      "subject": "high_school_government_and_politics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 338,
+      "subject": "business_ethics",
+      "category": "Other",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 339,
+      "subject": "moral_disputes",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 340,
+      "subject": "high_school_geography",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 341,
+      "subject": "high_school_geography",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 342,
+      "subject": "international_law",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 343,
+      "subject": "professional_psychology",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 344,
+      "subject": "global_facts",
+      "category": "Other",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 345,
+      "subject": "miscellaneous",
+      "category": "Other",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 346,
+      "subject": "human_sexuality",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 347,
+      "subject": "high_school_chemistry",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 348,
+      "subject": "sociology",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 349,
+      "subject": "miscellaneous",
+      "category": "Other",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 350,
+      "subject": "college_mathematics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 351,
+      "subject": "high_school_macroeconomics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 352,
+      "subject": "clinical_knowledge",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 353,
+      "subject": "high_school_biology",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 354,
+      "subject": "high_school_mathematics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 355,
+      "subject": "high_school_microeconomics",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 356,
+      "subject": "global_facts",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 357,
+      "subject": "marketing",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 358,
+      "subject": "high_school_macroeconomics",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 359,
+      "subject": "college_computer_science",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 360,
+      "subject": "high_school_chemistry",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 361,
+      "subject": "college_mathematics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 362,
+      "subject": "conceptual_physics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 363,
+      "subject": "business_ethics",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 364,
+      "subject": "professional_medicine",
+      "category": "Other",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 365,
+      "subject": "abstract_algebra",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 366,
+      "subject": "computer_security",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 367,
+      "subject": "computer_security",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 368,
+      "subject": "moral_disputes",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 369,
+      "subject": "business_ethics",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 370,
+      "subject": "security_studies",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 371,
+      "subject": "electrical_engineering",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 372,
+      "subject": "virology",
+      "category": "Other",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 373,
+      "subject": "clinical_knowledge",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 374,
+      "subject": "high_school_statistics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 375,
+      "subject": "sociology",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 376,
+      "subject": "anatomy",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 377,
+      "subject": "business_ethics",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 378,
+      "subject": "human_aging",
+      "category": "Other",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 379,
+      "subject": "moral_disputes",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 380,
+      "subject": "philosophy",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 381,
+      "subject": "world_religions",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 382,
+      "subject": "human_aging",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 383,
+      "subject": "clinical_knowledge",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 384,
+      "subject": "medical_genetics",
+      "category": "Other",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 385,
+      "subject": "business_ethics",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 386,
+      "subject": "high_school_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 387,
+      "subject": "logical_fallacies",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 388,
+      "subject": "high_school_chemistry",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 389,
+      "subject": "high_school_psychology",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 390,
+      "subject": "astronomy",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 391,
+      "subject": "astronomy",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 392,
+      "subject": "high_school_computer_science",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 393,
+      "subject": "medical_genetics",
+      "category": "Other",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 394,
+      "subject": "prehistory",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 395,
+      "subject": "electrical_engineering",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 396,
+      "subject": "security_studies",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 397,
+      "subject": "marketing",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 398,
+      "subject": "public_relations",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 399,
+      "subject": "professional_psychology",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 400,
+      "subject": "professional_medicine",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 401,
+      "subject": "international_law",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 402,
+      "subject": "high_school_statistics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 403,
+      "subject": "electrical_engineering",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 404,
+      "subject": "high_school_microeconomics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 405,
+      "subject": "management",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 406,
+      "subject": "high_school_geography",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 407,
+      "subject": "philosophy",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 408,
+      "subject": "management",
+      "category": "Other",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 409,
+      "subject": "college_biology",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 410,
+      "subject": "high_school_chemistry",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 411,
+      "subject": "philosophy",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 412,
+      "subject": "abstract_algebra",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 413,
+      "subject": "high_school_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 414,
+      "subject": "global_facts",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 415,
+      "subject": "professional_medicine",
+      "category": "Other",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 416,
+      "subject": "us_foreign_policy",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 417,
+      "subject": "world_religions",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 418,
+      "subject": "anatomy",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 419,
+      "subject": "clinical_knowledge",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 420,
+      "subject": "prehistory",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 421,
+      "subject": "high_school_european_history",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 422,
+      "subject": "high_school_mathematics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 423,
+      "subject": "computer_security",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 424,
+      "subject": "medical_genetics",
+      "category": "Other",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 425,
+      "subject": "electrical_engineering",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 426,
+      "subject": "high_school_european_history",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 427,
+      "subject": "anatomy",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 428,
+      "subject": "marketing",
+      "category": "Other",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 429,
+      "subject": "jurisprudence",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 430,
+      "subject": "formal_logic",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 431,
+      "subject": "human_aging",
+      "category": "Other",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 432,
+      "subject": "high_school_us_history",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 433,
+      "subject": "human_sexuality",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 434,
+      "subject": "econometrics",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 435,
+      "subject": "international_law",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 436,
+      "subject": "sociology",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 437,
+      "subject": "computer_security",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 438,
+      "subject": "clinical_knowledge",
+      "category": "Other",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 439,
+      "subject": "high_school_macroeconomics",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 440,
+      "subject": "college_computer_science",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 441,
+      "subject": "formal_logic",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 442,
+      "subject": "professional_psychology",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 443,
+      "subject": "professional_accounting",
+      "category": "Other",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 444,
+      "subject": "college_biology",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 445,
+      "subject": "philosophy",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 446,
+      "subject": "high_school_microeconomics",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 447,
+      "subject": "astronomy",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 448,
+      "subject": "moral_scenarios",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 449,
+      "subject": "management",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 450,
+      "subject": "high_school_government_and_politics",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 451,
+      "subject": "clinical_knowledge",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 452,
+      "subject": "high_school_world_history",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 453,
+      "subject": "high_school_psychology",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 454,
+      "subject": "high_school_biology",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 455,
+      "subject": "high_school_mathematics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 456,
+      "subject": "medical_genetics",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 457,
+      "subject": "econometrics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 458,
+      "subject": "college_physics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 459,
+      "subject": "conceptual_physics",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 460,
+      "subject": "international_law",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 461,
+      "subject": "high_school_european_history",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 462,
+      "subject": "high_school_us_history",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 463,
+      "subject": "abstract_algebra",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 464,
+      "subject": "high_school_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 465,
+      "subject": "college_chemistry",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 466,
+      "subject": "conceptual_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 467,
+      "subject": "professional_psychology",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 468,
+      "subject": "jurisprudence",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 469,
+      "subject": "elementary_mathematics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 470,
+      "subject": "us_foreign_policy",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 471,
+      "subject": "college_physics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 472,
+      "subject": "computer_security",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 473,
+      "subject": "high_school_computer_science",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 474,
+      "subject": "high_school_us_history",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 475,
+      "subject": "us_foreign_policy",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 476,
+      "subject": "college_physics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 477,
+      "subject": "college_chemistry",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 478,
+      "subject": "electrical_engineering",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 479,
+      "subject": "elementary_mathematics",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 480,
+      "subject": "high_school_chemistry",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 481,
+      "subject": "management",
+      "category": "Other",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 482,
+      "subject": "college_mathematics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 483,
+      "subject": "prehistory",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 484,
+      "subject": "college_computer_science",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 485,
+      "subject": "elementary_mathematics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 486,
+      "subject": "medical_genetics",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 487,
+      "subject": "college_chemistry",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 488,
+      "subject": "astronomy",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 489,
+      "subject": "logical_fallacies",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 490,
+      "subject": "college_mathematics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 491,
+      "subject": "college_physics",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 492,
+      "subject": "econometrics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 493,
+      "subject": "philosophy",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 494,
+      "subject": "high_school_biology",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 495,
+      "subject": "professional_accounting",
+      "category": "Other",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 496,
+      "subject": "astronomy",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 497,
+      "subject": "professional_psychology",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 498,
+      "subject": "sociology",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 499,
+      "subject": "machine_learning",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 500,
+      "subject": "college_mathematics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 501,
+      "subject": "abstract_algebra",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 502,
+      "subject": "high_school_european_history",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 503,
+      "subject": "electrical_engineering",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 504,
+      "subject": "conceptual_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 505,
+      "subject": "high_school_us_history",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 506,
+      "subject": "management",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 507,
+      "subject": "college_mathematics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 508,
+      "subject": "high_school_macroeconomics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 509,
+      "subject": "global_facts",
+      "category": "Other",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 510,
+      "subject": "professional_medicine",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 511,
+      "subject": "computer_security",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 512,
+      "subject": "professional_medicine",
+      "category": "Other",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 513,
+      "subject": "college_biology",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 514,
+      "subject": "machine_learning",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 515,
+      "subject": "professional_law",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 516,
+      "subject": "high_school_us_history",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 517,
+      "subject": "high_school_government_and_politics",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 518,
+      "subject": "high_school_psychology",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 519,
+      "subject": "management",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 520,
+      "subject": "public_relations",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 521,
+      "subject": "clinical_knowledge",
+      "category": "Other",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 522,
+      "subject": "elementary_mathematics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 523,
+      "subject": "logical_fallacies",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 524,
+      "subject": "high_school_geography",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 525,
+      "subject": "high_school_european_history",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 526,
+      "subject": "college_computer_science",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 527,
+      "subject": "elementary_mathematics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 528,
+      "subject": "professional_accounting",
+      "category": "Other",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 529,
+      "subject": "international_law",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 530,
+      "subject": "professional_psychology",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 531,
+      "subject": "professional_accounting",
+      "category": "Other",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 532,
+      "subject": "global_facts",
+      "category": "Other",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 533,
+      "subject": "logical_fallacies",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 534,
+      "subject": "high_school_us_history",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 535,
+      "subject": "astronomy",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 536,
+      "subject": "moral_disputes",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 537,
+      "subject": "nutrition",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 538,
+      "subject": "high_school_psychology",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 539,
+      "subject": "college_biology",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 540,
+      "subject": "high_school_statistics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 541,
+      "subject": "professional_law",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 542,
+      "subject": "security_studies",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 543,
+      "subject": "abstract_algebra",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 544,
+      "subject": "electrical_engineering",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 545,
+      "subject": "jurisprudence",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 546,
+      "subject": "high_school_government_and_politics",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 547,
+      "subject": "high_school_biology",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 548,
+      "subject": "high_school_european_history",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 549,
+      "subject": "college_medicine",
+      "category": "Other",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 550,
+      "subject": "professional_psychology",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 551,
+      "subject": "econometrics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 552,
+      "subject": "high_school_geography",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 553,
+      "subject": "professional_law",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 554,
+      "subject": "management",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 555,
+      "subject": "logical_fallacies",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 556,
+      "subject": "public_relations",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 557,
+      "subject": "professional_psychology",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 558,
+      "subject": "virology",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 559,
+      "subject": "moral_disputes",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 560,
+      "subject": "astronomy",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 561,
+      "subject": "business_ethics",
+      "category": "Other",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 562,
+      "subject": "high_school_computer_science",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 563,
+      "subject": "high_school_biology",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 564,
+      "subject": "college_biology",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 565,
+      "subject": "nutrition",
+      "category": "Other",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 566,
+      "subject": "anatomy",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 567,
+      "subject": "anatomy",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 568,
+      "subject": "medical_genetics",
+      "category": "Other",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 569,
+      "subject": "college_computer_science",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 570,
+      "subject": "high_school_biology",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 571,
+      "subject": "public_relations",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 572,
+      "subject": "virology",
+      "category": "Other",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 573,
+      "subject": "high_school_us_history",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 574,
+      "subject": "professional_accounting",
+      "category": "Other",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 575,
+      "subject": "conceptual_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 576,
+      "subject": "public_relations",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 577,
+      "subject": "high_school_mathematics",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 578,
+      "subject": "global_facts",
+      "category": "Other",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 579,
+      "subject": "security_studies",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 580,
+      "subject": "high_school_chemistry",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 581,
+      "subject": "sociology",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 582,
+      "subject": "high_school_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 583,
+      "subject": "human_sexuality",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 584,
+      "subject": "business_ethics",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 585,
+      "subject": "professional_medicine",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 586,
+      "subject": "high_school_geography",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 587,
+      "subject": "international_law",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 588,
+      "subject": "high_school_mathematics",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 589,
+      "subject": "high_school_geography",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 590,
+      "subject": "virology",
+      "category": "Other",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 591,
+      "subject": "management",
+      "category": "Other",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 592,
+      "subject": "electrical_engineering",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 593,
+      "subject": "moral_scenarios",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 594,
+      "subject": "human_aging",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 595,
+      "subject": "business_ethics",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 596,
+      "subject": "prehistory",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 597,
+      "subject": "us_foreign_policy",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 598,
+      "subject": "management",
+      "category": "Other",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 599,
+      "subject": "elementary_mathematics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 600,
+      "subject": "virology",
+      "category": "Other",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 601,
+      "subject": "anatomy",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 602,
+      "subject": "jurisprudence",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 603,
+      "subject": "high_school_government_and_politics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 604,
+      "subject": "medical_genetics",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 605,
+      "subject": "world_religions",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 606,
+      "subject": "college_computer_science",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 607,
+      "subject": "high_school_geography",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 608,
+      "subject": "philosophy",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 609,
+      "subject": "college_chemistry",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 610,
+      "subject": "moral_scenarios",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 611,
+      "subject": "high_school_microeconomics",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 612,
+      "subject": "nutrition",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 613,
+      "subject": "public_relations",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 614,
+      "subject": "high_school_macroeconomics",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 615,
+      "subject": "electrical_engineering",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 616,
+      "subject": "high_school_biology",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 617,
+      "subject": "high_school_mathematics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 618,
+      "subject": "high_school_government_and_politics",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 619,
+      "subject": "moral_disputes",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 620,
+      "subject": "college_chemistry",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 621,
+      "subject": "conceptual_physics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 622,
+      "subject": "miscellaneous",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 623,
+      "subject": "marketing",
+      "category": "Other",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 624,
+      "subject": "high_school_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 625,
+      "subject": "high_school_us_history",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 626,
+      "subject": "high_school_computer_science",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 627,
+      "subject": "medical_genetics",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 628,
+      "subject": "high_school_geography",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 629,
+      "subject": "high_school_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 630,
+      "subject": "machine_learning",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 631,
+      "subject": "formal_logic",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 632,
+      "subject": "miscellaneous",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 633,
+      "subject": "global_facts",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 634,
+      "subject": "professional_law",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 635,
+      "subject": "high_school_us_history",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 636,
+      "subject": "professional_psychology",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 637,
+      "subject": "high_school_chemistry",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 638,
+      "subject": "econometrics",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 639,
+      "subject": "human_sexuality",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 640,
+      "subject": "high_school_european_history",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 641,
+      "subject": "jurisprudence",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 642,
+      "subject": "marketing",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 643,
+      "subject": "professional_law",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 644,
+      "subject": "marketing",
+      "category": "Other",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 645,
+      "subject": "moral_scenarios",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 646,
+      "subject": "computer_security",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 647,
+      "subject": "international_law",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 648,
+      "subject": "management",
+      "category": "Other",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 649,
+      "subject": "high_school_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 650,
+      "subject": "business_ethics",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 651,
+      "subject": "high_school_macroeconomics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 652,
+      "subject": "abstract_algebra",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 653,
+      "subject": "conceptual_physics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 654,
+      "subject": "high_school_statistics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 655,
+      "subject": "college_biology",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 656,
+      "subject": "logical_fallacies",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 657,
+      "subject": "computer_security",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 658,
+      "subject": "college_computer_science",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 659,
+      "subject": "formal_logic",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 660,
+      "subject": "high_school_psychology",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 661,
+      "subject": "college_physics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 662,
+      "subject": "high_school_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 663,
+      "subject": "philosophy",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 664,
+      "subject": "professional_law",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 665,
+      "subject": "elementary_mathematics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 666,
+      "subject": "computer_security",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 667,
+      "subject": "conceptual_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 668,
+      "subject": "high_school_european_history",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 669,
+      "subject": "human_sexuality",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 670,
+      "subject": "marketing",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 671,
+      "subject": "econometrics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 672,
+      "subject": "abstract_algebra",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 673,
+      "subject": "jurisprudence",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 674,
+      "subject": "logical_fallacies",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 675,
+      "subject": "astronomy",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 676,
+      "subject": "jurisprudence",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 677,
+      "subject": "machine_learning",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 678,
+      "subject": "high_school_world_history",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 679,
+      "subject": "college_physics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 680,
+      "subject": "high_school_biology",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 681,
+      "subject": "professional_accounting",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 682,
+      "subject": "college_biology",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 683,
+      "subject": "high_school_macroeconomics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 684,
+      "subject": "astronomy",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 685,
+      "subject": "public_relations",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 686,
+      "subject": "sociology",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 687,
+      "subject": "high_school_statistics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 688,
+      "subject": "philosophy",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 689,
+      "subject": "medical_genetics",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 690,
+      "subject": "elementary_mathematics",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 691,
+      "subject": "world_religions",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 692,
+      "subject": "high_school_psychology",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 693,
+      "subject": "college_mathematics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 694,
+      "subject": "world_religions",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 695,
+      "subject": "clinical_knowledge",
+      "category": "Other",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 696,
+      "subject": "conceptual_physics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 697,
+      "subject": "us_foreign_policy",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 698,
+      "subject": "professional_accounting",
+      "category": "Other",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 699,
+      "subject": "college_chemistry",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 700,
+      "subject": "management",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 701,
+      "subject": "miscellaneous",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 702,
+      "subject": "college_computer_science",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 703,
+      "subject": "clinical_knowledge",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 704,
+      "subject": "professional_law",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 705,
+      "subject": "moral_scenarios",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 706,
+      "subject": "high_school_macroeconomics",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 707,
+      "subject": "medical_genetics",
+      "category": "Other",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 708,
+      "subject": "college_chemistry",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 709,
+      "subject": "college_chemistry",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 710,
+      "subject": "formal_logic",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 711,
+      "subject": "nutrition",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 712,
+      "subject": "professional_psychology",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 713,
+      "subject": "high_school_statistics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 714,
+      "subject": "public_relations",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 715,
+      "subject": "moral_scenarios",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 716,
+      "subject": "human_aging",
+      "category": "Other",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 717,
+      "subject": "formal_logic",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 718,
+      "subject": "computer_security",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 719,
+      "subject": "nutrition",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 720,
+      "subject": "virology",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 721,
+      "subject": "high_school_physics",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 722,
+      "subject": "abstract_algebra",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 723,
+      "subject": "security_studies",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 724,
+      "subject": "professional_psychology",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 725,
+      "subject": "high_school_us_history",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 726,
+      "subject": "astronomy",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 727,
+      "subject": "international_law",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 728,
+      "subject": "anatomy",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 729,
+      "subject": "college_medicine",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 730,
+      "subject": "moral_scenarios",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 731,
+      "subject": "high_school_world_history",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 732,
+      "subject": "computer_security",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 733,
+      "subject": "college_biology",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 734,
+      "subject": "college_mathematics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 735,
+      "subject": "elementary_mathematics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 736,
+      "subject": "management",
+      "category": "Other",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 737,
+      "subject": "nutrition",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 738,
+      "subject": "virology",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 739,
+      "subject": "professional_medicine",
+      "category": "Other",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 740,
+      "subject": "electrical_engineering",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 741,
+      "subject": "formal_logic",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 742,
+      "subject": "college_medicine",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 743,
+      "subject": "sociology",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 744,
+      "subject": "security_studies",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 745,
+      "subject": "high_school_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 746,
+      "subject": "elementary_mathematics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 747,
+      "subject": "formal_logic",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 748,
+      "subject": "prehistory",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 749,
+      "subject": "college_medicine",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 750,
+      "subject": "formal_logic",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 751,
+      "subject": "high_school_chemistry",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 752,
+      "subject": "college_biology",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 753,
+      "subject": "professional_medicine",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 754,
+      "subject": "jurisprudence",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 755,
+      "subject": "sociology",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 756,
+      "subject": "elementary_mathematics",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 757,
+      "subject": "high_school_statistics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 758,
+      "subject": "high_school_macroeconomics",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 759,
+      "subject": "computer_security",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 760,
+      "subject": "moral_disputes",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 761,
+      "subject": "moral_disputes",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 762,
+      "subject": "astronomy",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 763,
+      "subject": "college_mathematics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 764,
+      "subject": "college_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 765,
+      "subject": "high_school_biology",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 766,
+      "subject": "high_school_european_history",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 767,
+      "subject": "high_school_biology",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 768,
+      "subject": "formal_logic",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 769,
+      "subject": "high_school_macroeconomics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 770,
+      "subject": "philosophy",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 771,
+      "subject": "human_sexuality",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 772,
+      "subject": "security_studies",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 773,
+      "subject": "high_school_statistics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 774,
+      "subject": "human_aging",
+      "category": "Other",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 775,
+      "subject": "astronomy",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 776,
+      "subject": "professional_medicine",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 777,
+      "subject": "high_school_psychology",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 778,
+      "subject": "formal_logic",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 779,
+      "subject": "econometrics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 780,
+      "subject": "college_biology",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 781,
+      "subject": "elementary_mathematics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 782,
+      "subject": "human_sexuality",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 783,
+      "subject": "prehistory",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 784,
+      "subject": "virology",
+      "category": "Other",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 785,
+      "subject": "college_physics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 786,
+      "subject": "high_school_macroeconomics",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 787,
+      "subject": "high_school_biology",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 788,
+      "subject": "high_school_european_history",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 789,
+      "subject": "professional_law",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 790,
+      "subject": "us_foreign_policy",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 791,
+      "subject": "professional_medicine",
+      "category": "Other",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 792,
+      "subject": "high_school_european_history",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 793,
+      "subject": "nutrition",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 794,
+      "subject": "human_sexuality",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 795,
+      "subject": "abstract_algebra",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 796,
+      "subject": "college_mathematics",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 797,
+      "subject": "clinical_knowledge",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 798,
+      "subject": "high_school_psychology",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 799,
+      "subject": "human_sexuality",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 800,
+      "subject": "nutrition",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 801,
+      "subject": "miscellaneous",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 802,
+      "subject": "college_physics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 803,
+      "subject": "sociology",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 804,
+      "subject": "college_computer_science",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 805,
+      "subject": "medical_genetics",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 806,
+      "subject": "high_school_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 807,
+      "subject": "moral_scenarios",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 808,
+      "subject": "formal_logic",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 809,
+      "subject": "high_school_macroeconomics",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 810,
+      "subject": "moral_disputes",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 811,
+      "subject": "high_school_mathematics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 812,
+      "subject": "sociology",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 813,
+      "subject": "professional_medicine",
+      "category": "Other",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 814,
+      "subject": "professional_psychology",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 815,
+      "subject": "high_school_computer_science",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 816,
+      "subject": "moral_disputes",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 817,
+      "subject": "clinical_knowledge",
+      "category": "Other",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 818,
+      "subject": "astronomy",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 819,
+      "subject": "miscellaneous",
+      "category": "Other",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 820,
+      "subject": "college_chemistry",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 821,
+      "subject": "jurisprudence",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 822,
+      "subject": "virology",
+      "category": "Other",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 823,
+      "subject": "virology",
+      "category": "Other",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 824,
+      "subject": "prehistory",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 825,
+      "subject": "high_school_chemistry",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 826,
+      "subject": "college_chemistry",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 827,
+      "subject": "security_studies",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 828,
+      "subject": "us_foreign_policy",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 829,
+      "subject": "econometrics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 830,
+      "subject": "high_school_world_history",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 831,
+      "subject": "medical_genetics",
+      "category": "Other",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 832,
+      "subject": "high_school_geography",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 833,
+      "subject": "college_computer_science",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 834,
+      "subject": "high_school_computer_science",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 835,
+      "subject": "high_school_macroeconomics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 836,
+      "subject": "high_school_geography",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 837,
+      "subject": "high_school_us_history",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 838,
+      "subject": "high_school_statistics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 839,
+      "subject": "college_computer_science",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 840,
+      "subject": "clinical_knowledge",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 841,
+      "subject": "security_studies",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 842,
+      "subject": "marketing",
+      "category": "Other",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 843,
+      "subject": "anatomy",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 844,
+      "subject": "high_school_macroeconomics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 845,
+      "subject": "anatomy",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 846,
+      "subject": "college_computer_science",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 847,
+      "subject": "college_biology",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 848,
+      "subject": "moral_disputes",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 849,
+      "subject": "world_religions",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 850,
+      "subject": "miscellaneous",
+      "category": "Other",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 851,
+      "subject": "high_school_world_history",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 852,
+      "subject": "nutrition",
+      "category": "Other",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 853,
+      "subject": "electrical_engineering",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 854,
+      "subject": "professional_psychology",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 855,
+      "subject": "college_chemistry",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 856,
+      "subject": "college_medicine",
+      "category": "Other",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 857,
+      "subject": "abstract_algebra",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 858,
+      "subject": "high_school_mathematics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 859,
+      "subject": "college_physics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 860,
+      "subject": "computer_security",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 861,
+      "subject": "nutrition",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 862,
+      "subject": "logical_fallacies",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 863,
+      "subject": "high_school_psychology",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 864,
+      "subject": "security_studies",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 865,
+      "subject": "college_mathematics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 866,
+      "subject": "sociology",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 867,
+      "subject": "high_school_government_and_politics",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 868,
+      "subject": "high_school_government_and_politics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 869,
+      "subject": "clinical_knowledge",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 870,
+      "subject": "college_chemistry",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 871,
+      "subject": "global_facts",
+      "category": "Other",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 872,
+      "subject": "high_school_chemistry",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 873,
+      "subject": "formal_logic",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 874,
+      "subject": "prehistory",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 875,
+      "subject": "electrical_engineering",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 876,
+      "subject": "international_law",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 877,
+      "subject": "college_computer_science",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 878,
+      "subject": "management",
+      "category": "Other",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 879,
+      "subject": "human_sexuality",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 880,
+      "subject": "management",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 881,
+      "subject": "world_religions",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 882,
+      "subject": "nutrition",
+      "category": "Other",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 883,
+      "subject": "econometrics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 884,
+      "subject": "high_school_us_history",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 885,
+      "subject": "college_computer_science",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 886,
+      "subject": "professional_accounting",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 887,
+      "subject": "professional_law",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 888,
+      "subject": "human_aging",
+      "category": "Other",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 889,
+      "subject": "professional_psychology",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 890,
+      "subject": "sociology",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 891,
+      "subject": "philosophy",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 892,
+      "subject": "high_school_mathematics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 893,
+      "subject": "econometrics",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 894,
+      "subject": "international_law",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 895,
+      "subject": "high_school_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 896,
+      "subject": "machine_learning",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 897,
+      "subject": "public_relations",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 898,
+      "subject": "clinical_knowledge",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 899,
+      "subject": "high_school_psychology",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 900,
+      "subject": "high_school_world_history",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 901,
+      "subject": "high_school_computer_science",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 902,
+      "subject": "clinical_knowledge",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 903,
+      "subject": "security_studies",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 904,
+      "subject": "high_school_government_and_politics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 905,
+      "subject": "public_relations",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 906,
+      "subject": "sociology",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 907,
+      "subject": "high_school_mathematics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 908,
+      "subject": "econometrics",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 909,
+      "subject": "marketing",
+      "category": "Other",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 910,
+      "subject": "college_chemistry",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 911,
+      "subject": "moral_scenarios",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 912,
+      "subject": "global_facts",
+      "category": "Other",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 913,
+      "subject": "high_school_mathematics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 914,
+      "subject": "econometrics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 915,
+      "subject": "high_school_computer_science",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 916,
+      "subject": "nutrition",
+      "category": "Other",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 917,
+      "subject": "prehistory",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 918,
+      "subject": "econometrics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 919,
+      "subject": "high_school_biology",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 920,
+      "subject": "econometrics",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 921,
+      "subject": "formal_logic",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 922,
+      "subject": "human_aging",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 923,
+      "subject": "professional_law",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 924,
+      "subject": "computer_security",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 925,
+      "subject": "elementary_mathematics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 926,
+      "subject": "high_school_biology",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 927,
+      "subject": "high_school_mathematics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 928,
+      "subject": "high_school_statistics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 929,
+      "subject": "high_school_statistics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 930,
+      "subject": "machine_learning",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 931,
+      "subject": "high_school_microeconomics",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 932,
+      "subject": "world_religions",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 933,
+      "subject": "astronomy",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 934,
+      "subject": "prehistory",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 935,
+      "subject": "high_school_us_history",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 936,
+      "subject": "public_relations",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 937,
+      "subject": "professional_medicine",
+      "category": "Other",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 938,
+      "subject": "college_chemistry",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 939,
+      "subject": "moral_disputes",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 940,
+      "subject": "high_school_us_history",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 941,
+      "subject": "high_school_government_and_politics",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 942,
+      "subject": "moral_disputes",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 943,
+      "subject": "high_school_world_history",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 944,
+      "subject": "logical_fallacies",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 945,
+      "subject": "human_aging",
+      "category": "Other",
+      "pred": "D",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 946,
+      "subject": "high_school_psychology",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 947,
+      "subject": "human_aging",
+      "category": "Other",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 948,
+      "subject": "conceptual_physics",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 949,
+      "subject": "clinical_knowledge",
+      "category": "Other",
+      "pred": "D",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 950,
+      "subject": "clinical_knowledge",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 951,
+      "subject": "machine_learning",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 952,
+      "subject": "nutrition",
+      "category": "Other",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 953,
+      "subject": "high_school_european_history",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 954,
+      "subject": "virology",
+      "category": "Other",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 955,
+      "subject": "miscellaneous",
+      "category": "Other",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 956,
+      "subject": "machine_learning",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 957,
+      "subject": "anatomy",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 958,
+      "subject": "human_sexuality",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 959,
+      "subject": "professional_law",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 960,
+      "subject": "high_school_european_history",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 961,
+      "subject": "conceptual_physics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 962,
+      "subject": "us_foreign_policy",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 963,
+      "subject": "high_school_chemistry",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 964,
+      "subject": "miscellaneous",
+      "category": "Other",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 965,
+      "subject": "human_sexuality",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 966,
+      "subject": "philosophy",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 967,
+      "subject": "high_school_psychology",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 968,
+      "subject": "moral_disputes",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 969,
+      "subject": "philosophy",
+      "category": "Humanities",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 970,
+      "subject": "miscellaneous",
+      "category": "Other",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 971,
+      "subject": "high_school_statistics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 972,
+      "subject": "global_facts",
+      "category": "Other",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 973,
+      "subject": "prehistory",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 974,
+      "subject": "conceptual_physics",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 975,
+      "subject": "international_law",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 976,
+      "subject": "college_chemistry",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 977,
+      "subject": "anatomy",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 978,
+      "subject": "human_sexuality",
+      "category": "Social Sciences",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 979,
+      "subject": "sociology",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 980,
+      "subject": "college_mathematics",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 981,
+      "subject": "us_foreign_policy",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "C",
+      "is_correct": true
+    },
+    {
+      "index": 982,
+      "subject": "formal_logic",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 983,
+      "subject": "astronomy",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 984,
+      "subject": "high_school_computer_science",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "A",
+      "is_correct": true
+    },
+    {
+      "index": 985,
+      "subject": "college_medicine",
+      "category": "Other",
+      "pred": "C",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 986,
+      "subject": "anatomy",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 987,
+      "subject": "jurisprudence",
+      "category": "Humanities",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 988,
+      "subject": "formal_logic",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 989,
+      "subject": "us_foreign_policy",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 990,
+      "subject": "high_school_microeconomics",
+      "category": "Social Sciences",
+      "pred": "A",
+      "gold": "B",
+      "is_correct": false
+    },
+    {
+      "index": 991,
+      "subject": "high_school_european_history",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 992,
+      "subject": "machine_learning",
+      "category": "STEM",
+      "pred": "A",
+      "gold": "C",
+      "is_correct": false
+    },
+    {
+      "index": 993,
+      "subject": "security_studies",
+      "category": "Social Sciences",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 994,
+      "subject": "high_school_government_and_politics",
+      "category": "Social Sciences",
+      "pred": "C",
+      "gold": "D",
+      "is_correct": false
+    },
+    {
+      "index": 995,
+      "subject": "high_school_chemistry",
+      "category": "STEM",
+      "pred": "C",
+      "gold": "A",
+      "is_correct": false
+    },
+    {
+      "index": 996,
+      "subject": "high_school_computer_science",
+      "category": "STEM",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 997,
+      "subject": "philosophy",
+      "category": "Humanities",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    },
+    {
+      "index": 998,
+      "subject": "international_law",
+      "category": "Humanities",
+      "pred": "B",
+      "gold": "B",
+      "is_correct": true
+    },
+    {
+      "index": 999,
+      "subject": "high_school_biology",
+      "category": "STEM",
+      "pred": "D",
+      "gold": "D",
+      "is_correct": true
+    }
+  ]
+}

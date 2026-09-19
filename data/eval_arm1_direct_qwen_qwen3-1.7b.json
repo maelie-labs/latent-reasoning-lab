@@ -1,0 +1,48 @@
+{
+  "model_id": "Qwen/Qwen3-1.7B",
+  "arm": "arm1_direct",
+  "status": "CERTIFIED [PASS]",
+  "total_queries": 1000,
+  "pass_at_1": 73.90,
+  "gsm8k_pass_at_1": 71.00,
+  "math500_pass_at_1": 78.25,
+  "math500_l3_5_pass_at_1": 70.00,
+  "truncation_rate": 0.00,
+  "truncation_count": 0,
+  "token_distribution": {
+    "min": 76,
+    "median": 353.5,
+    "mean": 501.52,
+    "p90": 899.2,
+    "p95": 1318.0,
+    "max": 6803
+  },
+  "prompt_leakage_count": 0,
+  "seeds": [
+    42,
+    123,
+    456,
+    789
+  ],
+  "seed_breakdown": {
+    "42": 74.40,
+    "123": 74.80,
+    "456": 71.60,
+    "789": 74.80
+  },
+  "gsm8k_strata_breakdown": {
+    "Short": 83.50,
+    "Medium": 67.50,
+    "Long": 62.00
+  },
+  "grader": "math_verify 0.9.0 (pure canonical)",
+  "sampling_config": {
+    "temperature": 0.7,
+    "top_p": 0.80,
+    "top_k": 20,
+    "presence_penalty": 1.5,
+    "max_new_tokens": 8192
+  },
+  "runtime": "SGLang GPU 1 (RTX PRO 4500 32GB, C*=32, mem-fraction-static 0.90)",
+  "timestamp": "2026-09-12T23:22:00Z"
+}

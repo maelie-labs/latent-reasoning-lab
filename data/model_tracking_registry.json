@@ -1,0 +1,362 @@
+{
+  "qwen3_1.7b": {
+    "model_id": "Qwen/Qwen3-1.7B",
+    "architecture_type": "pure_full_attention_transformer",
+    "num_layers": 28,
+    "scale_factor_alpha": 0.011440,
+    "kv_cache_kib_per_token": 112.0,
+    "fixed_recurrent_state_mib": 0.0,
+    "phases": {
+      "phase0_math500_anchor": {
+        "status": "PASSED",
+        "thinking_pass1": 92.20,
+        "nonthinking_pass1": 76.60,
+        "artifact": "data/rerun_baseline_math500.json"
+      },
+      "phase0_gpqa_diamond_anchor": {
+        "status": "PASSED",
+        "thinking_pass1": 38.76,
+        "published_target": 40.1,
+        "artifact": "data/eval_gpqa_diamond_1.7b.json"
+      },
+      "phase0b_arm0_neutrality": {
+        "status": "PASSED",
+        "mmlu_score": 58.00,
+        "paired_delta": 0.80,
+        "p_value": 0.0261,
+        "artifact": "data/surgical_neutrality_qwen_qwen3-1.7b.json"
+      },
+      "phase1_trace_generation": {
+        "status": "PASSED",
+        "concurrency": 32,
+        "target_verified": 2500,
+        "current_verified": 2784,
+        "artifact": "data/self_distill_train_traces_qwen3_1.7b.jsonl"
+      },
+      "phase2_data_curation": {
+        "status": "PASSED",
+        "dev_slice_size": 100,
+        "train_curated_size": 2070,
+        "max_token_cap": 4096,
+        "kept_ids_manifest": "data/kept_trace_ids.json"
+      },
+      "phase3a_gate1_training": {
+        "status": "PASSED",
+        "controls_completed": ["arm1b_k0", "arm2b_k6", "arm2b_k32", "arm3_k6", "arm3_k32"],
+        "horizons": [6, 32],
+        "arms": ["arm1b_k0", "arm2b_k6", "arm3_k6", "arm2b_k32", "arm3_k32"]
+      },
+      "phase4_gate1_evaluation": {
+        "status": "PASSED",
+        "evals_completed": {
+          "arm1_direct_pass1": 73.90,
+          "arm1b_k0_pass1": 71.20,
+          "arm2_k6_pass1": 73.40,
+          "arm2_k32_pass1": 75.00,
+          "arm2b_k6_pass1": 70.50,
+          "arm2b_k32_pass1": 71.80,
+          "arm3_k6_pass1": 69.00,
+          "arm3_k32_pass1": 69.50,
+          "arm4_unconstrained_pass1": 87.10
+        },
+        "suite": "benchmark_suite_250.json",
+        "seeds": [42, 123, 456, 789],
+        "verdict": "NULL_PARITY"
+      },
+      "phase5_register_ladder_production": {
+        "status": "PASSED",
+        "checkpoint": "checkpoints/lora_arm3_register_ladder_production_qwen3_1.7b/best_checkpoint",
+        "dev_loss": 0.1420
+      },
+      "phase5b_arm3_register_ladder_eval": {
+        "status": "PASSED",
+        "pass1": 71.30,
+        "math_hard_pass1": 65.00,
+        "artifact": "data/eval_results_arm3_register_ladder_production_best.json"
+      },
+      "phase6a_arm1b_register_headers_only": {
+        "status": "PASSED",
+        "pass1": 73.20,
+        "math_hard_pass1": 67.08,
+        "artifact": "data/eval_results_arm1b_register_headers_only.json"
+      },
+      "phase6b_arm2b_register_headers_pause": {
+        "status": "PASSED",
+        "pass1": 72.90,
+        "math_hard_pass1": 68.33,
+        "artifact": "data/eval_results_arm2b_register_headers_pause.json"
+      },
+      "phase6c_arm1_base_headers_control": {
+        "status": "PASSED",
+        "pass1": 70.20,
+        "math_hard_pass1": 63.33,
+        "artifact": "data/eval_results_arm1_base_headers_only.json"
+      },
+      "phase6d_arm3_lib_bottleneck_eval": {
+        "status": "PASSED",
+        "pass1": 65.00,
+        "math_hard_pass1": 53.75,
+        "artifact": "data/eval_results_arm3_register_ladder_bottleneck_qwen3_1.7b.json"
+      },
+      "acid_test_lib_bottleneck": {
+        "status": "PASSED",
+        "check_a_latent_attention_mass": 3.21,
+        "check_c_delta_vs_headers_only": 0.00,
+        "check_b_control0_identity": 100.0,
+        "check_b_net_delta_steer": 0.00,
+        "verdict": "LATENTS_INERT",
+        "artifact": "data/acid_test_lib_bottleneck_results.json"
+      },
+      "study2_dynamic_registers": {
+        "status": "HALTED_NULL_DEGRADATION",
+        "control1_headers_pass1": 73.70,
+        "arm1_dynamic_registers_pass1": 70.00,
+        "arm2_matched_filler_pass1": 72.00,
+        "delta1_vs_control1": -3.70,
+        "delta1_p_value": 0.0068,
+        "delta2_vs_arm2": -2.00,
+        "delta2_p_value": 0.1260,
+        "ifeval_loose_arm1": 64.88,
+        "ifeval_loose_control1": 68.76,
+        "attention_decomposition_registers_pct": 8.21,
+        "register_corruption_delta_steer": 0.00,
+        "verdict": "DEFINITIVE_HALT",
+        "tag": "v1.1-dynamic-registers-final",
+        "report": "studies/dynamic_registers/RESULTS_DYNAMIC_REGISTERS.md"
+      },
+      "study3_telegraphic_cot": {
+        "status": "DEFINITIVE_NEGATIVE",
+        "arm1_telegraphic_pass1": 69.00,
+        "arm1_gsm8k_pass1": 65.67,
+        "arm1_math500_pass1": 74.00,
+        "arm1_math_hard_pass1": 65.00,
+        "arm1_think_tokens_median": 104.0,
+        "arm1_ans_tokens_median": 342.5,
+        "arm1_truncation_rate": 0.20,
+        "arm1_ifeval_loose": 65.06,
+        "control3_matched_pause_pass1": 82.60,
+        "control3_think_tokens_median": 2227.0,
+        "control3_truncation_rate": 7.80,
+        "control3_ifeval_loose": 70.79,
+        "arm2_dual_channel_pass1": 79.40,
+        "arm2_status": "CONFOUNDED_UNCONTROLLED_LENGTH",
+        "delta1_vs_control3": -13.60,
+        "delta1_p_value": 0.0000,
+        "delta2_vs_base_direct": -4.90,
+        "delta2_p_value": 0.0006,
+        "delta3_vs_verbose_cot": -17.70,
+        "delta3_p_value": 0.0000,
+        "rescore_discrepancy_count": 0,
+        "verdict": "CLEAN_NEGATIVE_ARITHMETIC_COLLAPSE",
+        "report": "studies/telegraphic_cot/RESULTS_TELEGRAPHIC_COT.md"
+      }
+    }
+  },
+  "qwen3.5_2b": {
+    "model_id": "Qwen/Qwen3.5-2B",
+    "architecture_type": "hybrid_gated_deltanet",
+    "num_layers": 24,
+    "full_attention_layers": 6,
+    "linear_attention_layers": 18,
+    "scale_factor_alpha": 0.925143,
+    "preflight_status": "PASSED",
+    "preflight_artifact": "data/preflight_qwen3.5_2b.json",
+    "kv_cache_kib_per_token": 12.0,
+    "fixed_recurrent_state_mib": 9.84,
+    "official_sampling_config": {
+      "thinking": {"temperature": 1.0, "top_p": 0.95, "top_k": 20, "presence_penalty": 1.5, "max_tokens": 32768},
+      "nonthinking": {"temperature": 1.0, "top_p": 1.0, "top_k": 20, "presence_penalty": 2.0, "max_tokens": 32768}
+    },
+    "official_published_anchors": {
+      "gpqa_diamond_thinking": 51.6,
+      "ifeval_thinking": 78.6,
+      "ifeval_nonthinking": 61.2
+    },
+    "phases": {
+      "phase0_step0_preflight": {
+        "status": "PASSED",
+        "artifact": "data/preflight_qwen3.5_2b.json"
+      },
+      "phase0_concurrency_smoke_test": {
+        "status": "PENDING",
+        "target_server": "http://127.0.0.1:30000",
+        "script": "scripts/56_concurrency_smoke_test.py"
+      },
+      "phase0_gpqa_diamond_anchor": {
+        "status": "PENDING",
+        "published_target": 51.6,
+        "evaluations": 1584,
+        "artifact": "data/eval_gpqa_diamond_qwen3.5_2b.json"
+      },
+      "phase0_math500_thinking": {
+        "status": "PENDING",
+        "purpose": "arm4_ceiling_math",
+        "artifact": "data/eval_math500_thinking_qwen3.5_2b.json"
+      },
+      "phase0_math500_nonthinking": {
+        "status": "PENDING",
+        "purpose": "arm1_floor_math",
+        "artifact": "data/eval_math500_nothinking_qwen3.5_2b.json"
+      },
+      "phase0_gsm8k_thinking": {
+        "status": "PENDING",
+        "purpose": "arm4_ceiling_arithmetic",
+        "artifact": "data/eval_gsm8k_thinking_qwen3.5_2b.json"
+      },
+      "phase0_gsm8k_nonthinking": {
+        "status": "PENDING",
+        "purpose": "arm1_floor_arithmetic",
+        "artifact": "data/eval_gsm8k_nothinking_qwen3.5_2b.json"
+      },
+      "phase0b_arm0_neutrality": {
+        "status": "BASE_COMPLETED",
+        "base_mmlu_score": 57.10,
+        "humanities_pct": 50.44,
+        "other_pct": 62.55,
+        "stem_pct": 51.30,
+        "social_sciences_pct": 66.52,
+        "artifact": "data/surgical_neutrality_base_qwen3.5_2b.json"
+      },
+      "phase1_trace_generation": {
+        "status": "PENDING",
+        "note": "strict_self_distillation_only",
+        "target_verified": 2000,
+        "artifact": "data/self_distill_train_traces_qwen3.5_2b.jsonl"
+      },
+      "phase2_data_curation": {
+        "status": "PENDING",
+        "kept_ids_manifest": "data/kept_trace_ids_qwen3.5_2b.json"
+      },
+      "phase3_lora_training": {
+        "status": "PENDING",
+        "checkpoints_prefix": "checkpoints/lora_*_qwen3.5_2b_*"
+      },
+      "phase4_gate1_evaluation": {
+        "status": "PENDING",
+        "suite": "benchmark_suite_250.json"
+      }
+    }
+  },
+  "gemma4_e2b": {
+    "model_id": "google/gemma-4-E2B-it",
+    "architecture_type": "gemma4_multimodal_foundation",
+    "num_layers": 35,
+    "hidden_size": 1536,
+    "num_heads": 8,
+    "num_kv_heads": 1,
+    "scale_factor_alpha": 0.027496,
+    "preflight_status": "PASSED",
+    "preflight_artifact": "data/preflight_gemma4_e2b.json",
+    "phases": {
+      "phase0_preflight": {
+        "status": "PASSED",
+        "device": "cuda:0",
+        "mean_token_embedding_norm": 1.193636,
+        "mean_h0_norm": 43.410700,
+        "calibrated_alpha": 0.027496,
+        "ple_dim": 256,
+        "script": "scripts/70_preflight_gemma4_e2b.py",
+        "artifact": "data/preflight_gemma4_e2b.json"
+      },
+      "phase0b_arm0_neutrality": {
+        "status": "BASE_COMPLETED",
+        "device": "cuda:0",
+        "base_mmlu_score": 50.40,
+        "humanities_pct": 56.25,
+        "other_pct": 50.22,
+        "stem_pct": 40.18,
+        "social_sciences_pct": 60.95,
+        "duration_s": 60.8,
+        "script": "scripts/71_surgical_neutrality_base_gemma4_e2b.py",
+        "artifact": "data/surgical_neutrality_base_gemma4_e2b.json"
+      },
+      "phase1_trace_generation": {
+        "status": "PENDING",
+        "note": "strict_self_distillation_only",
+        "target_verified": 2000,
+        "artifact": "data/self_distill_train_traces_gemma4_e2b.jsonl"
+      },
+      "phase2_data_curation": {
+        "status": "PENDING",
+        "kept_ids_manifest": "data/kept_trace_ids_gemma4_e2b.json"
+      },
+      "phase3_lora_training": {
+        "status": "PENDING",
+        "checkpoints_prefix": "checkpoints/lora_*_gemma4_e2b_*"
+      },
+      "phase4_gate1_evaluation": {
+        "status": "PENDING",
+        "suite": "benchmark_suite_250.json"
+      }
+    }
+  },
+  "qwen3_4b": {
+    "model_id": "Qwen/Qwen3-4B",
+    "architecture_type": "pure_full_attention_transformer",
+    "num_layers": 36,
+    "num_heads": 32,
+    "num_kv_heads": 8,
+    "hidden_size": 2560,
+    "scale_factor_alpha": 0.007670,
+    "kv_cache_kib_per_token": 144.0,
+    "fixed_recurrent_state_mib": 0.0,
+    "preflight_status": "PASSED",
+    "concurrency_smoke_test": {
+      "status": "PASSED",
+      "calibrated_concurrency": 8,
+      "peak_thinking_throughput": 673.0,
+      "peak_direct_throughput": 616.5,
+      "artifact": "data/concurrency_policy_registry.json"
+    },
+    "phases": {
+      "phase0_step0_preflight": {
+        "status": "PASSED",
+        "mean_token_embedding_norm": 1.0938,
+        "mean_h_final_norm": 142.6000,
+        "calibrated_alpha": 0.007670
+      },
+      "phase0_concurrency_smoke_test": {
+        "status": "PASSED",
+        "locked_concurrency": 8
+      },
+      "phase2_data_curation": {
+        "status": "PASSED",
+        "train_traces": 856,
+        "dev_traces": 100,
+        "dilution_ratio": 0.10,
+        "script": "scripts/95_curate_4b_curriculum.py",
+        "artifact": "data/curated_train_v1_1_dilution10pct_qwen3_4b.jsonl"
+      },
+      "phase3_gate2_causal_patching": {
+        "status": "REJECTED_HALT",
+        "purpose": "fast_fail_steering_assertion",
+        "step_distill_lambda1": {
+          "checkpoint": "checkpoints/lora_arm3_v1_1_qwen_qwen3-4b_k6_lambda1.0",
+          "patch_step": 3,
+          "p_chance": 13.83,
+          "p_steered": 13.83,
+          "delta_steer": 0.00,
+          "verdict": "FAIL"
+        },
+        "codi_fixed_target_t3": {
+          "checkpoint": "checkpoints/lora_arm3_v1_1_qwen_qwen3-4b_k6_codi",
+          "patch_step": 3,
+          "p_chance": 14.89,
+          "p_steered": 14.89,
+          "delta_steer": 0.00,
+          "verdict": "FAIL"
+        },
+        "codi_fixed_target_t6": {
+          "checkpoint": "checkpoints/lora_arm3_v1_1_qwen_qwen3-4b_k6_codi",
+          "patch_step": 6,
+          "p_chance": 14.89,
+          "p_steered": 15.96,
+          "delta_steer": 1.06,
+          "verdict": "FAIL"
+        },
+        "final_verdict": "TERMINAL_HALT_NEGATIVE_MECHANISM_CONFIRMED",
+        "certification_report": "docs/GATE2_CAUSAL_PATCHING_CERTIFICATION_REPORT_QWEN3_4B.md"
+      }
+    }
+  }
+}

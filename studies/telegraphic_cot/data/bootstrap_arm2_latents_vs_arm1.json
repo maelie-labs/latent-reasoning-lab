@@ -1,0 +1,31 @@
+{
+  "comparison": "Arm 2 (Dual-Channel Latents) vs Arm 1 (Telegraphic CoT)",
+  "total_pairs": 1000,
+  "overall": {
+    "observed_delta": 10.4,
+    "ci_95": [
+      7.5,
+      13.3
+    ],
+    "p_value": 0.0,
+    "n": 1000
+  },
+  "math_hard_l3_5": {
+    "observed_delta": 8.333333333333332,
+    "ci_95": [
+      2.083333333333333,
+      14.166666666666666
+    ],
+    "p_value": 0.012,
+    "n": 240
+  },
+  "gsm8k": {
+    "observed_delta": 12.833333333333332,
+    "ci_95": [
+      8.833333333333334,
+      16.833333333333332
+    ],
+    "p_value": 0.0,
+    "n": 600
+  }
+}

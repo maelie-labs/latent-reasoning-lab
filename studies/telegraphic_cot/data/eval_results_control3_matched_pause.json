@@ -1,0 +1,25 @@
+{
+  "tag": "control3_matched_pause",
+  "elapsed_seconds": 2040.4808263778687,
+  "total_queries": 1000,
+  "overall_pass1": 82.6,
+  "gsm8k_pass1": 83.5,
+  "math500_pass1": 81.25,
+  "math_hard_pass1": 74.16666666666667,
+  "truncation_rate": 7.8,
+  "concurrency": 32,
+  "seeds": [
+    42,
+    123,
+    456,
+    789
+  ],
+  "token_telemetry": {
+    "think_tokens_median": 2227.0,
+    "think_tokens_p90": 7255.0,
+    "think_tokens_mean": 3025.437,
+    "ans_tokens_median": 365.5,
+    "ans_tokens_p90": 680.1,
+    "ans_tokens_mean": 397.242
+  }
+}

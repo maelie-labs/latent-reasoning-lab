@@ -1,0 +1,63 @@
+{
+  "model_id": "Qwen/Qwen3-1.7B",
+  "checkpoint": "checkpoints/lora_arm3_register_ladder_production_qwen3_1.7b/best_checkpoint",
+  "tested_depths": [
+    4,
+    6,
+    8,
+    12,
+    16
+  ],
+  "results": {
+    "K=4": {
+      "k_per_bundle": 4,
+      "total_latents": 12,
+      "accuracy": 41.66666666666667,
+      "correct": 25,
+      "total": 60,
+      "mean_norm": 136.45347222222222,
+      "max_norm": 158.0,
+      "mean_cosine_sim": 0.6911964699074075
+    },
+    "K=6": {
+      "k_per_bundle": 6,
+      "total_latents": 18,
+      "accuracy": 45.0,
+      "correct": 27,
+      "total": 60,
+      "mean_norm": 138.8763888888889,
+      "max_norm": 157.0,
+      "mean_cosine_sim": 0.8262717013888888
+    },
+    "K=8": {
+      "k_per_bundle": 8,
+      "total_latents": 24,
+      "accuracy": 41.66666666666667,
+      "correct": 25,
+      "total": 60,
+      "mean_norm": 138.64652777777778,
+      "max_norm": 157.0,
+      "mean_cosine_sim": 0.8678819444444444
+    },
+    "K=12": {
+      "k_per_bundle": 12,
+      "total_latents": 36,
+      "accuracy": 43.333333333333336,
+      "correct": 26,
+      "total": 60,
+      "mean_norm": 138.8726851851852,
+      "max_norm": 158.0,
+      "mean_cosine_sim": 0.9163589015151515
+    },
+    "K=16": {
+      "k_per_bundle": 16,
+      "total_latents": 48,
+      "accuracy": 40.0,
+      "correct": 24,
+      "total": 60,
+      "mean_norm": 139.33177083333334,
+      "max_norm": 158.0,
+      "mean_cosine_sim": 0.9276736111111111
+    }
+  }
+}

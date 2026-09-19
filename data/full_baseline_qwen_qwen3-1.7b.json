@@ -1,0 +1,84 @@
+{
+  "model_id": "Qwen/Qwen3-1.7B",
+  "server_model_name": "Qwen/Qwen3-1.7B",
+  "timestamp": "2026-09-11T22:44:25Z",
+  "notes": {
+    "math500_thinking_suppression": "83.60% reflects primitive regex parsing on raw questions without standard boxed prompt; pending official math_verify rerun.",
+    "gsm8k_thinking_underperformance": "81.46% reflects unprompted freeform generation without boxed suffix; pending diagnostic and rerun."
+  },
+  "modes": {
+    "thinking_mode": {
+      "duration_s": 10800.0,
+      "source": "task-2552 (1,819 completed problems)",
+      "sampling_params": {
+        "enable_thinking": true,
+        "temperature": 0.6,
+        "top_p": 0.95,
+        "top_k": 20,
+        "presence_penalty": 0.0,
+        "max_tokens": 32768
+      },
+      "gsm8k": {
+        "total": 1319,
+        "mean_pct": 81.46,
+        "ci_95_low": 79.35,
+        "ci_95_high": 83.51,
+        "truncation_count": 0,
+        "truncation_rate_pct": 0.0
+      },
+      "math500": {
+        "total": 500,
+        "mean_pct": 83.6,
+        "ci_95_low": 80.3,
+        "ci_95_high": 86.75,
+        "truncation_count": 37,
+        "truncation_rate_pct": 7.4
+      },
+      "overall": {
+        "total": 1819,
+        "mean_pct": 82.08,
+        "ci_95_low": 80.32,
+        "ci_95_high": 83.84,
+        "truncation_count": 37,
+        "truncation_rate_pct": 2.03
+      }
+    },
+    "non_thinking_mode": {
+      "duration_s": 458.1,
+      "source": "task-4255 (1,819 completed problems)",
+      "sampling_params": {
+        "enable_thinking": false,
+        "temperature": 0.7,
+        "top_p": 0.8,
+        "top_k": 20,
+        "presence_penalty": 1.5,
+        "max_tokens": 2048
+      },
+      "gsm8k": {
+        "total": 1319,
+        "mean_pct": 72.93,
+        "ci_95_low": 70.51,
+        "ci_95_high": 75.21,
+        "truncation_count": 0,
+        "truncation_rate_pct": 0.0
+      },
+      "math500": {
+        "total": 500,
+        "mean_pct": 69.4,
+        "ci_95_low": 65.4,
+        "ci_95_high": 73.4,
+        "truncation_count": 46,
+        "truncation_rate_pct": 9.2
+      },
+      "overall": {
+        "total": 1819,
+        "mean_pct": 71.96,
+        "ci_95_low": 69.93,
+        "ci_95_high": 74.0,
+        "truncation_count": 46,
+        "truncation_rate_pct": 2.53
+      },
+      "annotation": "presence_penalty=1.5 (protocol compliant; max_tokens=2048 caused 9.2% truncation)"
+    }
+  }
+}

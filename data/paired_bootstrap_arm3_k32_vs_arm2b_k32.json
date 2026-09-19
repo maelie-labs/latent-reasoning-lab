@@ -1,0 +1,104 @@
+{
+  "arm_a": {
+    "name": "Arm 3 (Latents K=32)",
+    "file": "data/streaming_arm3_k32_qwen_qwen3-1.7b.jsonl"
+  },
+  "arm_b": {
+    "name": "Arm 2b (Pause K=32)",
+    "file": "data/streaming_arm2b_k32_qwen_qwen3-1.7b.jsonl"
+  },
+  "n_bootstrap": 10000,
+  "seed": 42,
+  "overall": {
+    "n_problems": 250,
+    "total_evaluations": 1000,
+    "n_bootstrap": 10000,
+    "acc_a": 69.5,
+    "ci_a": [
+      64.5,
+      74.3
+    ],
+    "acc_b": 71.80000305175781,
+    "ci_b": [
+      66.9,
+      76.40249999999997
+    ],
+    "delta": -2.3000030517578125,
+    "ci_delta": [
+      -5.199999999999989,
+      0.5
+    ],
+    "p_value": 0.1144,
+    "truncation_a": 0.2,
+    "truncation_b": 0.3
+  },
+  "gsm8k": {
+    "n_problems": 150,
+    "total_evaluations": 600,
+    "n_bootstrap": 10000,
+    "acc_a": 69.0,
+    "ci_a": [
+      62.66666666666667,
+      75.16666666666667
+    ],
+    "acc_b": 72.66667175292969,
+    "ci_b": [
+      66.16666666666666,
+      78.83333333333333
+    ],
+    "delta": -3.6666717529296875,
+    "ci_delta": [
+      -7.500000000000014,
+      0.1666666666666714
+    ],
+    "p_value": 0.0706,
+    "truncation_a": 0.0,
+    "truncation_b": 0.16666666666666669
+  },
+  "math500": {
+    "n_problems": 100,
+    "total_evaluations": 400,
+    "n_bootstrap": 10000,
+    "acc_a": 70.25,
+    "ci_a": [
+      62.25000000000001,
+      77.75
+    ],
+    "acc_b": 70.5,
+    "ci_b": [
+      63.0,
+      77.75
+    ],
+    "delta": -0.25,
+    "ci_delta": [
+      -4.5,
+      3.75
+    ],
+    "p_value": 0.962,
+    "truncation_a": 0.5,
+    "truncation_b": 0.5
+  },
+  "math500_hard_l35": {
+    "n_problems": 60,
+    "total_evaluations": 240,
+    "n_bootstrap": 10000,
+    "acc_a": 61.66666793823242,
+    "ci_a": [
+      51.24999999999999,
+      71.66666666666667
+    ],
+    "acc_b": 61.66666793823242,
+    "ci_b": [
+      51.24999999999999,
+      71.66666666666667
+    ],
+    "delta": 0.0,
+    "ci_delta": [
+      -6.250000000000007,
+      6.25
+    ],
+    "p_value": 1.0,
+    "truncation_a": 0.8333333333333334,
+    "truncation_b": 0.8333333333333334
+  }
+}

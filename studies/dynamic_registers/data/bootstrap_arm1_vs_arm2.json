@@ -1,0 +1,22 @@
+{
+  "comparator": "Arm 2 (Matched Value Filler)",
+  "total_pairs": 1000,
+  "overall": {
+    "observed_delta": -2.0,
+    "ci_95": [
+      -4.5,
+      0.5
+    ],
+    "p_value": 0.126,
+    "n": 1000
+  },
+  "math_hard": {
+    "observed_delta": 0.0,
+    "ci_95": [
+      -5.833333333333333,
+      5.427083333333182
+    ],
+    "p_value": 1.0,
+    "n": 240
+  }
+}

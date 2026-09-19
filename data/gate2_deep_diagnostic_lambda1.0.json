@@ -1,0 +1,168 @@
+{
+  "checkpoint": "checkpoints/lora_arm3_v1_1_qwen3_1.7b_k6_lambda1.0",
+  "valid_trials": 94,
+  "chance_hits": 15,
+  "steered_hits_t3": 13,
+  "steered_hits_t6": 15,
+  "identical_to_clean_t3": 35,
+  "control_a_noise_divergence_t3": 69,
+  "control_a_divergence_rate_pct": 73.40425531914893,
+  "hit_details_t3": [
+    {
+      "trial_idx": 8,
+      "r_idx": 9,
+      "d_idx": 2,
+      "chance_hit": true,
+      "identical_to_clean": false,
+      "overlapping_numbers": [
+        240
+      ],
+      "clean_text_snippet": "We are given:\n\n- **Mattison's height**: 60 inches  \n- **House height**: 7 times his height \u2192 $ 7 \\ti",
+      "steer_text_snippet": "We are given:\n\n- **Mattison's height**: 60 inches  \n- **House height**: 7 times his height \u2192 $ 7 \\ti"
+    },
+    {
+      "trial_idx": 13,
+      "r_idx": 14,
+      "d_idx": 39,
+      "chance_hit": true,
+      "identical_to_clean": true,
+      "overlapping_numbers": [
+        26
+      ],
+      "clean_text_snippet": "We are given:\n\n- Grandma Jones baked **5 apple pies**.\n- Each pie was cut into **8 pieces**.\n- So, t",
+      "steer_text_snippet": "We are given:\n\n- Grandma Jones baked **5 apple pies**.\n- Each pie was cut into **8 pieces**.\n- So, t"
+    },
+    {
+      "trial_idx": 18,
+      "r_idx": 19,
+      "d_idx": 91,
+      "chance_hit": true,
+      "identical_to_clean": true,
+      "overlapping_numbers": [
+        50
+      ],
+      "clean_text_snippet": "We are given the following information:\n\n- There are **5 red cars**, **3 action figures**, and **1 d",
+      "steer_text_snippet": "We are given the following information:\n\n- There are **5 red cars**, **3 action figures**, and **1 d"
+    },
+    {
+      "trial_idx": 20,
+      "r_idx": 21,
+      "d_idx": 31,
+      "chance_hit": true,
+      "identical_to_clean": false,
+      "overlapping_numbers": [
+        24
+      ],
+      "clean_text_snippet": "We are given the following information:\n\n- **Monday**: Walt walked **4 miles**.\n- **Tuesday**: He wa",
+      "steer_text_snippet": "We are given:\n\n- **Monday**: Walt walked **4 miles**.\n- **Tuesday**: He walked **6 times as many mil"
+    },
+    {
+      "trial_idx": 21,
+      "r_idx": 23,
+      "d_idx": 51,
+      "chance_hit": true,
+      "identical_to_clean": false,
+      "overlapping_numbers": [
+        120
+      ],
+      "clean_text_snippet": "To determine how much Karen earns in two days if she works 3 hours per day, we follow these steps:\n\n",
+      "steer_text_snippet": "To determine how much Karen earns in two days if she works 3 hours per day, we follow these steps:\n\n"
+    },
+    {
+      "trial_idx": 22,
+      "r_idx": 24,
+      "d_idx": 97,
+      "chance_hit": true,
+      "identical_to_clean": false,
+      "overlapping_numbers": [
+        120
+      ],
+      "clean_text_snippet": "To determine the cost of filling John's pool, we follow these steps:\n\n---\n\n### **Step 1: Calculate t",
+      "steer_text_snippet": "To determine the cost of filling John's pool, we follow these steps:\n\n---\n\n### **Step 1: Calculate t"
+    },
+    {
+      "trial_idx": 30,
+      "r_idx": 33,
+      "d_idx": 96,
+      "chance_hit": true,
+      "identical_to_clean": false,
+      "overlapping_numbers": [
+        100
+      ],
+      "clean_text_snippet": "Let's break down the problem step by step.\n\n### Given:\n- **Marisa gets $5 every day** as pocket mone",
+      "steer_text_snippet": "Let's break down the problem step by step.\n\n### Given:\n- **Marisa gets $5 every day** as pocket mone"
+    },
+    {
+      "trial_idx": 59,
+      "r_idx": 64,
+      "d_idx": 62,
+      "chance_hit": true,
+      "identical_to_clean": true,
+      "overlapping_numbers": [
+        32
+      ],
+      "clean_text_snippet": "We are given a scenario involving passengers on a bus, and we need to determine how many passengers ",
+      "steer_text_snippet": "We are given a scenario involving passengers on a bus, and we need to determine how many passengers "
+    },
+    {
+      "trial_idx": 63,
+      "r_idx": 68,
+      "d_idx": 29,
+      "chance_hit": true,
+      "identical_to_clean": true,
+      "overlapping_numbers": [
+        30
+      ],
+      "clean_text_snippet": "We are given the following information:\n\n- **10 people** donate **5 boxes each** \u2192 Total donated box",
+      "steer_text_snippet": "We are given the following information:\n\n- **10 people** donate **5 boxes each** \u2192 Total donated box"
+    },
+    {
+      "trial_idx": 65,
+      "r_idx": 70,
+      "d_idx": 37,
+      "chance_hit": true,
+      "identical_to_clean": false,
+      "overlapping_numbers": [
+        80
+      ],
+      "clean_text_snippet": "Let's break down the problem step by step.\n\n---\n\n### **Given:**\n\n- Total file size: **200 GB**\n- Nor",
+      "steer_text_snippet": "Let's break down the problem step by step.\n\n---\n\n### **Given:**\n\n- Total file size: **200 GB**\n- Nor"
+    },
+    {
+      "trial_idx": 69,
+      "r_idx": 74,
+      "d_idx": 28,
+      "chance_hit": true,
+      "identical_to_clean": false,
+      "overlapping_numbers": [
+        30
+      ],
+      "clean_text_snippet": "We are given a problem involving cats on a rock and some events that occur:\n\n---\n\n### **Step 1: Init",
+      "steer_text_snippet": "We are given a problem involving cats on a rock and some events that occur:\n\n---\n\n### **Step 1: Init"
+    },
+    {
+      "trial_idx": 76,
+      "r_idx": 82,
+      "d_idx": 53,
+      "chance_hit": true,
+      "identical_to_clean": false,
+      "overlapping_numbers": [
+        50
+      ],
+      "clean_text_snippet": "Let's break down the problem step by step.\n\n---\n\n### **Day 1:**\n\n- **White Oak trees:** 20  \n- **Lod",
+      "steer_text_snippet": "Let's break down the problem step by step.\n\n---\n\n### **Day 1:**\n\n- **White Oak trees:** 20  \n- **Lod"
+    },
+    {
+      "trial_idx": 83,
+      "r_idx": 89,
+      "d_idx": 76,
+      "chance_hit": true,
+      "identical_to_clean": false,
+      "overlapping_numbers": [
+        60
+      ],
+      "clean_text_snippet": "Let's break down the problem step by step.\n\n---\n\n### **Given:**\n- **Budget:** $90  \n- **Mini-golf ro",
+      "steer_text_snippet": "Let's break down the problem step by step.\n\n### Given:\n- **Budget:** $90\n- **Mini-golf round:** $5 p"
+    }
+  ]
+}

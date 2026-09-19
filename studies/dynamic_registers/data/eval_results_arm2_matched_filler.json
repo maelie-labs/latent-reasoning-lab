@@ -1,0 +1,17 @@
+{
+  "tag": "arm2_matched_filler",
+  "elapsed_seconds": 375.5765416622162,
+  "total_queries": 1000,
+  "overall_pass1": 72.0,
+  "gsm8k_pass1": 71.16666666666667,
+  "math500_pass1": 73.25,
+  "math_hard_pass1": 65.0,
+  "truncation_rate": 0.1,
+  "concurrency": 32,
+  "seeds": [
+    42,
+    123,
+    456,
+    789
+  ]
+}

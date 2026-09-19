@@ -1,0 +1,104 @@
+{
+  "arm_a": {
+    "name": "Arm 3 (Latents K=6, Fixed)",
+    "file": "data/streaming_arm3_k6_qwen_qwen3-1.7b.jsonl"
+  },
+  "arm_b": {
+    "name": "Arm 2b (Pause K=6)",
+    "file": "data/streaming_arm2b_k6_qwen_qwen3-1.7b.jsonl"
+  },
+  "n_bootstrap": 10000,
+  "seed": 42,
+  "overall": {
+    "n_problems": 250,
+    "total_evaluations": 1000,
+    "n_bootstrap": 10000,
+    "acc_a": 69.0,
+    "ci_a": [
+      63.9,
+      73.9
+    ],
+    "acc_b": 70.5,
+    "ci_b": [
+      65.8,
+      75.2
+    ],
+    "delta": -1.5,
+    "ci_delta": [
+      -4.3999999999999915,
+      1.2000000000000028
+    ],
+    "p_value": 0.3084,
+    "truncation_a": 0.2,
+    "truncation_b": 0.0
+  },
+  "gsm8k": {
+    "n_problems": 150,
+    "total_evaluations": 600,
+    "n_bootstrap": 10000,
+    "acc_a": 68.33333587646484,
+    "ci_a": [
+      61.5,
+      75.0
+    ],
+    "acc_b": 70.66666412353516,
+    "ci_b": [
+      64.5,
+      76.66666666666667
+    ],
+    "delta": -2.3333282470703125,
+    "ci_delta": [
+      -6.499999999999986,
+      1.6666666666666714
+    ],
+    "p_value": 0.2868,
+    "truncation_a": 0.0,
+    "truncation_b": 0.0
+  },
+  "math500": {
+    "n_problems": 100,
+    "total_evaluations": 400,
+    "n_bootstrap": 10000,
+    "acc_a": 70.0,
+    "ci_a": [
+      62.25000000000001,
+      77.5
+    ],
+    "acc_b": 70.25,
+    "ci_b": [
+      62.74999999999999,
+      77.5
+    ],
+    "delta": -0.25,
+    "ci_delta": [
+      -3.749999999999993,
+      3.25
+    ],
+    "p_value": 0.9392,
+    "truncation_a": 0.5,
+    "truncation_b": 0.0
+  },
+  "math500_hard_l35": {
+    "n_problems": 60,
+    "total_evaluations": 240,
+    "n_bootstrap": 10000,
+    "acc_a": 61.25,
+    "ci_a": [
+      50.0,
+      71.66666666666667
+    ],
+    "acc_b": 60.41666793823242,
+    "ci_b": [
+      50.0,
+      70.41666666666667
+    ],
+    "delta": 0.8333320617675781,
+    "ci_delta": [
+      -4.583333333333343,
+      6.25
+    ],
+    "p_value": 0.8328,
+    "truncation_a": 0.8333333333333334,
+    "truncation_b": 0.0
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "qwen3.5_2b": {
+    "model_id": "Qwen/Qwen3.5-2B",
+    "locked_concurrency": 8,
+    "calibrated_at": "2026-09-14T00:34:38Z",
+    "details": {
+      "thinking": {
+        "tested_grid": [
+          {
+            "concurrency": 8,
+            "throughput_tok_s": 1102.2,
+            "wall_clock_s": 13.6,
+            "mean_latency_s": 6.29,
+            "p95_latency_s": 7.54,
+            "total_tokens": 14993,
+            "errors": 0
+          },
+          {
+            "concurrency": 16,
+            "throughput_tok_s": 749.4,
+            "wall_clock_s": 19.82,
+            "mean_latency_s": 17.95,
+            "p95_latency_s": 19.82,
+            "total_tokens": 14852,
+            "errors": 0
+          },
+          {
+            "concurrency": 24,
+            "throughput_tok_s": 762.1,
+            "wall_clock_s": 19.67,
+            "mean_latency_s": 18.02,
+            "p95_latency_s": 19.67,
+            "total_tokens": 14993,
+            "errors": 0
+          },
+          {
+            "concurrency": 32,
+            "throughput_tok_s": 782.1,
+            "wall_clock_s": 19.57,
+            "mean_latency_s": 18.3,
+            "p95_latency_s": 19.57,
+            "total_tokens": 15307,
+            "errors": 0
+          },
+          {
+            "concurrency": 48,
+            "throughput_tok_s": 786.6,
+            "wall_clock_s": 19.39,
+            "mean_latency_s": 18.06,
+            "p95_latency_s": 19.39,
+            "total_tokens": 15256,
+            "errors": 0
+          },
+          {
+            "concurrency": 64,
+            "throughput_tok_s": 703.9,
+            "wall_clock_s": 20.27,
+            "mean_latency_s": 17.69,
+            "p95_latency_s": 20.27,
+            "total_tokens": 14270,
+            "errors": 0
+          }
+        ],
+        "peak_throughput_tok_s": 1102.2,
+        "recommended_concurrency": 8
+      },
+      "direct": {
+        "tested_grid": [
+          {
+            "concurrency": 8,
+            "throughput_tok_s": 1173.6,
+            "wall_clock_s": 3.16,
+            "mean_latency_s": 1.44,
+            "p95_latency_s": 1.62,
+            "total_tokens": 3714,
+            "errors": 0
+          },
+          {
+            "concurrency": 16,
+            "throughput_tok_s": 721.5,
+            "wall_clock_s": 5.12,
+            "mean_latency_s": 4.61,
+            "p95_latency_s": 5.12,
+            "total_tokens": 3693,
+            "errors": 0
+          },
+          {
+            "concurrency": 24,
+            "throughput_tok_s": 665.9,
+            "wall_clock_s": 5.37,
+            "mean_latency_s": 4.66,
+            "p95_latency_s": 5.37,
+            "total_tokens": 3578,
+            "errors": 0
+          },
+          {
+            "concurrency": 32,
+            "throughput_tok_s": 709.9,
+            "wall_clock_s": 5.25,
+            "mean_latency_s": 4.79,
+            "p95_latency_s": 5.25,
+            "total_tokens": 3729,
+            "errors": 0
+          },
+          {
+            "concurrency": 48,
+            "throughput_tok_s": 675.2,
+            "wall_clock_s": 5.33,
+            "mean_latency_s": 4.69,
+            "p95_latency_s": 5.33,
+            "total_tokens": 3597,
+            "errors": 0
+          },
+          {
+            "concurrency": 64,
+            "throughput_tok_s": 700.1,
+            "wall_clock_s": 5.14,
+            "mean_latency_s": 4.5,
+            "p95_latency_s": 5.14,
+            "total_tokens": 3597,
+            "errors": 0
+          }
+        ],
+        "peak_throughput_tok_s": 1173.6,
+        "recommended_concurrency": 8
+      }
+    }
+  },
+  "qwen3_4b": {
+    "model_id": "Qwen/Qwen3-4B",
+    "locked_concurrency": 16,
+    "calibrated_at": "2026-09-16T17:30:07Z",
+    "details": {
+      "thinking": {
+        "tested_grid": [
+          {
+            "concurrency": 8,
+            "throughput_tok_s": 597.6,
+            "wall_clock_s": 24.73,
+            "mean_latency_s": 11.16,
+            "p95_latency_s": 12.42,
+            "total_tokens": 14780,
+            "errors": 0
+          },
+          {
+            "concurrency": 16,
+            "throughput_tok_s": 735.5,
+            "wall_clock_s": 20.0,
+            "mean_latency_s": 17.96,
+            "p95_latency_s": 20.0,
+            "total_tokens": 14708,
+            "errors": 0
+          },
+          {
+            "concurrency": 24,
+            "throughput_tok_s": 742.4,
+            "wall_clock_s": 20.3,
+            "mean_latency_s": 18.72,
+            "p95_latency_s": 20.3,
+            "total_tokens": 15074,
+            "errors": 0
+          },
+          {
+            "concurrency": 32,
+            "throughput_tok_s": 737.4,
+            "wall_clock_s": 20.57,
+            "mean_latency_s": 19.02,
+            "p95_latency_s": 20.57,
+            "total_tokens": 15166,
+            "errors": 0
+          },
+          {
+            "concurrency": 48,
+            "throughput_tok_s": 755.9,
+            "wall_clock_s": 20.45,
+            "mean_latency_s": 19.27,
+            "p95_latency_s": 20.45,
+            "total_tokens": 15460,
+            "errors": 0
+          },
+          {
+            "concurrency": 64,
+            "throughput_tok_s": 768.4,
+            "wall_clock_s": 20.07,
+            "mean_latency_s": 18.91,
+            "p95_latency_s": 20.07,
+            "total_tokens": 15424,
+            "errors": 0
+          }
+        ],
+        "peak_throughput_tok_s": 768.4,
+        "recommended_concurrency": 16
+      },
+      "direct": {
+        "tested_grid": [
+          {
+            "concurrency": 8,
+            "throughput_tok_s": 524.7,
+            "wall_clock_s": 6.03,
+            "mean_latency_s": 2.35,
+            "p95_latency_s": 3.08,
+            "total_tokens": 3164,
+            "errors": 0
+          },
+          {
+            "concurrency": 16,
+            "throughput_tok_s": 632.8,
+            "wall_clock_s": 5.13,
+            "mean_latency_s": 4.16,
+            "p95_latency_s": 5.13,
+            "total_tokens": 3245,
+            "errors": 0
+          },
+          {
+            "concurrency": 24,
+            "throughput_tok_s": 659.3,
+            "wall_clock_s": 4.96,
+            "mean_latency_s": 4.07,
+            "p95_latency_s": 4.96,
+            "total_tokens": 3269,
+            "errors": 0
+          },
+          {
+            "concurrency": 32,
+            "throughput_tok_s": 660.3,
+            "wall_clock_s": 4.87,
+            "mean_latency_s": 3.92,
+            "p95_latency_s": 4.87,
+            "total_tokens": 3217,
+            "errors": 0
+          },
+          {
+            "concurrency": 48,
+            "throughput_tok_s": 667.0,
+            "wall_clock_s": 4.92,
+            "mean_latency_s": 4.04,
+            "p95_latency_s": 4.92,
+            "total_tokens": 3282,
+            "errors": 0
+          },
+          {
+            "concurrency": 64,
+            "throughput_tok_s": 644.2,
+            "wall_clock_s": 5.1,
+            "mean_latency_s": 4.1,
+            "p95_latency_s": 5.1,
+            "total_tokens": 3287,
+            "errors": 0
+          }
+        ],
+        "peak_throughput_tok_s": 667.0,
+        "recommended_concurrency": 16
+      }
+    }
+  },
+  "qwen3.5_4b": {
+    "model_id": "Qwen/Qwen3.5-4B",
+    "locked_concurrency": 8,
+    "calibrated_at": "2026-09-16T14:26:16Z",
+    "details": {
+      "thinking": {
+        "tested_grid": [
+          {
+            "concurrency": 8,
+            "throughput_tok_s": 535.2,
+            "wall_clock_s": 26.03,
+            "mean_latency_s": 11.13,
+            "p95_latency_s": 13.37,
+            "total_tokens": 13928,
+            "errors": 0
+          },
+          {
+            "concurrency": 16,
+            "throughput_tok_s": 563.3,
+            "wall_clock_s": 24.51,
+            "mean_latency_s": 20.62,
+            "p95_latency_s": 24.5,
+            "total_tokens": 13803,
+            "errors": 0
+          },
+          {
+            "concurrency": 24,
+            "throughput_tok_s": 591.8,
+            "wall_clock_s": 23.93,
+            "mean_latency_s": 20.7,
+            "p95_latency_s": 23.93,
+            "total_tokens": 14162,
+            "errors": 0
+          },
+          {
+            "concurrency": 32,
+            "throughput_tok_s": 576.4,
+            "wall_clock_s": 25.5,
+            "mean_latency_s": 22.84,
+            "p95_latency_s": 25.5,
+            "total_tokens": 14698,
+            "errors": 0
+          },
+          {
+            "concurrency": 48,
+            "throughput_tok_s": 504.7,
+            "wall_clock_s": 25.96,
+            "mean_latency_s": 20.75,
+            "p95_latency_s": 25.96,
+            "total_tokens": 13101,
+            "errors": 0
+          },
+          {
+            "concurrency": 64,
+            "throughput_tok_s": 516.2,
+            "wall_clock_s": 26.13,
+            "mean_latency_s": 21.54,
+            "p95_latency_s": 26.13,
+            "total_tokens": 13487,
+            "errors": 0
+          }
+        ],
+        "peak_throughput_tok_s": 591.8,
+        "recommended_concurrency": 8
+      },
+      "direct": {
+        "tested_grid": [
+          {
+            "concurrency": 8,
+            "throughput_tok_s": 543.0,
+            "wall_clock_s": 6.57,
+            "mean_latency_s": 2.88,
+            "p95_latency_s": 3.36,
+            "total_tokens": 3566,
+            "errors": 0
+          },
+          {
+            "concurrency": 16,
+            "throughput_tok_s": 556.8,
+            "wall_clock_s": 6.6,
+            "mean_latency_s": 5.93,
+            "p95_latency_s": 6.6,
+            "total_tokens": 3676,
+            "errors": 0
+          },
+          {
+            "concurrency": 24,
+            "throughput_tok_s": 572.6,
+            "wall_clock_s": 6.39,
+            "mean_latency_s": 5.71,
+            "p95_latency_s": 6.39,
+            "total_tokens": 3661,
+            "errors": 0
+          },
+          {
+            "concurrency": 32,
+            "throughput_tok_s": 565.5,
+            "wall_clock_s": 6.52,
+            "mean_latency_s": 5.86,
+            "p95_latency_s": 6.51,
+            "total_tokens": 3685,
+            "errors": 0
+          },
+          {
+            "concurrency": 48,
+            "throughput_tok_s": 546.4,
+            "wall_clock_s": 6.59,
+            "mean_latency_s": 5.8,
+            "p95_latency_s": 6.59,
+            "total_tokens": 3601,
+            "errors": 0
+          },
+          {
+            "concurrency": 64,
+            "throughput_tok_s": 527.9,
+            "wall_clock_s": 6.62,
+            "mean_latency_s": 5.66,
+            "p95_latency_s": 6.62,
+            "total_tokens": 3496,
+            "errors": 0
+          }
+        ],
+        "peak_throughput_tok_s": 572.6,
+        "recommended_concurrency": 8
+      }
+    }
+  }
+}

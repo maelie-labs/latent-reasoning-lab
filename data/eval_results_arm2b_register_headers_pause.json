@@ -1,0 +1,29 @@
+{
+  "tag": "arm2b_register_headers_pause",
+  "mode": "headers_pause",
+  "model_id": "Qwen/Qwen3-1.7B",
+  "checkpoint": "checkpoints/lora_arm2b_register_ladder_headers_pause_qwen3_1.7b/best_checkpoint",
+  "total_evaluations": 1000,
+  "overall_accuracy": 72.89999999999999,
+  "gsm8k_accuracy": 71.33333333333334,
+  "math500_accuracy": 75.25,
+  "math_hard_accuracy": 68.33333333333333,
+  "truncation_rate": 0.2,
+  "duration_seconds": 6394.567984819412,
+  "paired_bootstrap_vs_arm1b": {
+    "observed_delta": 1.7000000000000015,
+    "ci_95": [
+      -0.8000000000000007,
+      4.200000000000004
+    ],
+    "p_value": 0.1906
+  },
+  "paired_bootstrap_vs_arm3": {
+    "observed_delta": 1.6000000000000014,
+    "ci_95": [
+      -1.100000000000001,
+      4.300000000000004
+    ],
+    "p_value": 0.2576
+  }
+}

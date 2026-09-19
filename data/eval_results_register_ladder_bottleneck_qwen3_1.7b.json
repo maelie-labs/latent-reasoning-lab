@@ -1,0 +1,11 @@
+{
+  "checkpoint": "checkpoints/lora_arm3_register_ladder_bottleneck_qwen3_1.7b/best_checkpoint",
+  "bottleneck_enforced_acc": 50.0,
+  "bottleneck_enforced_correct": 30,
+  "bottleneck_unmasked_acc": 56.666666666666664,
+  "bottleneck_unmasked_correct": 34,
+  "total": 60,
+  "standard_arm3_reference_acc": 45.0,
+  "delta_enforced_vs_arm3": 5.0,
+  "delta_unmasked_vs_arm3": 11.666666666666664
+}

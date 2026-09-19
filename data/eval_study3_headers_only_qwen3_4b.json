@@ -1,0 +1,16 @@
+{
+  "model_id": "Qwen/Qwen3-4B",
+  "mode": "headers_only",
+  "checkpoint": "checkpoints/lora_headers_only_qwen3_4b/best_checkpoint",
+  "total_queries": 1000,
+  "correct_count": 830,
+  "pass_at_1": 83.0,
+  "truncation_rate": 0.0,
+  "gsm8k_accuracy": 83.17,
+  "math_accuracy": 82.75,
+  "math_hard_accuracy": 77.08,
+  "median_thought_tokens": 34.0,
+  "median_answer_tokens": 375.0,
+  "elapsed_seconds": 4208.7,
+  "queries_per_second": 0.24
+}

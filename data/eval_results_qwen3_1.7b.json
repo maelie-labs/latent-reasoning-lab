@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "model_id": "Qwen/Qwen3-1.7B",
+    "device": "cuda:0",
+    "num_problems": 25,
+    "scale_factor": 0.034016,
+    "timestamp": "2026-09-11T17:13:20Z"
+  },
+  "summary": {
+    "base_direct_0tok": {
+      "name": "Base Direct (0 thinking tokens)",
+      "overall_accuracy": 64.0,
+      "gsm8k_accuracy": 53.33,
+      "math500_accuracy": 80.0,
+      "mean_think_time_ms": 0.0,
+      "mean_answer_time_s": 28.697,
+      "mean_answer_tokens": 546.4,
+      "mean_e2e_latency_s": 28.697
+    },
+    "matched_discrete_6tok": {
+      "name": "Compute-Matched Discrete (<= 6 tokens)",
+      "overall_accuracy": 64.0,
+      "gsm8k_accuracy": 53.33,
+      "math500_accuracy": 80.0,
+      "mean_think_time_ms": 62.08,
+      "mean_answer_time_s": 25.335,
+      "mean_answer_tokens": 464.7,
+      "mean_e2e_latency_s": 25.397
+    },
+    "fixed_k6_recurrent": {
+      "name": "Fixed K=6 Continuous Recurrent",
+      "overall_accuracy": 52.0,
+      "gsm8k_accuracy": 46.67,
+      "math500_accuracy": 60.0,
+      "mean_think_time_ms": 320.63,
+      "mean_answer_time_s": 27.778,
+      "mean_answer_tokens": 515.2,
+      "mean_e2e_latency_s": 28.098
+    },
+    "unconstrained_cot": {
+      "name": "Unconstrained Discrete Baseline CoT",
+      "overall_accuracy": 0.0,
+      "gsm8k_accuracy": 0.0,
+      "math500_accuracy": 0.0,
+      "mean_think_time_ms": 58.75,
+      "mean_answer_time_s": 0.0,
+      "mean_answer_tokens": 0.0,
+      "mean_e2e_latency_s": 0.059
+    }
+  },
+  "detailed_runs": []
+}

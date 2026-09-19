@@ -1,0 +1,109 @@
+{
+  "benchmark": "MATH-500",
+  "model_id": "Qwen/Qwen3-4B",
+  "server_url": "http://127.0.0.1:30000",
+  "max_tokens_cap": 32768,
+  "concurrency": 16,
+  "sampling_params": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "presence_penalty": 0.0,
+    "max_new_tokens": 32768
+  },
+  "total_problems": 500,
+  "verdict": "PASS [VALID UNCONSTRAINED CEILING]",
+  "metrics": {
+    "accuracy_pct": 95.4,
+    "ci_95_low": 93.4,
+    "ci_95_high": 97.2,
+    "truncation_count": 3,
+    "truncation_rate_pct": 0.6,
+    "total_duration_s": 5073.74,
+    "mean_duration_s": 153.93
+  },
+  "token_distribution": {
+    "min": 973,
+    "p25": 2222.0,
+    "median": 3723.0,
+    "p75": 6396.5,
+    "p90": 11767.0,
+    "p99": 28051.7,
+    "max": 32768
+  },
+  "level_breakdown": {
+    "level_1": {
+      "n": 43,
+      "accuracy_pct": 97.67,
+      "truncation_pct": 0.0,
+      "median_tokens": 2125.0,
+      "p90_tokens": 3769.6
+    },
+    "level_2": {
+      "n": 90,
+      "accuracy_pct": 100.0,
+      "truncation_pct": 0.0,
+      "median_tokens": 2347.0,
+      "p90_tokens": 5932.3
+    },
+    "level_3": {
+      "n": 105,
+      "accuracy_pct": 98.1,
+      "truncation_pct": 0.0,
+      "median_tokens": 3086.0,
+      "p90_tokens": 6777.8
+    },
+    "level_4": {
+      "n": 128,
+      "accuracy_pct": 94.53,
+      "truncation_pct": 2.34,
+      "median_tokens": 4044.5,
+      "p90_tokens": 11181.3
+    },
+    "level_5": {
+      "n": 134,
+      "accuracy_pct": 90.3,
+      "truncation_pct": 0.0,
+      "median_tokens": 6556.5,
+      "p90_tokens": 17643.2
+    }
+  },
+  "subject_breakdown": {
+    "Algebra": {
+      "n": 124,
+      "accuracy_pct": 99.19,
+      "truncation_pct": 0.81
+    },
+    "Counting & Probability": {
+      "n": 38,
+      "accuracy_pct": 94.74,
+      "truncation_pct": 0.0
+    },
+    "Geometry": {
+      "n": 41,
+      "accuracy_pct": 85.37,
+      "truncation_pct": 0.0
+    },
+    "Intermediate Algebra": {
+      "n": 97,
+      "accuracy_pct": 92.78,
+      "truncation_pct": 2.06
+    },
+    "Number Theory": {
+      "n": 62,
+      "accuracy_pct": 100.0,
+      "truncation_pct": 0.0
+    },
+    "Prealgebra": {
+      "n": 82,
+      "accuracy_pct": 95.12,
+      "truncation_pct": 0.0
+    },
+    "Precalculus": {
+      "n": 56,
+      "accuracy_pct": 94.64,
+      "truncation_pct": 0.0
+    }
+  },
+  "timestamp": "2026-09-16T18:55:18Z"
+}
